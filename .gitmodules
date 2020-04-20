@@ -1,0 +1,9 @@
+[submodule "DCC/BaseStation"]
+	path = DCC/BaseStation
+	url = git@github.com:DccPlusPlus/BaseStation.git
+[submodule "DCC/Controller"]
+	path = DCC/Controller
+	url = git@github.com:DccPlusPlus/Controller.git
+[submodule "DCC/Documentation"]
+	path = DCC/Documentation
+	url = git@github.com:DccPlusPlus/Documentation.git
