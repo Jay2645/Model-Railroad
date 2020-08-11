@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 13 08:04:59 BST 2020-->
+  <routes>
+    <route id="1" name="Blue Route" comment="">
+      <location id="1r1" name="Discovery Bay" locationId="1" sequenceId="1" trainDirection="8" maxTrainLength="1000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+  </routes>
+</operations-config>

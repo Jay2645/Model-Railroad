@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/consistRoster.xsl" type="text/xsl"?>
+<!DOCTYPE consist-roster-config SYSTEM "/xml/DTD/consist-roster-config.dtd">
+<consist-roster-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Mon Jun 15 20:24:55 PDT 2020-->
+  <roster />
+</consist-roster-config>

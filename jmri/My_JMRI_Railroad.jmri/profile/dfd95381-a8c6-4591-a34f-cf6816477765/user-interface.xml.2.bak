@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="MQTT Connection" name="MQTT"/>
+        <comboBox xmlns="" lastSelected="DCC++ Serial Port" name="DCC++"/>
+        <comboBox xmlns="" lastSelected="192.168.86.223" name="jmri.jmrix.mqtt.MqttAdapter.hostname"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.closeDP3prompt</setting>
+        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.operations.rollingstock.engines.EnginesTableFrame:Locomotives:1:table">
+            <columns>
+                <column hidden="false" name="Destination" order="10" width="190"/>
+                <column hidden="true" name="Owner" order="14" width="50"/>
+                <column hidden="false" name="Set" order="19" width="65"/>
+                <column hidden="false" name="Road" order="1" width="60"/>
+                <column hidden="true" name="Built" order="13" width="50"/>
+                <column hidden="false" name="HP" order="3" width="50"/>
+                <column hidden="true" name="Reported Date" order="9" width="140"/>
+                <column hidden="true" name="ID Tag" order="16" width="100"/>
+                <column hidden="false" name="Edit" order="20" width="70"/>
+                <column hidden="true" name="Last Moved" order="17" width="130"/>
+                <column hidden="true" name="DCC Address" order="18" width="50"/>
+                <column hidden="false" name="Type" order="4" width="65"/>
+                <column hidden="false" name="Moves" order="12" width="50"/>
+                <column hidden="false" name="Number" order="0" width="60"/>
+                <column hidden="false" name="Len" order="5" width="35"/>
+                <column hidden="false" name="Consist" order="6" width="75"/>
+                <column hidden="false" name="Model" order="2" width="65"/>
+                <column hidden="true" name="Value" order="15" width="50"/>
+                <column hidden="true" name="Reported Location" order="8" width="190"/>
+                <column hidden="false" name="Train" order="11" width="65"/>
+                <column hidden="false" name="Location" order="7" width="190"/>
+            </columns>
+            <sortOrder/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:table">
+            <columns>
+                <column hidden="false" name="Destination" order="12" width="190"/>
+                <column hidden="true" name="RWE Load" order="6" width="75"/>
+                <column hidden="true" name="Owner" order="18" width="50"/>
+                <column hidden="false" name="Set" order="24" width="65"/>
+                <column hidden="true" name="Built" order="17" width="50"/>
+                <column hidden="true" name="Reported Date" order="11" width="140"/>
+                <column hidden="false" name="Edit" order="25" width="70"/>
+                <column hidden="false" name="Moves" order="16" width="50"/>
+                <column hidden="false" name="Number" order="1" width="60"/>
+                <column hidden="true" name="Pick up" order="22" width="100"/>
+                <column hidden="false" name="Kernel" order="8" width="65"/>
+                <column hidden="false" name="Load" order="5" width="75"/>
+                <column hidden="false" name="Road" order="2" width="60"/>
+                <column hidden="true" name="Color" order="7" width="75"/>
+                <column hidden="true" name="Final Destination" order="13" width="190"/>
+                <column hidden="true" name="ID Tag" order="20" width="100"/>
+                <column hidden="true" name="Last Moved" order="23" width="100"/>
+                <column hidden="false" name="Type" order="3" width="65"/>
+                <column hidden="false" name="Len" order="4" width="35"/>
+                <column hidden="true" name="RWE Location" order="14" width="190"/>
+                <column hidden="false" name="Select" order="0" width="60"/>
+                <column hidden="true" name="Value" order="19" width="50"/>
+                <column hidden="true" name="Reported Location" order="10" width="190"/>
+                <column hidden="true" name="Wait" order="21" width="50"/>
+                <column hidden="false" name="Train" order="15" width="65"/>
+                <column hidden="false" name="Location" order="9" width="190"/>
+            </columns>
+            <sortOrder/>
+        </table>
+        <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
+            <columns>
+                <column hidden="false" name="Owner" order="8" width="87"/>
+                <column hidden="false" name="Manufacturer" order="6" width="116"/>
+                <column hidden="false" name="Model" order="7" width="119"/>
+                <column hidden="false" name="ID" order="0" width="96"/>
+                <column hidden="false" name="Icon" order="2" width="49"/>
+                <column hidden="false" name="Road Number" order="5" width="115"/>
+                <column hidden="false" name="Date Modified" order="9" width="119"/>
+                <column hidden="false" name="Decoder Model" order="3" width="126"/>
+                <column hidden="true" name="Protocol" order="10" width="79"/>
+                <column hidden="false" name="Road Name" order="4" width="100"/>
+                <column hidden="false" name="DCC Address" order="1" width="110"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.operations.rollingstock.engines.EnginesTableFrame:Locomotives:table">
+            <columns>
+                <column hidden="false" name="Destination" order="10" width="190"/>
+                <column hidden="true" name="Owner" order="14" width="50"/>
+                <column hidden="false" name="Set" order="19" width="65"/>
+                <column hidden="false" name="Road" order="1" width="60"/>
+                <column hidden="true" name="Built" order="13" width="50"/>
+                <column hidden="false" name="HP" order="3" width="50"/>
+                <column hidden="true" name="Reported Date" order="9" width="140"/>
+                <column hidden="true" name="ID Tag" order="16" width="100"/>
+                <column hidden="false" name="Edit" order="20" width="70"/>
+                <column hidden="true" name="Last Moved" order="17" width="130"/>
+                <column hidden="true" name="DCC Address" order="18" width="50"/>
+                <column hidden="false" name="Type" order="4" width="65"/>
+                <column hidden="false" name="Moves" order="12" width="50"/>
+                <column hidden="false" name="Number" order="0" width="60"/>
+                <column hidden="false" name="Len" order="5" width="35"/>
+                <column hidden="false" name="Consist" order="6" width="75"/>
+                <column hidden="false" name="Model" order="2" width="65"/>
+                <column hidden="true" name="Value" order="15" width="50"/>
+                <column hidden="true" name="Reported Location" order="8" width="190"/>
+                <column hidden="false" name="Train" order="11" width="65"/>
+                <column hidden="false" name="Location" order="7" width="190"/>
+            </columns>
+            <sortOrder/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.operations.trains.TrainsTableFrame:table">
+            <columns>
+                <column hidden="false" name="Status" order="12" width="120"/>
+                <column hidden="true" name="Load" order="7" width="50"/>
+                <column hidden="false" name="Action" order="13" width="90"/>
+                <column hidden="false" name="Description" order="5" width="140"/>
+                <column hidden="true" name="Road" order="6" width="50"/>
+                <column hidden="false" name="Departs" order="9" width="120"/>
+                <column hidden="false" name="Time" order="1" width="50"/>
+                <column hidden="false" name="Edit" order="14" width="70"/>
+                <column hidden="false" name="Name" order="4" width="100"/>
+                <column hidden="false" name="Function" order="3" width="72"/>
+                <column hidden="false" name="Build" order="2" width="50"/>
+                <column hidden="true" name="ID" order="0" width="50"/>
+                <column hidden="false" name="Terminates" order="10" width="120"/>
+                <column hidden="false" name="Current" order="11" width="120"/>
+                <column hidden="false" name="Route" order="8" width="120"/>
+            </columns>
+            <sortOrder/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.roster.swing.RosterFrame:Roster:roster">
+            <columns>
+                <column hidden="false" name="Owner" order="8" width="87"/>
+                <column hidden="false" name="Manufacturer" order="6" width="116"/>
+                <column hidden="false" name="Model" order="7" width="63"/>
+                <column hidden="false" name="ID" order="0" width="94"/>
+                <column hidden="false" name="Icon" order="2" width="49"/>
+                <column hidden="false" name="Road Number" order="5" width="115"/>
+                <column hidden="false" name="Date Modified" order="9" width="119"/>
+                <column hidden="false" name="Decoder Model" order="3" width="126"/>
+                <column hidden="true" name="Protocol" order="10" width="79"/>
+                <column hidden="false" name="Road Name" order="4" width="100"/>
+                <column hidden="false" name="DCC Address" order="1" width="110"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route:table">
+            <columns>
+                <column hidden="false" name="Delete" order="16" width="80"/>
+                <column hidden="false" name="Comment" order="13" width="70"/>
+                <column hidden="false" name="Down" order="15" width="70"/>
+                <column hidden="true" name="Time" order="8" width="65"/>
+                <column hidden="false" name="Grade" order="10" width="50"/>
+                <column hidden="false" name="Train Direction" order="2" width="95"/>
+                <column hidden="false" name="Max Length" order="9" width="75"/>
+                <column hidden="false" name="Pick ups?" order="5" width="65"/>
+                <column hidden="false" name="Moves" order="3" width="50"/>
+                <column hidden="false" name="Random" order="4" width="65"/>
+                <column hidden="false" name="X" order="11" width="35"/>
+                <column hidden="false" name="Y" order="12" width="35"/>
+                <column hidden="false" name="ID" order="0" width="40"/>
+                <column hidden="false" name="Set outs?" order="6" width="65"/>
+                <column hidden="false" name="Up" order="14" width="60"/>
+                <column hidden="false" name="Wait" order="7" width="65"/>
+                <column hidden="false" name="Location" order="1" width="150"/>
+            </columns>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="598.0" locX="60.0" locY="96.0" width="1137.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="525.0" locY="212.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">ops</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="586.0" locX="0.0" locY="36.0" width="1185.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.engines.tools.EngineAttributeEditFrame" height="286.0" locX="80.0" locY="204.0" width="410.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="469.0" locX="271.0" locY="72.0" width="1214.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:C.K. Holliday" height="1048.0" locX="0.0" locY="36.0" width="1097.0"/>
+        <window xmlns="" class="jmri.jmrit.ampmeter.AmpMeterFrame:Track Current Meter" height="222.0" locX="573.0" locY="370.0" width="606.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="891.0" locX="249.0" locY="64.0" width="693.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame" height="600.0" locX="120.0" locY="156.0" width="678.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="576.0" locX="664.0" locY="137.0" width="785.0"/>
+        <window xmlns="" class="jmri.jmrix.dccpp.swing.mon.DCCppMonPane" height="344.0" locX="0.0" locY="36.0" width="889.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:C.K. Holliday:1" height="1048.0" locX="139.0" locY="303.0" width="1097.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="230.0" locX="60.0" locY="96.0" width="330.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="691.0" locX="564.0" locY="158.0" width="996.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.tools.TrackRoadEditFrame:Edit Track Road Options" height="403.0" locX="150.0" locY="186.0" width="504.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.tools.LocationsByCarTypeFrame" height="253.0" locX="288.0" locY="238.0" width="329.0"/>
+        <window xmlns="" class="jmri.jmrix.dccpp.swing.mon.DCCppMonPane.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.dccpp.swing.mon.DCCppMonPane.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track)" height="1048.0" locX="30.0" locY="0.0" width="1490.0"/>
+        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="266.0" locX="181.0" locY="190.0" width="404.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:C.K. Holliday" height="1048.0" locX="296.0" locY="0.0" width="1097.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Santa Fe 879" height="1048.0" locX="30.0" locY="0.0" width="1490.0"/>
+        <window xmlns="" class="jmri.jmrit.cabsignals.CabSignalPane" height="300.0" locX="0.0" locY="36.0" width="602.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.engines.EnginesTableFrame:Locomotives" height="631.0" locX="0.0" locY="36.0" width="1260.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="529.0" locX="444.0" locY="287.0" width="504.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Santa Fe 879" height="1048.0" locX="360.0" locY="36.0" width="1490.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="631.0" locX="107.0" locY="331.0" width="524.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="513.0" locX="30.0" locY="66.0" width="528.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="583.0" locY="247.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="Create New Loco" height="550.0" locX="333.0" locY="92.0" width="767.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.engines.EngineEditFrame:Add Locomotive" height="529.0" locX="30.0" locY="66.0" width="504.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.engines.EngineSetFrame:Set Locomotive" height="503.0" locX="30.0" locY="66.0" width="504.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.engines.EnginesTableFrame:Locomotives:1" height="598.0" locX="30.0" locY="66.0" width="1008.0"/>
+        <window xmlns="" class="PanelPro" height="256.0" locX="761.0" locY="332.0" width="526.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="526.0" locX="90.0" locY="126.0" width="704.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RoutesTableFrame:Routes" height="526.0" locX="90.0" locY="126.0" width="1125.0"/>
+    </windowDetails>
+</auxiliary-configuration>

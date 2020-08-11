@@ -1,0 +1,30 @@
+﻿Track
+20000 (S248), N Kato Unitrack, Straight 9.764".	126
+20010 (S186), N Kato Unitrack, Straight 7.323".	21
+20020 (S124), N Kato Unitrack, Straight 4.882".	6
+20030 (S64), N Kato Unitrack, Straight 2.52".	9
+20040 (S62), N Kato Unitrack, Straight 2.441".	4
+20045 (S62J), N Kato Unitrack, Straight transition Kato/Fleischmann 2.441".	2
+20048 (S50B-C), N Kato Unitrack, Buffer/Bumper Type C, 1.988".	5
+20070 (S45), N Kato Unitrack, Straight 1.791".	21
+20071 (S29), N Kato Unitrack, Straight 1.142".	6
+20111 (R282-15), N Kato Unitrack, Curve radius 11.102", angle 15º	1
+20121 (R315-15), N Kato Unitrack, Curve radius 12.402", angle 15º	2
+20130 (R348-30), N Kato Unitrack, Curve radius 13.701", angle 30º	2
+20132 (R348-45), N Kato Unitrack, Curve radius 13.701", angle 45º	3
+20140 (R381-30), N Kato Unitrack, Curve radius 15", angle 30º	18
+20150 (R718-15), N Kato Unitrack, Curve radius 28.268", angle 15º	6
+20160 (R481-15), N Kato Unitrack, Curve radius 18.937", angle 15º	46
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	37
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	3
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	3
+20202 (EP718-15L), N Kato Unitrack, Left turnout 7.323". (remote)	11
+20203 (EP718-15R), N Kato Unitrack, Right turnout 7.323". (remote)	7
+20210 (WX310), N Kato Unitrack, Double crossover 12.205". 15º	1
+20220 (EP481-15L), N Kato Unitrack, Left turnout 4.961". (remote)	9
+20221 (EP481-15R), N Kato Unitrack, Right turnout 4.961". (remote)	7
+20222 (EP481-15Y), N Kato Unitrack, Wye turnout 4.961". (remote)	2
+20231 (SX248R), N Kato Unitrack, Right crossover 9.764".	1
+20283B, N Kato Unitrack, Buffer/Bumper 1.142".	9
+S33 (S33), N Kato Unitrack, Straight 1.299".	6
+S38 (S38), N Kato Unitrack, Straight 1.496".	6

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 13 08:04:59 BST 2020-->
+  <options>
+    <trainOptions buildMessages="true" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Move" />
+    <conductorOptions showHyphenName="false" />
+    <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
+    <manifestCreator>
+      <directory name="csvManifests" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </manifestCreator>
+    <switchlistCreator>
+      <directory name="csvSwitchLists" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </switchlistCreator>
+  </options>
+  <trains>
+    <train id="2" name="Holliday 2" description="" departHour="08" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="ATSF" engineModel="4-4-0" requires="1" cabooseRoad="ATSF" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="ERROR Route needs at least one location to build train (Holliday 2)" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="" RequestedCars="0" statusCode="2" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <route name="Blue Route" id="1" />
+      <types>
+        <carType name="Baggage" />
+        <carType name="Caboose" />
+        <carType name="Passenger" />
+        <locoType name="Steam" />
+        <locoType name="Steam-heavy" />
+        <locoType name="Steam-light" />
+        <locoType name="Steam-mixed" />
+        <locoType name="Steam-pass" />
+      </types>
+    </train>
+  </trains>
+  <trainScheduleOptions activeId="" />
+  <schedules>
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
+  </schedules>
+  <automations />
+</operations-config>

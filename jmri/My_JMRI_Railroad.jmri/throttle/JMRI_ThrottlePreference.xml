@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE throttle-layout-config SYSTEM "/xml/DTD/throttle-layout-config.dtd"><throttle-layout-config>
+  <ThrottlesListPanel>
+    <window x="0" y="0" width="322" height="230" isVisible="false" />
+  </ThrottlesListPanel><ThrottleWindow title="" titleType="rosterID">
+    <window x="823" y="0" width="537" height="568" isVisible="true" /><ThrottleFrame ThrottleXMLFile="preference:throttle/Santa Fe 879.xml" />
+  </ThrottleWindow>
+</throttle-layout-config>

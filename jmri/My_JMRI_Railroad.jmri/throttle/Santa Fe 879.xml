@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE throttle-config SYSTEM "/xml/DTD/throttle-config.dtd">
+<throttle-config>
+  <ThrottleFrame border="22">
+    <ControlPanel displaySpeedSlider="0" trackSlider="false" trackSliderMinInterval="200" switchSliderOnFunction="">
+      <window x="0" y="0" width="110" height="459" isVisible="true" isIconified="false" />
+    </ControlPanel>
+    <FunctionPanel>
+      <window x="110" y="0" width="311" height="285" isVisible="true" isIconified="false" />
+    </FunctionPanel>
+    <AddressPanel>
+      <window x="110" y="284" width="311" height="173" isVisible="true" isIconified="false" />
+      <locoaddress>
+        <dcclocoaddress number="879" longaddress="yes" />
+        <number>879</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <locoaddress>
+        <dcclocoaddress number="" longaddress="no" />
+        <number />
+        <protocol />
+      </locoaddress>
+    </AddressPanel>
+    <SpeedPanel>
+      <window x="0" y="411" width="421" height="75" isVisible="false" isIconified="false" />
+    </SpeedPanel>
+  </ThrottleFrame>
+</throttle-config>

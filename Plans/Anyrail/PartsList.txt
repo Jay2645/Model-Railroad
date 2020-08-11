@@ -1,0 +1,485 @@
+﻿Track
+20000 (S248), N Kato Unitrack, Straight 9.764".	114
+20010 (S186), N Kato Unitrack, Straight 7.323".	17
+20020 (S124), N Kato Unitrack, Straight 4.882".	18
+20026R (S124C), N Kato Unitrack, Straight rerailer 4.882".	18
+20030 (S64), N Kato Unitrack, Straight 2.52".	9
+20040 (S62), N Kato Unitrack, Straight 2.441".	8
+20045 (S62J), N Kato Unitrack, Straight transition Kato/Fleischmann 2.441".	2
+20048 (S50B-C), N Kato Unitrack, Buffer/Bumper Type C, 1.988".	6
+20070 (S45), N Kato Unitrack, Straight 1.791".	21
+20071 (S29), N Kato Unitrack, Straight 1.142".	6
+20110 (R282-45), N Kato Unitrack, Curve radius 11.102", angle 45º	1
+20121 (R315-15), N Kato Unitrack, Curve radius 12.402", angle 15º	2
+20130 (R348-30), N Kato Unitrack, Curve radius 13.701", angle 30º	2
+20132 (R348-45), N Kato Unitrack, Curve radius 13.701", angle 45º	3
+20140 (R381-30), N Kato Unitrack, Curve radius 15", angle 30º	19
+20150 (R718-15), N Kato Unitrack, Curve radius 28.268", angle 15º	6
+20160 (R481-15), N Kato Unitrack, Curve radius 18.937", angle 15º	56
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	36
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	2
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	2
+20202 (EP718-15L), N Kato Unitrack, Left turnout 7.323". (remote)	11
+20203 (EP718-15R), N Kato Unitrack, Right turnout 7.323". (remote)	6
+20210 (WX310), N Kato Unitrack, Double crossover 12.205". 15º	1
+20220 (EP481-15L), N Kato Unitrack, Left turnout 4.961". (remote)	9
+20221 (EP481-15R), N Kato Unitrack, Right turnout 4.961". (remote)	9
+20222 (EP481-15Y), N Kato Unitrack, Wye turnout 4.961". (remote)	2
+20231 (SX248R), N Kato Unitrack, Right crossover 9.764".	1
+20283B, N Kato Unitrack, Buffer/Bumper 1.142".	9
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	7
+2059, N Atlas Code 55, Right curved turnout 22.5º, 21.25"/15".	4
+2500, N Atlas Code 80, Flex 30".	274	 (Minimum number of units: 104)
+2532, N Atlas Code 80, Straight rerailer 4.882".	12
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	15
+2700, N Atlas Code 80, Left turnout 4.882". 15º (remote)	3
+2701, N Atlas Code 80, Right turnout 4.882". 15º (remote)	5
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	12
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	15
+2708, N Atlas Code 80, Wye turnout 4.882". 15º (remote)	1
+2790, N Atlas Code 80, Turntable radius 3.75". (manual)	1
+8500, Z Märklin, Straight 4.331".	10
+8503, Z Märklin, Straight 2.165".	4
+8510, Z Märklin, Curve radius 5.709", angle 45º	16
+8520, Z Märklin, Curve radius 7.677", angle 45º	3
+8560, Z Märklin, Double slipswitch 4.441". 13º	1
+8562, Z Märklin, Left turnout 4.331". (remote)	3
+8563, Z Märklin, Right turnout 4.331". (remote)	5
+8568, Z Märklin, Left curved turnout 30º  (remote)	4
+8569, Z Märklin, Right curved turnout 30º  (remote)	2
+8594, Z Märklin, Flex 25.984".	57	 (Minimum number of units: 16)
+8993, Z Märklin, Reverse loop 4.331".	2
+8997, Z Märklin, Straight transition Turntable 0.748".	9
+89981, Z Märklin, Turntable diameter 5.197".	1
+S33 (S33), N Kato Unitrack, Straight 1.299".	6
+S38 (S38), N Kato Unitrack, Straight 1.496".	6
+SL-E383F, N Peco Finescale Code 55, Double crossover 10.669". 10º  (conductive frog)	1
+SL-E390F, N Peco Finescale Code 55, Double slipswitch 6.063". 10º  (conductive frog)	1
+SL-E399F, N Peco Finescale Code 55, Threeway turnout 6.033".	1
+
+Objects
+2, Compass roses, .	1
+3224, N Walthers Structures, Shops.	1
+3260, N Walthers Structures, Modern roundhouse.	1
+8991, Z Märklin, Buffer/Bumper 0.591".	5
+N, 42'  Tugboat, Found a drawing online, used those measurements	4
+N, American Model Builders, 611, N. Hitzeman's Feed Mill	1
+N, American Model Builders, 623, Croydon General Store & Post Office	1
+N, American Model Builders, 625, The Pickle Works	1
+N, Bachmann 1:148, 42-066, Scenecraft Art Deco Station Building, Art Deco STation Building	1
+N, Bachmann, Santa Fe F-7A Locomotive, From the Super Chief train set.  Based upon my quick measurements, accuracy may be +/_ 1/16 inch	1
+N, Blair Line, 085, C&O #1 Depot, C&O #1 Depot	1
+N, Blair Line, 095, Gerald Depot, Gerald Depot	1
+N, Fleischmann, 9475, Locomotive Roundhouse, Locomotive roundhouse, stalls at 15 degrees each. Can be easily reconfigured or items removed if not required	1
+N, Heljan, 666 Curved configuration, Curved single track wooden trestle bridge, Curved single track wooden trestle bridge. Height to tackbed 5.8 cm.	3
+N, Heljan, B 652, Coaling Tower, Coaling tower spanning 2 railroad tracks	1
+N, KATO, Corrugated Baggage, 72´8 Baggage	1
+N, KATO, Corrugated Coach, 79´8 Corrugated Coach	4
+N, KATO, Corrugated RPO, 72´8  Corrugated RPO	1
+N, KATO, Corrugated Sleeper, 85´ Corrugated Sleeper	2
+N, P & D Marsh, B111, GWR Conical Water Tower, GWR Conical Water Tower with hose and drain	3
+N, Ratio, 220, Goods Shed, 91x 86mm	1
+N, Scalescenes, T024, Industrial Group, card model consisting of 4 separate structures	1
+N, Tomix, 4043, Small size Office Building B, 5 floor office with 4 sided billboard	2
+N, Tomix, 4044, Small size Office Building C, 5 floor office with billboard	1
+N, Walthers, 443-7463, William's Country Store, By Life-Like.  Based upon my quick measurements, accuracy may be +/_ 1/16 inch.	1
+N, Walthers, 933-2601, Steel Water Tank, Walthers Cornerstone Built-Ups Steel Water Tank	1
+N, Walthers, 933-3201, Water Street Freight Terminal	1
+N, Walthers, 933-3221, New River Mining Company, track centers (3 total) are 1 35/64"	1
+N, Walthers, 933-3822, Yard Office and Shed, Yard Office only	1
+N, Walthers, Standard Tool Co.	1
+N, Woodland Scenics, 50300, Otto's Parts, Footprint plan	1
+N, Woodland Scenics, 50800, Crestone Credit Union, Footprint plan	2
+N, Woodland Scenics, 51200, Roadkill Cafe, Footprint plan	1
+N, Woodland Scenics, 51400, Erik's Emporium, Footprint plan	1
+S1.1, N General scenery, Shrub	12
+S1.2, N General scenery, Shrub	21
+T1.1, N General scenery, Tree	12
+T1.2, N General scenery, Tree	7
+T2.1, N General scenery, Tree	16
+T2.2, N General scenery, Tree	4
+T3.1, N General scenery, Tree	30
+T3.2, N General scenery, Tree	19
+T4.1, N General scenery, Tree	2
+T4.2, N General scenery, Tree	4
+T4.3, N General scenery, Tree	3
+
+Track lengths
+20000 (S248), N Kato Unitrack, Straight 9.764".	1113.071
+20010 (S186), N Kato Unitrack, Straight 7.323".	124.488
+20020 (S124), N Kato Unitrack, Straight 4.882".	87.874
+20026R (S124C), N Kato Unitrack, Straight rerailer 4.882".	87.874
+20030 (S64), N Kato Unitrack, Straight 2.52".	22.677
+20040 (S62), N Kato Unitrack, Straight 2.441".	19.528
+20045 (S62J), N Kato Unitrack, Straight transition Kato/Fleischmann 2.441".	4.882
+20048 (S50B-C), N Kato Unitrack, Buffer/Bumper Type C, 1.988".	11.929
+20070 (S45), N Kato Unitrack, Straight 1.791".	37.618
+20071 (S29), N Kato Unitrack, Straight 1.142".	6.85
+20110 (R282-45), N Kato Unitrack, Curve radius 11.102", angle 45º	8.72
+20121 (R315-15), N Kato Unitrack, Curve radius 12.402", angle 15º	6.493
+20130 (R348-30), N Kato Unitrack, Curve radius 13.701", angle 30º	14.347
+20132 (R348-45), N Kato Unitrack, Curve radius 13.701", angle 45º	32.282
+20140 (R381-30), N Kato Unitrack, Curve radius 15", angle 30º	149.226
+20150 (R718-15), N Kato Unitrack, Curve radius 28.268", angle 15º	44.403
+20160 (R481-15), N Kato Unitrack, Curve radius 18.937", angle 15º	277.631
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	1031.902
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	28.664
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	28.664
+20202 (EP718-15L), N Kato Unitrack, Left turnout 7.323". (remote)	160.291
+20203 (EP718-15R), N Kato Unitrack, Right turnout 7.323". (remote)	87.431
+20210 (WX310), N Kato Unitrack, Double crossover 12.205". 15º	43.959
+20220 (EP481-15L), N Kato Unitrack, Left turnout 4.961". (remote)	87.986
+20221 (EP481-15R), N Kato Unitrack, Right turnout 4.961". (remote)	87.986
+20222 (EP481-15Y), N Kato Unitrack, Wye turnout 4.961". (remote)	19.513
+20231 (SX248R), N Kato Unitrack, Right crossover 9.764".	29.34
+20283B, N Kato Unitrack, Buffer/Bumper 1.142".	0
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	116.118
+2059, N Atlas Code 55, Right curved turnout 22.5º, 21.25"/15".	66.353
+2500, N Atlas Code 80, Flex 30".	3091.632
+2532, N Atlas Code 80, Straight rerailer 4.882".	58.752
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	41.25
+2700, N Atlas Code 80, Left turnout 4.882". 15º (remote)	29.549
+2701, N Atlas Code 80, Right turnout 4.882". 15º (remote)	49.249
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	142.742
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	178.428
+2708, N Atlas Code 80, Wye turnout 4.882". 15º (remote)	8.956
+2790, N Atlas Code 80, Turntable radius 3.75". (manual)	7.5
+8500, Z Märklin, Straight 4.331".	43.307
+8503, Z Märklin, Straight 2.165".	8.661
+8510, Z Märklin, Curve radius 5.709", angle 45º	71.737
+8520, Z Märklin, Curve radius 7.677", angle 45º	18.089
+8560, Z Märklin, Double slipswitch 4.441". 13º	14.569
+8562, Z Märklin, Left turnout 4.331". (remote)	26.062
+8563, Z Märklin, Right turnout 4.331". (remote)	43.437
+8568, Z Märklin, Left curved turnout 30º  (remote)	36.095
+8569, Z Märklin, Right curved turnout 30º  (remote)	18.048
+8594, Z Märklin, Flex 25.984".	407.487
+8993, Z Märklin, Reverse loop 4.331".	8.583
+8997, Z Märklin, Straight transition Turntable 0.748".	6.732
+89981, Z Märklin, Turntable diameter 5.197".	5.197
+S33 (S33), N Kato Unitrack, Straight 1.299".	7.795
+S38 (S38), N Kato Unitrack, Straight 1.496".	8.976
+SL-E383F, N Peco Finescale Code 55, Double crossover 10.669". 10º  (conductive frog)	42.265
+SL-E390F, N Peco Finescale Code 55, Double slipswitch 6.063". 10º  (conductive frog)	24.011
+SL-E399F, N Peco Finescale Code 55, Threeway turnout 6.033".	15.469
+
+Total track length:	687.723'
+
+Layers
+Background
+Objects
+2, Compass roses, .	1
+
+Total track length:	0'
+
+Badlands
+Track
+2500, N Atlas Code 80, Flex 30".	40	 (Minimum number of units: 8)
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	4
+2700, N Atlas Code 80, Left turnout 4.882". 15º (remote)	3
+2701, N Atlas Code 80, Right turnout 4.882". 15º (remote)	1
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	4
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	4
+SL-E390F, N Peco Finescale Code 55, Double slipswitch 6.063". 10º  (conductive frog)	1
+
+Objects
+N, Walthers, 933-3201, Water Street Freight Terminal	1
+N, Walthers, 933-3822, Yard Office and Shed, Yard Office only	1
+N, Walthers, Standard Tool Co.	1
+S1.2, N General scenery, Shrub	2
+T3.2, N General scenery, Tree	2
+T4.3, N General scenery, Tree	1
+
+Track lengths
+2500, N Atlas Code 80, Flex 30".	231.749
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	11
+2700, N Atlas Code 80, Left turnout 4.882". 15º (remote)	29.549
+2701, N Atlas Code 80, Right turnout 4.882". 15º (remote)	9.85
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	47.581
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	47.581
+SL-E390F, N Peco Finescale Code 55, Double slipswitch 6.063". 10º  (conductive frog)	24.011
+
+Total track length:	33.443'
+
+Connectors
+Track
+2500, N Atlas Code 80, Flex 30".	9	 (Minimum number of units: 1)
+2532, N Atlas Code 80, Straight rerailer 4.882".	9
+
+Track lengths
+2500, N Atlas Code 80, Flex 30".	24.411
+2532, N Atlas Code 80, Straight rerailer 4.882".	44.064
+
+Total track length:	5.706'
+
+Desk
+Track
+2500, N Atlas Code 80, Flex 30".	13	 (Minimum number of units: 3)
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	4
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	4
+SL-E383F, N Peco Finescale Code 55, Double crossover 10.669". 10º  (conductive frog)	1
+
+Track lengths
+2500, N Atlas Code 80, Flex 30".	76.77
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	47.581
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	47.581
+SL-E383F, N Peco Finescale Code 55, Double crossover 10.669". 10º  (conductive frog)	42.265
+
+Total track length:	17.85'
+
+Discovery Bay
+Track
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	1
+2059, N Atlas Code 55, Right curved turnout 22.5º, 21.25"/15".	3
+2500, N Atlas Code 80, Flex 30".	55	 (Minimum number of units: 21)
+2532, N Atlas Code 80, Straight rerailer 4.882".	2
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	6
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	7
+2790, N Atlas Code 80, Turntable radius 3.75". (manual)	1
+SL-E399F, N Peco Finescale Code 55, Threeway turnout 6.033".	1
+
+Objects
+3224, N Walthers Structures, Shops.	1
+3260, N Walthers Structures, Modern roundhouse.	1
+N, 42'  Tugboat, Found a drawing online, used those measurements	1
+N, Bachmann 1:148, 42-066, Scenecraft Art Deco Station Building, Art Deco STation Building	1
+N, P & D Marsh, B111, GWR Conical Water Tower, GWR Conical Water Tower with hose and drain	1
+N, Tomix, 4043, Small size Office Building B, 5 floor office with 4 sided billboard	2
+N, Tomix, 4044, Small size Office Building C, 5 floor office with billboard	1
+N, Walthers, 443-7463, William's Country Store, By Life-Like.  Based upon my quick measurements, accuracy may be +/_ 1/16 inch.	1
+N, Woodland Scenics, 50300, Otto's Parts, Footprint plan	1
+N, Woodland Scenics, 50800, Crestone Credit Union, Footprint plan	2
+N, Woodland Scenics, 51200, Roadkill Cafe, Footprint plan	1
+N, Woodland Scenics, 51400, Erik's Emporium, Footprint plan	1
+
+Track lengths
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	16.588
+2059, N Atlas Code 55, Right curved turnout 22.5º, 21.25"/15".	49.765
+2500, N Atlas Code 80, Flex 30".	604.713
+2532, N Atlas Code 80, Straight rerailer 4.882".	9.792
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	16.5
+2705, N Atlas Code 80, Right turnout #6, 6.102". (remote)	83.266
+2790, N Atlas Code 80, Turntable radius 3.75". (manual)	7.5
+SL-E399F, N Peco Finescale Code 55, Threeway turnout 6.033".	15.469
+
+Total track length:	66.966'
+
+East Corner
+Track
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	1
+2500, N Atlas Code 80, Flex 30".	17	 (Minimum number of units: 7)
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	3
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	2
+
+Objects
+N, American Model Builders, 611, N. Hitzeman's Feed Mill	1
+N, American Model Builders, 623, Croydon General Store & Post Office	1
+N, American Model Builders, 625, The Pickle Works	1
+
+Track lengths
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	16.588
+2500, N Atlas Code 80, Flex 30".	203.881
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	8.25
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	23.79
+
+Total track length:	21.043'
+
+Goldenrod
+Track
+2500, N Atlas Code 80, Flex 30".	17	 (Minimum number of units: 5)
+
+Objects
+S1.1, N General scenery, Shrub	8
+S1.2, N General scenery, Shrub	8
+T2.1, N General scenery, Tree	12
+T2.2, N General scenery, Tree	4
+
+Track lengths
+2500, N Atlas Code 80, Flex 30".	142.042
+
+Total track length:	11.837'
+
+Helix
+Track
+20045 (S62J), N Kato Unitrack, Straight transition Kato/Fleischmann 2.441".	2
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	35
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	1
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	1
+2500, N Atlas Code 80, Flex 30".	41	 (Minimum number of units: 36)
+
+Track lengths
+20045 (S62J), N Kato Unitrack, Straight transition Kato/Fleischmann 2.441".	4.882
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	1003.238
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	14.332
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	14.332
+2500, N Atlas Code 80, Flex 30".	1075.138
+
+Total track length:	175.993'
+
+Mining Area
+Track
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	5
+2059, N Atlas Code 55, Right curved turnout 22.5º, 21.25"/15".	1
+2500, N Atlas Code 80, Flex 30".	44	 (Minimum number of units: 16)
+2701, N Atlas Code 80, Right turnout 4.882". 15º (remote)	4
+2708, N Atlas Code 80, Wye turnout 4.882". 15º (remote)	1
+
+Objects
+N, Walthers, 933-3221, New River Mining Company, track centers (3 total) are 1 35/64"	1
+
+Track lengths
+2058, N Atlas Code 55, Left curved turnout 22.5º, 21.25"/15".	82.942
+2059, N Atlas Code 55, Right curved turnout 22.5º, 21.25"/15".	16.588
+2500, N Atlas Code 80, Flex 30".	454.305
+2701, N Atlas Code 80, Right turnout 4.882". 15º (remote)	39.399
+2708, N Atlas Code 80, Wye turnout 4.882". 15º (remote)	8.956
+
+Total track length:	50.183'
+
+Nn3
+Track
+8500, Z Märklin, Straight 4.331".	10
+8503, Z Märklin, Straight 2.165".	4
+8510, Z Märklin, Curve radius 5.709", angle 45º	16
+8520, Z Märklin, Curve radius 7.677", angle 45º	3
+8560, Z Märklin, Double slipswitch 4.441". 13º	1
+8562, Z Märklin, Left turnout 4.331". (remote)	3
+8563, Z Märklin, Right turnout 4.331". (remote)	5
+8568, Z Märklin, Left curved turnout 30º  (remote)	4
+8569, Z Märklin, Right curved turnout 30º  (remote)	2
+8594, Z Märklin, Flex 25.984".	57	 (Minimum number of units: 16)
+8993, Z Märklin, Reverse loop 4.331".	2
+8997, Z Märklin, Straight transition Turntable 0.748".	9
+89981, Z Märklin, Turntable diameter 5.197".	1
+
+Objects
+8991, Z Märklin, Buffer/Bumper 0.591".	5
+N, Fleischmann, 9475, Locomotive Roundhouse, Locomotive roundhouse, stalls at 15 degrees each. Can be easily reconfigured or items removed if not required	1
+N, Heljan, B 652, Coaling Tower, Coaling tower spanning 2 railroad tracks	1
+N, P & D Marsh, B111, GWR Conical Water Tower, GWR Conical Water Tower with hose and drain	1
+N, Walthers, 933-2601, Steel Water Tank, Walthers Cornerstone Built-Ups Steel Water Tank	1
+
+Track lengths
+8500, Z Märklin, Straight 4.331".	43.307
+8503, Z Märklin, Straight 2.165".	8.661
+8510, Z Märklin, Curve radius 5.709", angle 45º	71.737
+8520, Z Märklin, Curve radius 7.677", angle 45º	18.089
+8560, Z Märklin, Double slipswitch 4.441". 13º	14.569
+8562, Z Märklin, Left turnout 4.331". (remote)	26.062
+8563, Z Märklin, Right turnout 4.331". (remote)	43.437
+8568, Z Märklin, Left curved turnout 30º  (remote)	36.095
+8569, Z Märklin, Right curved turnout 30º  (remote)	18.048
+8594, Z Märklin, Flex 25.984".	407.487
+8993, Z Märklin, Reverse loop 4.331".	8.583
+8997, Z Märklin, Straight transition Turntable 0.748".	6.732
+89981, Z Märklin, Turntable diameter 5.197".	5.197
+
+Total track length:	59'
+
+Rivers of the World
+Track
+2500, N Atlas Code 80, Flex 30".	34	 (Minimum number of units: 7)
+2532, N Atlas Code 80, Straight rerailer 4.882".	1
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	2
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	2
+
+Objects
+N, 42'  Tugboat, Found a drawing online, used those measurements	3
+N, Blair Line, 085, C&O #1 Depot, C&O #1 Depot	1
+N, Blair Line, 095, Gerald Depot, Gerald Depot	1
+N, Heljan, 666 Curved configuration, Curved single track wooden trestle bridge, Curved single track wooden trestle bridge. Height to tackbed 5.8 cm.	3
+N, P & D Marsh, B111, GWR Conical Water Tower, GWR Conical Water Tower with hose and drain	1
+N, Ratio, 220, Goods Shed, 91x 86mm	1
+N, Scalescenes, T024, Industrial Group, card model consisting of 4 separate structures	1
+S1.1, N General scenery, Shrub	4
+S1.2, N General scenery, Shrub	11
+T1.1, N General scenery, Tree	12
+T1.2, N General scenery, Tree	7
+T2.1, N General scenery, Tree	4
+T3.1, N General scenery, Tree	30
+T3.2, N General scenery, Tree	17
+T4.1, N General scenery, Tree	2
+T4.2, N General scenery, Tree	4
+T4.3, N General scenery, Tree	2
+
+Track lengths
+2500, N Atlas Code 80, Flex 30".	200.677
+2532, N Atlas Code 80, Straight rerailer 4.882".	4.896
+2536, N Atlas Code 80, Buffer/Bumper 2.756".	5.5
+2704, N Atlas Code 80, Left turnout #6, 6.102". (remote)	23.79
+
+Total track length:	19.572'
+
+Storage
+Track
+20000 (S248), N Kato Unitrack, Straight 9.764".	114
+20010 (S186), N Kato Unitrack, Straight 7.323".	17
+20020 (S124), N Kato Unitrack, Straight 4.882".	18
+20026R (S124C), N Kato Unitrack, Straight rerailer 4.882".	18
+20030 (S64), N Kato Unitrack, Straight 2.52".	9
+20040 (S62), N Kato Unitrack, Straight 2.441".	8
+20048 (S50B-C), N Kato Unitrack, Buffer/Bumper Type C, 1.988".	6
+20070 (S45), N Kato Unitrack, Straight 1.791".	21
+20071 (S29), N Kato Unitrack, Straight 1.142".	6
+20110 (R282-45), N Kato Unitrack, Curve radius 11.102", angle 45º	1
+20121 (R315-15), N Kato Unitrack, Curve radius 12.402", angle 15º	2
+20130 (R348-30), N Kato Unitrack, Curve radius 13.701", angle 30º	2
+20132 (R348-45), N Kato Unitrack, Curve radius 13.701", angle 45º	3
+20140 (R381-30), N Kato Unitrack, Curve radius 15", angle 30º	19
+20150 (R718-15), N Kato Unitrack, Curve radius 28.268", angle 15º	6
+20160 (R481-15), N Kato Unitrack, Curve radius 18.937", angle 15º	56
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	1
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	1
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	1
+20202 (EP718-15L), N Kato Unitrack, Left turnout 7.323". (remote)	11
+20203 (EP718-15R), N Kato Unitrack, Right turnout 7.323". (remote)	6
+20210 (WX310), N Kato Unitrack, Double crossover 12.205". 15º	1
+20220 (EP481-15L), N Kato Unitrack, Left turnout 4.961". (remote)	9
+20221 (EP481-15R), N Kato Unitrack, Right turnout 4.961". (remote)	9
+20222 (EP481-15Y), N Kato Unitrack, Wye turnout 4.961". (remote)	2
+20231 (SX248R), N Kato Unitrack, Right crossover 9.764".	1
+20283B, N Kato Unitrack, Buffer/Bumper 1.142".	9
+2500, N Atlas Code 80, Flex 30".	4	 (Minimum number of units: 3)
+S33 (S33), N Kato Unitrack, Straight 1.299".	6
+S38 (S38), N Kato Unitrack, Straight 1.496".	6
+
+Objects
+N, Bachmann, Santa Fe F-7A Locomotive, From the Super Chief train set.  Based upon my quick measurements, accuracy may be +/_ 1/16 inch	1
+N, KATO, Corrugated Baggage, 72´8 Baggage	1
+N, KATO, Corrugated Coach, 79´8 Corrugated Coach	4
+N, KATO, Corrugated RPO, 72´8  Corrugated RPO	1
+N, KATO, Corrugated Sleeper, 85´ Corrugated Sleeper	2
+
+Track lengths
+20000 (S248), N Kato Unitrack, Straight 9.764".	1113.071
+20010 (S186), N Kato Unitrack, Straight 7.323".	124.488
+20020 (S124), N Kato Unitrack, Straight 4.882".	87.874
+20026R (S124C), N Kato Unitrack, Straight rerailer 4.882".	87.874
+20030 (S64), N Kato Unitrack, Straight 2.52".	22.677
+20040 (S62), N Kato Unitrack, Straight 2.441".	19.528
+20048 (S50B-C), N Kato Unitrack, Buffer/Bumper Type C, 1.988".	11.929
+20070 (S45), N Kato Unitrack, Straight 1.791".	37.618
+20071 (S29), N Kato Unitrack, Straight 1.142".	6.85
+20110 (R282-45), N Kato Unitrack, Curve radius 11.102", angle 45º	8.72
+20121 (R315-15), N Kato Unitrack, Curve radius 12.402", angle 15º	6.493
+20130 (R348-30), N Kato Unitrack, Curve radius 13.701", angle 30º	14.347
+20132 (R348-45), N Kato Unitrack, Curve radius 13.701", angle 45º	32.282
+20140 (R381-30), N Kato Unitrack, Curve radius 15", angle 30º	149.226
+20150 (R718-15), N Kato Unitrack, Curve radius 28.268", angle 15º	44.403
+20160 (R481-15), N Kato Unitrack, Curve radius 18.937", angle 15º	277.631
+20185 (WR480/447-45PC), N Kato Unitrack, Curve radius 17.598"+18.898", angle 45º (concrete) (double track) (superelevated)	28.664
+20186L (WR480/447PCAL), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (left) (concrete) (double track)	14.332
+20186R (WR480/447PCAR), N Kato Unitrack, Curved transition radius 17.598"+18.898", angle 22.5º (right) (concrete) (double track)	14.332
+20202 (EP718-15L), N Kato Unitrack, Left turnout 7.323". (remote)	160.291
+20203 (EP718-15R), N Kato Unitrack, Right turnout 7.323". (remote)	87.431
+20210 (WX310), N Kato Unitrack, Double crossover 12.205". 15º	43.959
+20220 (EP481-15L), N Kato Unitrack, Left turnout 4.961". (remote)	87.986
+20221 (EP481-15R), N Kato Unitrack, Right turnout 4.961". (remote)	87.986
+20222 (EP481-15Y), N Kato Unitrack, Wye turnout 4.961". (remote)	19.513
+20231 (SX248R), N Kato Unitrack, Right crossover 9.764".	29.34
+20283B, N Kato Unitrack, Buffer/Bumper 1.142".	0
+2500, N Atlas Code 80, Flex 30".	77.945
+S33 (S33), N Kato Unitrack, Straight 1.299".	7.795
+S38 (S38), N Kato Unitrack, Straight 1.496".	8.976
+
+Total track length:	226.13'

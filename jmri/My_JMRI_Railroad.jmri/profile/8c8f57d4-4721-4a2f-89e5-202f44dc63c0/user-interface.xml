@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any.showHelpBar</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:1.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:1.showHelpBar</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:1.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:2.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:2.showHelpBar</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:2.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Narrow Gauge Line.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Lower Level.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Upper Level.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Narrow Gauge Line.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Lower Level.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Upper Level.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.roster.swing.RosterFrame.hideGroups</setting>
+    </settings>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="Scale/Translate Track Diagram" height="252.0" locX="70.0" locY="30.0" width="384.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Icon" height="207.0" locX="0.0" locY="0.0" width="337.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any" height="245.0" locX="772.0" locY="524.0" width="588.0">
+            <properties>
+                <property>
+                    <key>zoom</key>
+                    <value class="java.lang.Double">1.0</value>
+                </property>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:1" height="769.0" locX="0.0" locY="0.0" width="776.0">
+            <properties>
+                <property>
+                    <key>zoom</key>
+                    <value class="java.lang.Double">1.7731196054254008</value>
+                </property>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="469.0" locX="8.0" locY="20.0" width="987.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:JMRI Plans.any:2" height="527.0" locX="773.0" locY="0.0" width="587.0">
+            <properties>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.ampmeter.AmpMeterFrame:Track Current Meter" height="161.0" locX="6.0" locY="476.0" width="610.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Narrow Gauge Line" height="250.0" locX="863.0" locY="524.0" width="507.0">
+            <properties>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrix.dccpp.swing.mon.DCCppMonPane" height="344.0" locX="30.0" locY="30.0" width="889.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="701.0" locX="0.0" locY="0.0" width="1356.0">
+            <properties>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Lower Level" height="814.0" locX="13.0" locY="276.0" width="919.0">
+            <properties>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="Local JMRI throttles" height="230.0" locX="0.0" locY="0.0" width="322.0"/>
+        <window xmlns="" class="Throttles preferences" height="436.0" locX="30.0" locY="30.0" width="832.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.speedprofile.SpeedProfileFrame" locX="0.0" locY="0.0"/>
+        <window xmlns="" class="jmri.jmrix.dccpp.swing.mon.DCCppMonPane.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.dccpp.swing.mon.DCCppMonPane.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="266.0" locX="70.0" locY="10.0" width="404.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Upper Level" height="773.0" locX="-23.0" locY="343.0" width="1366.0">
+            <properties>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">12.0</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.cabsignals.CabSignalPane" height="300.0" locX="0.0" locY="0.0" width="602.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:2" height="571.0" locX="823.0" locY="0.0" width="541.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="596.0" locX="819.0" locY="0.0" width="541.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="596.0" locX="823.0" locY="0.0" width="541.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="4.0" locY="11.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">service</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="Panel " height="317.0" locX="680.0" locY="329.0" width="432.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Panel " locX="20.0" locY="20.0"/>
+        <window xmlns="" class="PanelPro" height="252.0" locX="668.0" locY="54.0" width="526.0"/>
+        <window xmlns="" class="Set Grid Sizes" height="144.0" locX="70.0" locY="30.0" width="234.0"/>
+    </windowDetails>
+</auxiliary-configuration>

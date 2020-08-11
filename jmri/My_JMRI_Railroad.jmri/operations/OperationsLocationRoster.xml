@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 13 08:03:57 BST 2020-->
+  <locations>
+    <location id="1" name="Discovery Bay" ops="1" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="Gondola" />
+        <carType name="Boxcar" />
+        <locoType name="Steam-mixed" />
+        <locoType name="Steam-pass" />
+        <locoType name="Steam-heavy" />
+        <locoType name="Steam-light" />
+        <locoType name="Steam" />
+        <carType name="Passenger" />
+      </types>
+      <track id="1s1" name="Airship Spur" locType="Siding" dir="15" length="1" moves="0" blockingOrder="0">
+        <types>
+          <carType name="Baggage" />
+          <carType name="Boxcar" />
+          <carType name="Caboose" />
+          <carType name="Coal" />
+          <carType name="Coilcar" />
+          <carType name="FlatBHPaper" />
+          <carType name="FlatBHWood" />
+          <carType name="FlatBulkHead" />
+          <carType name="FlatTimber" />
+          <carType name="FlatTrailer" />
+          <carType name="FlatWood" />
+          <carType name="Flatcar" />
+          <carType name="Gon-scrap" />
+          <carType name="Gondola" />
+          <carType name="HopChem" />
+          <carType name="HopCmnt" />
+          <carType name="HopCoal" />
+          <carType name="HopCoal-Ety" />
+          <carType name="HopGrain" />
+          <carType name="HopSand" />
+          <carType name="Hopper" />
+          <carType name="MOW" />
+          <carType name="MOWBox" />
+          <carType name="ReefMech" />
+          <carType name="Reefer" />
+          <carType name="ReeferIce" />
+          <carType name="Stock" />
+          <carType name="Tank Food" />
+          <carType name="Tank Gas" />
+          <carType name="Tank Kero" />
+          <carType name="Tank Oil" />
+          <carType name="Tank Veg" />
+          <locoType name="Diesel" />
+          <locoType name="Electric" />
+          <locoType name="Engine" />
+          <locoType name="Gas Turbine" />
+          <locoType name="Switcher" />
+        </types>
+      </track>
+    </location>
+  </locations>
+  <schedules />
+</operations-config>

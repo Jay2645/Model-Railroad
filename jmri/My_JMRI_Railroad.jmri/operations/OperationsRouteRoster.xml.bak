@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 13 08:00:47 BST 2020-->
+  <routes>
+    <route id="1" name="Blue Route" comment="" />
+  </routes>
+</operations-config>

@@ -1,0 +1,39 @@
+1- Build Report for train (Holliday 2) built on 6/13/20 8:05 AM
+1- JMRI version 4.18+R37ad3d0
+3- Build report detail level: Normal
+5- Build report detail level: Detailed
+7- Build report detail level: Very Detailed
+1-  
+5- Train Build Options:
+5- Build option is set to normal
+5-  
+5- Switcher Service Options:
+5- Do Not Allow Local Classification/Interchange to C/I Moves
+5- Do Not Allow Local Spur to Spur Moves
+5- Do Not Allow Local Yard to Yard Moves
+5-  
+5- Car routing options:
+5- Car routing via yards is enabled
+5-  
+5- Specific build options for train (Holliday 2):
+5- Allow local moves if car has a custom load or FD
+1-  
+3- Train (Holliday 2) route (Blue Route):
+3- 1r1 Location (Discovery Bay) requests 5 moves
+1- Route (Blue Route) requests 5 cars and 5 moves
+3-  
+3- Switcher (Holliday 2) services location (Discovery Bay)
+1-  
+1- Train requirements:
+1- Train departs (Discovery Bay) with a single locomotive, model (4-4-0) road (ATSF)
+1- Train must depart (Discovery Bay) with caboose, road (ATSF)
+1-  
+5- Train (Holliday 2) services locomotive types:
+5- Steam, Steam-heavy, Steam-light, Steam-mixed, Steam-pass
+5-  
+5- Search for 1 loco(s), model (4-4-0), road (ATSF), departing (Discovery Bay), 
+5- destination (Discovery Bay) 
+5- Requested locomotives not found at location (Discovery Bay)
+1- Train requires 1 loco(s), could not pick up at departure (Discovery Bay) or set out at 
+1- (Discovery Bay) 
+1- Build failed for train (Holliday 2)

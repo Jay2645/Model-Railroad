@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
+<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+  <!--Written by JMRI version 4.18+R37ad3d0 on Tue Jun 16 10:51:14 PDT 2020-->
+  <roster>
+    <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-06-16T02:30:04.216+0000</dateUpdated>
+      <decoder model="Z2" family="Jan 2012" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Santa Fe 879" fileName="Santa_Fe_8790.xml" roadNumber="879" roadName="Santa Fe" mfg="Bachmann" owner="Jay Stevens" model="Dash 8-40CW" dccAddress="879" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-06-16T03:34:57.509+0000</dateUpdated>
+      <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="879" longaddress="yes" />
+        <number>879</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Brake Function</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">All Aboard/Coach Doors</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
+      </functionlabels>
+      <soundlabels />
+    </locomotive>
+  </roster>
+</roster-config>

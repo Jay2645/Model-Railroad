@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.dccpp.serial.configurexml.ConnectionConfigXml" disabled="no" manufacturer="DCC++" port="ttyACM0" speed="115200" systemPrefix="D" userName="DCC++">
+            <options/>
+        </connection>
+        <connection xmlns="" address="192.168.86.223" class="jmri.jmrix.mqtt.configurexml.MqttConnectionConfigXml" disabled="yes" manufacturer="MQTT" mdnsConfigure="false" port="1883" systemPrefix="M" userName="MQTT">
+            <options>
+                <option>
+                    <name>MQTTchannel</name>
+                    <value>/trains/</value>
+                </option>
+            </options>
+        </connection>
+    </connections>
+</auxiliary-configuration>

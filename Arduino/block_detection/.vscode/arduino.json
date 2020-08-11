@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "AVR ISP",
+    "sketch": "block_detection.ino",
+    "port": "COM3"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-engines.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-engines.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 13 07:52:23 BST 2020-->
+  <models>
+    <model name="4-4-0" />
+    <model name="Dash 8-40CW" />
+    <model name="E8" />
+    <model name="FT" />
+    <model name="F3" />
+    <model name="F7" />
+    <model name="F9" />
+    <model name="GG1" />
+    <model name="GP20" />
+    <model name="GP30" />
+    <model name="GP35" />
+    <model name="GP38" />
+    <model name="GP40" />
+    <model name="GTEL" />
+    <model name="RS1" />
+    <model name="RS2" />
+    <model name="RS3" />
+    <model name="RS11" />
+    <model name="RS18" />
+    <model name="RS27" />
+    <model name="RSD4" />
+    <model name="Shay" />
+    <model name="SD26" />
+    <model name="SD45" />
+    <model name="SW1200" />
+    <model name="SW1500" />
+    <model name="SW8" />
+    <model name="TRAINMASTER" />
+    <model name="U28B" />
+  </models>
+  <types>
+    <type name="Electric" />
+    <type name="Engine" />
+    <type name="Diesel" />
+    <type name="Gas Turbine" />
+    <type name="Steam" />
+    <type name="Steam-light" />
+    <type name="Steam-heavy" />
+    <type name="Steam-pass" />
+    <type name="Steam-mixed" />
+    <type name="Switcher" />
+  </types>
+  <lengths>
+    <length value="32" />
+    <length value="34" />
+    <length value="36" />
+    <length value="38" />
+    <length value="40" />
+    <length value="42" />
+    <length value="44" />
+    <length value="45" />
+    <length value="46" />
+    <length value="48" />
+    <length value="50" />
+    <length value="51" />
+    <length value="52" />
+    <length value="53" />
+    <length value="54" />
+    <length value="55" />
+    <length value="56" />
+    <length value="57" />
+    <length value="58" />
+    <length value="59" />
+    <length value="60" />
+    <length value="61" />
+    <length value="65" />
+    <length value="66" />
+    <length value="70" />
+    <length value="75" />
+    <length value="80" />
+    <length value="85" />
+    <length value="90" />
+  </lengths>
+  <newConsists />
+  <engines>
+    <engine id="ATSF1" roadName="ATSF" roadNumber="1" type="Steam" length="60" built="1955" moves="0" date="" selected="false" comment="C.K. Holliday" model="4-4-0" hp="" bUnit="false" />
+    <engine id="ATSF879" roadName="ATSF" roadNumber="879" type="Diesel" length="70" moves="0" date="" selected="false" model="Dash 8-40CW" hp="" bUnit="false" />
+  </engines>
+</operations-config>

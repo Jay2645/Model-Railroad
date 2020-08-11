@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>18</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1</systemName>
+      <userName>TOL2442</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT2</systemName>
+      <userName>TOL2954</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT3</systemName>
+      <userName>TOR2482</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT4</systemName>
+      <userName>TOR2868</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT5</systemName>
+      <userName>TOL2430</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT6</systemName>
+      <userName>TOR2973</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT7</systemName>
+      <userName>TOR2895</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT8</systemName>
+      <userName>TOR2527</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT9</systemName>
+      <userName>TOR2985</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT10</systemName>
+      <userName>TOL2456</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT11</systemName>
+      <userName>TOR2465</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT12</systemName>
+      <userName>TOL2972</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT13</systemName>
+      <userName>TOL2425</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT14</systemName>
+      <userName>SL2869</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT15</systemName>
+      <userName>TOL2596</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT16</systemName>
+      <userName>TOR2755</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT17</systemName>
+      <userName>TOR2756</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT18</systemName>
+      <userName>TOL2753</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT19</systemName>
+      <userName>TOL2757</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT20</systemName>
+      <userName>TOR2751</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT21</systemName>
+      <userName>TOR2750</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT22</systemName>
+      <userName>CO1803</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT23</systemName>
+      <userName>TOR285</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT24</systemName>
+      <userName>TOR258</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT25</systemName>
+      <userName>TOL3545</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT26</systemName>
+      <userName>TOR3551</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT27</systemName>
+      <userName>TOR1502</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT28</systemName>
+      <userName>TOR396</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT29</systemName>
+      <userName>TOR3171</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT30</systemName>
+      <userName>TOR1495</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT31</systemName>
+      <userName>TOR2219</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT32</systemName>
+      <userName>TOR278</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT33</systemName>
+      <userName>TOR1496</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT34</systemName>
+      <userName>T3W2026-1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT35</systemName>
+      <userName>T3W2026-2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT36</systemName>
+      <userName>TOL3695</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT37</systemName>
+      <userName>TOL3687</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT38</systemName>
+      <userName>TOL554</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT39</systemName>
+      <userName>TOW1439</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT40</systemName>
+      <userName>TOR3456</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT41</systemName>
+      <userName>TOL1458</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT42</systemName>
+      <userName>To Inner Helix</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT43</systemName>
+      <userName>TOR1464</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT44</systemName>
+      <userName>TOR2830</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT45</systemName>
+      <userName>TOR2831</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT46</systemName>
+      <userName>TOL3483</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT47</systemName>
+      <userName>TOR3481</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT48</systemName>
+      <userName>TOL1602</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT49</systemName>
+      <userName>TOL1622</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT50</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT51</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT52</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT53</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT54</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT55</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT56</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT57</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT58</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT59</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT60</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT61</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT62</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT63</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT64</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT65</systemName>
+      <userName>TOL2938</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT66</systemName>
+      <userName>TOL3026</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT67</systemName>
+      <userName>TOL4170</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT68</systemName>
+      <userName>TOR3712</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT69</systemName>
+      <userName>TOR3742</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT70</systemName>
+      <userName>TOL1348</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT71</systemName>
+      <userName>TOR2340</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT72</systemName>
+      <userName>TOR3728</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT73</systemName>
+      <userName>TOR3711</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT74</systemName>
+      <userName>TFIDC3762-1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT75</systemName>
+      <userName>TFIDC3762-2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT76</systemName>
+      <userName>TFIDC3762-3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT77</systemName>
+      <userName>TFIDC3762-4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT78</systemName>
+      <userName>TOL3746</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT79</systemName>
+      <userName>TOL3766</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT80</systemName>
+      <userName>TOL3839</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT81</systemName>
+      <userName>TOR3741</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT82</systemName>
+      <userName>TOL3825</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT83</systemName>
+      <userName>TOL3826</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT84</systemName>
+      <userName>TOL3834</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT85</systemName>
+      <userName>TOR3818</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT86</systemName>
+      <userName>TOL4171</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT87</systemName>
+      <userName>TOL3807</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT88</systemName>
+      <userName>TOL3827</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT89</systemName>
+      <userName>TOR3899</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT90</systemName>
+      <userName>TOR4283</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT91</systemName>
+      <userName>TFIDC4140-1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT92</systemName>
+      <userName>TFIDC4140-2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT93</systemName>
+      <userName>TFIDC4140-3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT94</systemName>
+      <userName>TFIDC4140-4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT95</systemName>
+      <userName>TOR4282</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT96</systemName>
+      <userName>TOR4134</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT97</systemName>
+      <userName>TOL4135</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT98</systemName>
+      <userName>TOR4075</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT99</systemName>
+      <userName>TOL1351</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT100</systemName>
+      <userName>TOR3279</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT101</systemName>
+      <userName>Engine storage</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT102</systemName>
+      <userName>TOL3287</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT103</systemName>
+      <userName>TOR3289</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT104</systemName>
+      <userName>TOR3333</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT105</systemName>
+      <userName>TOL1350</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT106</systemName>
+      <userName>TOL3334</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT107</systemName>
+      <userName>TOL796</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT108</systemName>
+      <userName>TOL3329</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT109</systemName>
+      <userName>TOL1347</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT110</systemName>
+      <userName>TOL1349</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT111</systemName>
+      <userName>TOW3285</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="7:14 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB1">
+      <systemName>IB1</systemName>
+      <userName>Narrow Gauge</userName>
+    </block>
+    <block systemName="IB2">
+      <systemName>IB2</systemName>
+      <userName>Inner Main</userName>
+    </block>
+    <block systemName="IB3">
+      <systemName>IB3</systemName>
+      <userName>Goods Storage</userName>
+    </block>
+    <block systemName="IB4">
+      <systemName>IB4</systemName>
+      <userName>Branch Line</userName>
+    </block>
+    <block systemName="IB5">
+      <systemName>IB5</systemName>
+      <userName>Goods Arrival/Departure</userName>
+    </block>
+    <block systemName="IB6">
+      <systemName>IB6</systemName>
+      <userName>Outer Main</userName>
+    </block>
+    <block systemName="IB7">
+      <systemName>IB7</systemName>
+      <userName>Coal Industry</userName>
+    </block>
+    <block systemName="IB8">
+      <systemName>IB8</systemName>
+      <userName>Roundhouse</userName>
+    </block>
+    <block systemName="IB9">
+      <systemName>IB9</systemName>
+      <userName>Programming</userName>
+    </block>
+    <block systemName="IB10">
+      <systemName>IB10</systemName>
+      <userName>East Industry 2</userName>
+    </block>
+    <block systemName="IB11">
+      <systemName>IB11</systemName>
+      <userName>East Industry</userName>
+    </block>
+    <block systemName="IB12">
+      <systemName>IB12</systemName>
+      <userName>Outer Helix (West)</userName>
+    </block>
+    <block systemName="IB13">
+      <systemName>IB13</systemName>
+      <userName>Inner Helix (West)</userName>
+    </block>
+    <block systemName="IB14">
+      <systemName>IB14</systemName>
+    </block>
+    <block systemName="IB15">
+      <systemName>IB15</systemName>
+      <userName>Yard</userName>
+    </block>
+    <block systemName="IB16">
+      <systemName>IB16</systemName>
+      <userName>Storage Track C</userName>
+    </block>
+    <block systemName="IB17">
+      <systemName>IB17</systemName>
+      <userName>East Outer Storage</userName>
+    </block>
+    <block systemName="IB18">
+      <systemName>IB18</systemName>
+      <userName>Inner Storage</userName>
+    </block>
+    <block systemName="IB19">
+      <systemName>IB19</systemName>
+      <userName>Arrival/Departure Track</userName>
+    </block>
+    <block systemName="IB20">
+      <systemName>IB20</systemName>
+      <userName>Yard Lead</userName>
+    </block>
+    <block systemName="IB21">
+      <systemName>IB21</systemName>
+      <userName>Storage Track D</userName>
+    </block>
+    <block systemName="IB22">
+      <systemName>IB22</systemName>
+      <userName>Reverse Loop (East)</userName>
+    </block>
+    <block systemName="IB23">
+      <systemName>IB23</systemName>
+      <userName>Runaround</userName>
+    </block>
+    <block systemName="IB24">
+      <systemName>IB24</systemName>
+      <userName>Storage Lead</userName>
+    </block>
+    <block systemName="IB25">
+      <systemName>IB25</systemName>
+      <userName>Storage Track E</userName>
+    </block>
+    <block systemName="IB26">
+      <systemName>IB26</systemName>
+      <userName>Mountain Division</userName>
+    </block>
+    <block systemName="IB1" length="16819.31" curve="0">
+      <systemName>IB1</systemName>
+      <userName>Narrow Gauge</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB2" length="15791.73" curve="0">
+      <systemName>IB2</systemName>
+      <userName>Inner Main</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="TOL2758" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB4">
+        <beansetting setting="4">
+          <turnout systemName="TOW1439" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB12">
+        <beansetting setting="2">
+          <turnout systemName="TOW1439" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB8">
+        <beansetting setting="4">
+          <turnout systemName="TOR3551" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB4" />
+      <path todir="16" fromdir="32" block="IB6">
+        <beansetting setting="4">
+          <turnout systemName="TOR3103" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL2609" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB5">
+        <beansetting setting="4">
+          <turnout systemName="TOL2609" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB6">
+        <beansetting setting="4">
+          <turnout systemName="TOL2753" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB6">
+        <beansetting setting="4">
+          <turnout systemName="TOR2756" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="TOR1496" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="T3W2026-1" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOR2756" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB6">
+        <beansetting setting="4">
+          <turnout systemName="TOL1764" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOR3109" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL2753" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB5">
+        <beansetting setting="4">
+          <turnout systemName="TOR3109" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL2753" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB3" length="1930.85" curve="0">
+      <systemName>IB3</systemName>
+      <userName>Goods Storage</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB5" />
+    </block>
+    <block systemName="IB4" length="11647.1" curve="0">
+      <systemName>IB4</systemName>
+      <userName>Branch Line</userName>
+      <permissive>no</permissive>
+      <path todir="144" fromdir="96" block="IB2" />
+      <path todir="32" fromdir="16" block="IB2" />
+      <path todir="16" fromdir="32" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="TOR2750" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="TOL1622" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR1666" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOL3026" />
+        </beansetting>
+      </path>
+      <path todir="160" fromdir="80" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="TOR1464" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB13">
+        <beansetting setting="4">
+          <turnout systemName="To Inner Helix" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="TOR3481" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB5">
+        <beansetting setting="2">
+          <turnout systemName="TOR1666" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOL3026" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB11">
+        <beansetting setting="4">
+          <turnout systemName="TOL3687" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB5" length="1699.89" curve="0">
+      <systemName>IB5</systemName>
+      <userName>Goods Arrival/Departure</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOL3662" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB2" />
+      <path todir="16" fromdir="32" block="IB4" />
+      <path todir="32" fromdir="16" block="IB3" />
+    </block>
+    <block systemName="IB6" length="9023.92" curve="0">
+      <systemName>IB6</systemName>
+      <userName>Outer Main</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB9">
+        <beansetting setting="4">
+          <turnout systemName="TOR278" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOR3102" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="TOR278" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOL2754" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL1765" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOR2755" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOL1765" />
+        </beansetting>
+      </path>
+      <path todir="160" fromdir="80" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="TOR3102" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB7" length="1494.78" curve="0">
+      <systemName>IB7</systemName>
+      <userName>Coal Industry</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB26" />
+    </block>
+    <block systemName="IB8" length="2024.68" curve="0">
+      <systemName>IB8</systemName>
+      <userName>Roundhouse</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB2" />
+    </block>
+    <block systemName="IB9" length="930.99" curve="0">
+      <systemName>IB9</systemName>
+      <userName>Programming</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB6">
+        <beansetting setting="4">
+          <turnout systemName="TOR1495" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB10" length="718.13" curve="0">
+      <systemName>IB10</systemName>
+      <userName>East Industry 2</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB26" />
+    </block>
+    <block systemName="IB11" length="1119.42" curve="0">
+      <systemName>IB11</systemName>
+      <userName>East Industry</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB4" />
+    </block>
+    <block systemName="IB12" length="14024.82" curve="0">
+      <systemName>IB12</systemName>
+      <userName>Outer Helix (West)</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB2" />
+      <path todir="80" fromdir="160" block="IB17" />
+    </block>
+    <block systemName="IB13" length="16027.41" curve="0">
+      <systemName>IB13</systemName>
+      <userName>Inner Helix (West)</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB4" />
+      <path todir="16" fromdir="32" block="IB18" />
+    </block>
+    <block systemName="IB14" length="16819.31" curve="0">
+      <systemName>IB14</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB15" length="11036.35" curve="0">
+      <systemName>IB15</systemName>
+      <userName>Yard</userName>
+      <permissive>no</permissive>
+      <path todir="32" fromdir="16" block="IB18">
+        <beansetting setting="2">
+          <turnout systemName="TOR3742" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB23">
+        <beansetting setting="4">
+          <turnout systemName="TOR3712" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB23">
+        <beansetting setting="2">
+          <turnout systemName="TOW3285" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOR3279" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB18" />
+      <path todir="160" fromdir="80" block="IB18" />
+      <path todir="16" fromdir="32" block="IB20" />
+      <path todir="16" fromdir="32" block="IB20">
+        <beansetting setting="4">
+          <turnout systemName="TOW3285" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOR3279" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB16" length="2793.92" curve="0">
+      <systemName>IB16</systemName>
+      <userName>Storage Track C</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB24" />
+    </block>
+    <block systemName="IB17" length="7157.42" curve="0">
+      <systemName>IB17</systemName>
+      <userName>East Outer Storage</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB18">
+        <beansetting setting="2">
+          <turnout systemName="TOR4075" />
+        </beansetting>
+      </path>
+      <path todir="160" fromdir="80" block="IB12">
+        <beansetting setting="4">
+          <turnout systemName="TOR4075" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB18" length="9094.45" curve="0">
+      <systemName>IB18</systemName>
+      <userName>Inner Storage</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB15">
+        <beansetting setting="4">
+          <turnout systemName="TOL3746" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR3728" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR2340" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB15">
+        <beansetting setting="2">
+          <turnout systemName="TOR2340" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB15">
+        <beansetting setting="2">
+          <turnout systemName="TOR3728" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR2340" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB13">
+        <beansetting setting="4">
+          <turnout systemName="TOL3807" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB17" />
+      <path todir="64" fromdir="128" block="IB20">
+        <beansetting setting="4">
+          <turnout systemName="TOL4171" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB24">
+        <beansetting setting="4">
+          <turnout systemName="TOR3818" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB19" length="3797.74" curve="0">
+      <systemName>IB19</systemName>
+      <userName>Arrival/Departure Track</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB20" />
+      <path todir="32" fromdir="16" block="IB20" />
+    </block>
+    <block systemName="IB20" length="4825.43" curve="0">
+      <systemName>IB20</systemName>
+      <userName>Yard Lead</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB24" />
+      <path todir="32" fromdir="16" block="IB15">
+        <beansetting setting="4">
+          <turnout systemName="TOL3766" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB19">
+        <beansetting setting="4">
+          <turnout systemName="TOR3899" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB19">
+        <beansetting setting="2">
+          <turnout systemName="TOR3289" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB18" />
+      <path todir="32" fromdir="16" block="IB15" />
+    </block>
+    <block systemName="IB21" length="2713.49" curve="0">
+      <systemName>IB21</systemName>
+      <userName>Storage Track D</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB24" />
+    </block>
+    <block systemName="IB22" length="5863.04" curve="0">
+      <systemName>IB22</systemName>
+      <userName>Reverse Loop (East)</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB24">
+        <beansetting setting="2">
+          <turnout systemName="TOL4135" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB23" length="1980.59" curve="0">
+      <systemName>IB23</systemName>
+      <userName>Runaround</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB15">
+        <beansetting setting="2">
+          <turnout systemName="TOL3287" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB15" />
+    </block>
+    <block systemName="IB24" length="2633.12" curve="0">
+      <systemName>IB24</systemName>
+      <userName>Storage Lead</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB20">
+        <beansetting setting="4">
+          <turnout systemName="TOL3834" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOL3825" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB21">
+        <beansetting setting="4">
+          <turnout systemName="TOL3839" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOL3826" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL3825" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB16">
+        <beansetting setting="2">
+          <turnout systemName="TOL3834" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOL3825" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB25">
+        <beansetting setting="2">
+          <turnout systemName="TOL3839" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOL3826" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL3825" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB18">
+        <beansetting setting="4">
+          <turnout systemName="TOR4134" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB22" />
+    </block>
+    <block systemName="IB25" length="2731.92" curve="0">
+      <systemName>IB25</systemName>
+      <userName>Storage Track E</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB24" />
+    </block>
+    <block systemName="IB26" length="0.0" curve="0">
+      <systemName>IB26</systemName>
+      <userName>Mountain Division</userName>
+      <permissive>no</permissive>
+      <path todir="16" fromdir="32" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOL2757" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB4">
+        <beansetting setting="4">
+          <turnout systemName="TOR2751" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB4">
+        <beansetting setting="4">
+          <turnout systemName="TOR3456" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB4">
+        <beansetting setting="4">
+          <turnout systemName="TOL1458" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB6">
+        <beansetting setting="2">
+          <turnout systemName="TOR1502" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR2219" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB10">
+        <beansetting setting="4">
+          <turnout systemName="TOL554" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB2">
+        <beansetting setting="4">
+          <turnout systemName="TOR1502" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR2219" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB6">
+        <beansetting setting="2">
+          <turnout systemName="TOL1458" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB4" />
+      <path todir="32" fromdir="16" block="IB7">
+        <beansetting setting="4">
+          <turnout systemName="TOL3637" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="TOR1627" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL2938" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="TOL554" />
+        </beansetting>
+      </path>
+    </block>
+  </blocks>
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
+    <layoutblock systemName="IB1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB1</systemName>
+      <userName>Mountain Division</userName>
+    </layoutblock>
+    <layoutblock systemName="IB2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB2</systemName>
+      <userName>Inner Main</userName>
+    </layoutblock>
+    <layoutblock systemName="IB3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB3</systemName>
+      <userName>Goods Storage</userName>
+    </layoutblock>
+    <layoutblock systemName="IB4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB4</systemName>
+      <userName>Branch Line</userName>
+    </layoutblock>
+    <layoutblock systemName="IB5" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB5</systemName>
+      <userName>Goods Arrival/Departure</userName>
+    </layoutblock>
+    <layoutblock systemName="IB6" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB6</systemName>
+      <userName>Outer Main</userName>
+    </layoutblock>
+    <layoutblock systemName="IB7" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB7</systemName>
+      <userName>Coal Industry</userName>
+    </layoutblock>
+    <layoutblock systemName="IB8" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB8</systemName>
+      <userName>Roundhouse</userName>
+    </layoutblock>
+    <layoutblock systemName="IB9" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB9</systemName>
+      <userName>Programming</userName>
+    </layoutblock>
+    <layoutblock systemName="IB10" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB10</systemName>
+      <userName>East Industry 2</userName>
+    </layoutblock>
+    <layoutblock systemName="IB11" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB11</systemName>
+      <userName>East Industry</userName>
+    </layoutblock>
+    <layoutblock systemName="IB12" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB12</systemName>
+      <userName>Outer Helix (West)</userName>
+    </layoutblock>
+    <layoutblock systemName="IB13" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB13</systemName>
+      <userName>Inner Helix (West)</userName>
+    </layoutblock>
+    <layoutblock systemName="IB14" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB14</systemName>
+      <userName>Narrow Gauge</userName>
+    </layoutblock>
+    <layoutblock systemName="IB15" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB15</systemName>
+      <userName>Yard</userName>
+    </layoutblock>
+    <layoutblock systemName="IB16" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB16</systemName>
+      <userName>Storage Track C</userName>
+    </layoutblock>
+    <layoutblock systemName="IB17" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB17</systemName>
+      <userName>East Outer Storage</userName>
+    </layoutblock>
+    <layoutblock systemName="IB18" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB18</systemName>
+      <userName>Inner Storage</userName>
+    </layoutblock>
+    <layoutblock systemName="IB19" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB19</systemName>
+      <userName>Arrival/Departure Track</userName>
+    </layoutblock>
+    <layoutblock systemName="IB20" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB20</systemName>
+      <userName>Yard Lead</userName>
+    </layoutblock>
+    <layoutblock systemName="IB21" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB21</systemName>
+      <userName>Storage Track D</userName>
+    </layoutblock>
+    <layoutblock systemName="IB22" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB22</systemName>
+      <userName>Reverse Loop (East)</userName>
+    </layoutblock>
+    <layoutblock systemName="IB23" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB23</systemName>
+      <userName>Runaround</userName>
+    </layoutblock>
+    <layoutblock systemName="IB24" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB24</systemName>
+      <userName>Storage Lead</userName>
+    </layoutblock>
+    <layoutblock systemName="IB25" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>IB25</systemName>
+      <userName>Storage Track E</userName>
+    </layoutblock>
+  </layoutblocks>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Fri Jul 17 17:36:56 PDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Narrow Gauge Line" x="1" y="0" windowheight="204" windowwidth="481" panelheight="311" panelwidth="861" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="yes" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="no" mainlinetrackwidth="4" xscale="0.5" yscale="0.5" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="orange" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Narrow Gauge Line" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <layoutturnout ident="TOL2442" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="723.0" ycen="245.0" xa="719.0" ya="250.0" xb="727.0" yb="240.0" xc="725.0" yc="242.0" xd="719.0" yd="250.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2442" blockname="Narrow Gauge" connectaname="T-I-TOL2442" connectbname="T-ER-TOL2442" connectcname="T-EL-TOL2442" />
+    <layoutturnout ident="TOL2954" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="140.0" ycen="210.0" xa="134.0" ya="206.0" xb="146.0" yb="214.0" xc="144.0" yc="212.0" xd="134.0" yd="206.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2954" blockname="Narrow Gauge" connectaname="T-I-TOL2954" connectbname="T-ER-TOL2954" connectcname="T-EL-TOL2954" />
+    <layoutturnout ident="TOR2482" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="89.0" ycen="68.0" xa="89.0" ya="74.0" xb="89.0" yb="62.0" xc="90.0" yc="62.0" xd="89.0" yd="74.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2482" blockname="Narrow Gauge" connectaname="T-I-TOR2482" connectbname="T-EL-TOR2482" connectcname="T-ER-TOR2482" />
+    <layoutturnout ident="TOR2868" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="136.0" ycen="241.0" xa="142.0" ya="242.0" xb="130.0" yb="240.0" xc="130.0" yc="239.0" xd="142.0" yd="242.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2868" blockname="Narrow Gauge" connectaname="T-I-TOR2868" connectbname="T-EL-TOR2868" connectcname="T-ER-TOR2868" />
+    <layoutturnout ident="TOL2430" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="691.0" ycen="97.0" xa="696.0" ya="92.0" xb="686.0" yb="102.0" xc="689.0" yc="100.0" xd="696.0" yd="92.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2430" blockname="Narrow Gauge" connectaname="T-I-TOL2430" connectbname="T-ER-TOL2430" connectcname="T-EL-TOL2430" />
+    <layoutturnout ident="TOR2973" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="102.0" ycen="135.0" xa="105.0" ya="141.0" xb="99.0" yb="129.0" xc="100.0" yc="131.0" xd="105.0" yd="141.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2973" blockname="Narrow Gauge" connectaname="T-I-TOR2973" connectbname="T-EL-TOR2973" connectcname="T-ER-TOR2973" />
+    <layoutturnout ident="TOR2895" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="114.0" ycen="229.0" xa="119.0" ya="233.0" xb="109.0" yb="225.0" xc="111.0" yc="226.0" xd="119.0" yd="233.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2895" blockname="Narrow Gauge" connectaname="T-I-TOR2895" connectbname="T-EL-TOR2895" connectcname="T-ER-TOR2895" />
+    <layoutturnout ident="TOR2527" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="548.0" ycen="261.0" xa="554.0" ya="261.0" xb="542.0" yb="261.0" xc="542.0" yc="260.0" xd="554.0" yd="261.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2527" blockname="Narrow Gauge" connectaname="T-I-TOR2527" connectbname="T-EL-TOR2527" connectcname="T-ER-TOR2527" />
+    <layoutturnout ident="TOR2985" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="97.0" ycen="32.0" xa="97.0" ya="26.0" xb="97.0" yb="38.0" xc="96.0" yc="38.0" xd="97.0" yd="26.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2985" blockname="Narrow Gauge" connectaname="T-I-TOR2985" connectbname="T-EL-TOR2985" connectcname="T-ER-TOR2985" />
+    <layoutturnout ident="TOL2456" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="683.0" ycen="149.0" xa="681.0" ya="143.0" xb="685.0" yb="155.0" xc="686.0" yc="154.0" xd="681.0" yd="143.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2456" blockname="Narrow Gauge" connectaname="T-I-TOL2456" connectbname="T-ER-TOL2456" connectcname="T-EL-TOL2456" />
+    <layoutturnout ident="TOR2465" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="691.0" ycen="171.0" xa="689.0" ya="165.0" xb="693.0" yb="177.0" xc="692.0" yc="177.0" xd="689.0" yd="165.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOR2465" blockname="Narrow Gauge" connectaname="T-I-TOR2465" connectbname="T-EL-TOR2465" connectcname="T-ER-TOR2465" />
+    <layoutturnout ident="TOL2972" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="89.0" ycen="91.0" xa="89.0" ya="85.0" xb="89.0" yb="97.0" xc="90.0" yc="97.0" xd="89.0" yd="85.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2972" blockname="Narrow Gauge" connectaname="T-I-TOL2972" connectbname="T-ER-TOL2972" connectcname="T-EL-TOL2972" />
+    <layoutturnout ident="TOL2425" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="804.0" ycen="196.0" xa="800.0" ya="202.0" xb="808.0" yb="190.0" xc="806.0" yc="192.0" xd="800.0" yd="202.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2425" blockname="Narrow Gauge" connectaname="T-I-TOL2425" connectbname="T-ER-TOL2425" connectcname="T-EL-TOL2425" />
+    <layoutturnout ident="TOL2596" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="18.0" ycen="117.0" xa="18.0" ya="111.0" xb="18.0" yb="123.0" xc="19.0" yc="123.0" xd="18.0" yd="111.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="TOL2596" blockname="Narrow Gauge" connectaname="T-I-TOL2596" connectbname="T-ER-TOL2596" connectcname="T-EL-TOL2596" />
+    <tracksegment ident="T-I-TOL2442" blockname="Narrow Gauge" connect1name="TOL2442" type1="2" connect2name="A24" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2442" blockname="Narrow Gauge" connect1name="TOL2442" type1="3" connect2name="A3" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2442" blockname="Narrow Gauge" connect1name="TOL2442" type1="4" connect2name="A10" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2922" blockname="Narrow Gauge" connect1name="A98" type1="1" connect2name="A97" type2="1" dashed="yes" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2461-S-0" blockname="Narrow Gauge" connect1name="A30" type1="1" connect2name="A6" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="725.4550170898438" y="208.21002197265625" />
+        <controlpoint index="1" x="721.5499877929688" y="200.93499755859375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2463-S-0" blockname="Narrow Gauge" connect1name="A6" type1="1" connect2name="A33" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="711.4149780273438" y="189.6300048828125" />
+        <controlpoint index="1" x="705.8300170898438" y="184.7349853515625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TC2919" blockname="Narrow Gauge" connect1name="A117" type1="1" connect2name="A63" type2="1" dashed="yes" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2980-S-0" blockname="Narrow Gauge" connect1name="A67" type1="1" connect2name="A116" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOL2954" blockname="Narrow Gauge" connect1name="TOL2954" type1="2" connect2name="A94" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2954" blockname="Narrow Gauge" connect1name="TOL2954" type1="3" connect2name="A105" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2954" blockname="Narrow Gauge" connect1name="TOL2954" type1="4" connect2name="A75" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2921" blockname="Narrow Gauge" connect1name="A93" type1="1" connect2name="A81" type2="1" dashed="yes" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2554-S-0" blockname="Narrow Gauge" connect1name="A61" type1="1" connect2name="A88" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="89.12999725341797" y="141.8499755859375" />
+        <controlpoint index="1" x="88.6500015258789" y="136.9000244140625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T-I-TOR2482" blockname="Narrow Gauge" connect1name="TOR2482" type1="2" connect2name="A65" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2482" blockname="Narrow Gauge" connect1name="TOR2482" type1="3" connect2name="A108" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2482" blockname="Narrow Gauge" connect1name="TOR2482" type1="4" connect2name="A72" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2519" connect1name="A38" type1="1" connect2name="A46" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3100-S-0" blockname="Narrow Gauge" connect1name="A113" type1="1" connect2name="A111" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="244.31500244140625" y="239.9949951171875" />
+        <controlpoint index="1" x="247.7050018310547" y="233.864990234375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2986-S-0" blockname="Narrow Gauge" connect1name="A87" type1="1" connect2name="A78" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2773-S-0" blockname="Narrow Gauge" connect1name="A19" type1="1" connect2name="A80" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2876" blockname="Narrow Gauge" connect1name="A95" type1="1" connect2name="A60" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2454-S-0" blockname="Narrow Gauge" connect1name="A53" type1="1" connect2name="A8" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="764.469970703125" y="216.155029296875" />
+        <controlpoint index="1" x="759.39501953125" y="213.875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T-I-TOR2868" blockname="Narrow Gauge" connect1name="TOR2868" type1="2" connect2name="A89" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2868" blockname="Narrow Gauge" connect1name="TOR2868" type1="3" connect2name="A66" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2868" blockname="Narrow Gauge" connect1name="TOR2868" type1="4" connect2name="A99" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2476" blockname="Narrow Gauge" connect1name="EB123" type1="1" connect2name="A2" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2426-S-0" blockname="Narrow Gauge" connect1name="A55" type1="1" connect2name="A24" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="684.0850219726562" y="261.2550048828125" />
+        <controlpoint index="1" x="702.8499755859375" y="262.75" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F3011-S-0" blockname="Narrow Gauge" connect1name="A114" type1="1" connect2name="A120" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="130.22500610351562" y="169.95001220703125" />
+        <controlpoint index="1" x="120.69499969482422" y="159.19500732421875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2424-S-0" blockname="Narrow Gauge" connect1name="A4" type1="1" connect2name="A32" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="815.6699829101562" y="158.2349853515625" />
+        <controlpoint index="1" x="796.4299926757812" y="140.46002197265625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T-I-TOL2430" blockname="Narrow Gauge" connect1name="TOL2430" type1="2" connect2name="A41" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2430" blockname="Narrow Gauge" connect1name="TOL2430" type1="3" connect2name="A29" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2430" blockname="Narrow Gauge" connect1name="TOL2430" type1="4" connect2name="A12" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2420" connect1name="A44" type1="1" connect2name="EB124" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOR2973" blockname="Narrow Gauge" connect1name="TOR2973" type1="2" connect2name="A120" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2973" blockname="Narrow Gauge" connect1name="TOR2973" type1="3" connect2name="A96" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2973" blockname="Narrow Gauge" connect1name="TOR2973" type1="4" connect2name="A104" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2412" connect1name="A43" type1="1" connect2name="EB125" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2467" blockname="Narrow Gauge" connect1name="A5" type1="1" connect2name="A2" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2434-S-0" blockname="Narrow Gauge" connect1name="A80" type1="1" connect2name="A55" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC3676" blockname="Narrow Gauge" connect1name="A122" type1="1" connect2name="EB126" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2518" connect1name="A17" type1="1" connect2name="EB127" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2866-S-0" blockname="Narrow Gauge" connect1name="A70" type1="1" connect2name="A89" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="187.86000061035156" y="247.18499755859375" />
+        <controlpoint index="1" x="167.09500122070312" y="246.96002197265625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TS2419" connect1name="A50" type1="1" connect2name="A44" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2450" blockname="Narrow Gauge" connect1name="A51" type1="1" connect2name="A53" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOR2895" blockname="Narrow Gauge" connect1name="TOR2895" type1="2" connect2name="A99" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2895" blockname="Narrow Gauge" connect1name="TOR2895" type1="3" connect2name="A85" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2895" blockname="Narrow Gauge" connect1name="TOR2895" type1="4" connect2name="A115" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2413" connect1name="A7" type1="1" connect2name="A58" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-0" connect1name="TUR2406" type1="50" connect2name="EB128" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-1" connect1name="TUR2406" type1="51" connect2name="EB129" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-2" connect1name="TUR2406" type1="52" connect2name="EB130" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-3" connect1name="TUR2406" type1="53" connect2name="EB131" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-4" connect1name="TUR2406" type1="54" connect2name="EB132" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-5" connect1name="TUR2406" type1="55" connect2name="A31" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-6" connect1name="TUR2406" type1="56" connect2name="EB133" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-7" connect1name="TUR2406" type1="57" connect2name="A27" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-8" connect1name="TUR2406" type1="58" connect2name="A11" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-9" connect1name="TUR2406" type1="59" connect2name="A38" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-10" connect1name="TUR2406" type1="60" connect2name="A39" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-11" connect1name="TUR2406" type1="61" connect2name="EB134" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-12" connect1name="TUR2406" type1="62" connect2name="EB135" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-13" connect1name="TUR2406" type1="63" connect2name="EB136" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-14" connect1name="TUR2406" type1="64" connect2name="EB137" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-15" connect1name="TUR2406" type1="65" connect2name="EB138" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-16" connect1name="TUR2406" type1="66" connect2name="A35" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-17" connect1name="TUR2406" type1="67" connect2name="EB139" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-18" connect1name="TUR2406" type1="68" connect2name="A52" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-19" connect1name="TUR2406" type1="69" connect2name="A50" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-20" connect1name="TUR2406" type1="70" connect2name="A7" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-21" connect1name="TUR2406" type1="71" connect2name="EB140" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-22" connect1name="TUR2406" type1="72" connect2name="EB141" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TUR2406-S-23" connect1name="TUR2406" type1="73" connect2name="EB142" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2479-S-0" blockname="Narrow Gauge" connect1name="A101" type1="1" connect2name="A1" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="54.31999969482422" y="171.83502197265625" />
+        <controlpoint index="1" x="26.009998321533203" y="150.54498291015625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2772-S-0" blockname="Narrow Gauge" connect1name="A54" type1="1" connect2name="A19" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2888-S-0" blockname="Narrow Gauge" connect1name="A94" type1="1" connect2name="A61" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="112.08499908447266" y="184.844970703125" />
+        <controlpoint index="1" x="93.46499633789062" y="162.96502685546875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TC2920" blockname="Narrow Gauge" connect1name="A92" type1="1" connect2name="A93" type2="1" dashed="yes" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2382-S-0" blockname="Narrow Gauge" connect1name="A111" type1="1" connect2name="A119" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="CTS2600-1" blockname="Narrow Gauge" connect1name="CTS2600-IE2" type1="1" connect2name="A79" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="CTS2600-2" blockname="Narrow Gauge" connect1name="CTS2600-IE1" type1="1" connect2name="A56" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="CTS2600-IS" connect1name="CTS2600-IE1" type1="1" connect2name="CTS2600-IE2" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2960-S-0" blockname="Narrow Gauge" connect1name="A78" type1="1" connect2name="EB143" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2429-S-0" blockname="Narrow Gauge" connect1name="A25" type1="1" connect2name="A41" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="769.9450073242188" y="70.510009765625" />
+        <controlpoint index="1" x="733.094970703125" y="64.54498291015625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2802-S-0" blockname="Narrow Gauge" connect1name="A20" type1="1" connect2name="A9" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="398.67999267578125" y="238.79498291015625" />
+        <controlpoint index="1" x="382.4750061035156" y="229.57000732421875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TS2457" blockname="Narrow Gauge" connect1name="EB144" type1="1" connect2name="A59" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2407" connect1name="A11" type1="1" connect2name="A26" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOR2527" blockname="Narrow Gauge" connect1name="TOR2527" type1="2" connect2name="A54" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2527" blockname="Narrow Gauge" connect1name="TOR2527" type1="3" connect2name="A69" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2527" blockname="Narrow Gauge" connect1name="TOR2527" type1="4" connect2name="A34" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2410" connect1name="A26" type1="1" connect2name="EB145" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2836" connect1name="A52" type1="1" connect2name="A47" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2423" blockname="Narrow Gauge" connect1name="A35" type1="1" connect2name="A32" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2431" blockname="Narrow Gauge" connect1name="A48" type1="1" connect2name="A12" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2703-S-0" blockname="Narrow Gauge" connect1name="A59" type1="1" connect2name="A48" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="693.1749877929688" y="146.91998291015625" />
+        <controlpoint index="1" x="688.5050048828125" y="138.47998046875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TC2446" blockname="Narrow Gauge" connect1name="A3" type1="1" connect2name="A8" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2601-S-0" blockname="Narrow Gauge" connect1name="A15" type1="1" connect2name="A18" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="85.59500122070312" y="218.260009765625" />
+        <controlpoint index="1" x="29.71500015258789" y="159.7449951171875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F3030-S-0" blockname="Narrow Gauge" connect1name="A90" type1="1" connect2name="A102" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2904-S-0" blockname="Narrow Gauge" connect1name="A63" type1="1" connect2name="A73" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2971-S-0" blockname="Narrow Gauge" connect1name="A96" type1="1" connect2name="A106" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="93.73500061035156" y="117.65997314453125" />
+        <controlpoint index="1" x="92.48999786376953" y="108.22998046875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TC2441" blockname="Narrow Gauge" connect1name="A40" type1="1" connect2name="A29" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2485" blockname="Narrow Gauge" connect1name="A22" type1="1" connect2name="A108" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3563-S-0" blockname="Narrow Gauge" connect1name="A9" type1="1" connect2name="A14" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="371.29998779296875" y="219.6099853515625" />
+        <controlpoint index="1" x="346.4800109863281" y="200.82000732421875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TS2961" blockname="Narrow Gauge" connect1name="A83" type1="1" connect2name="A64" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2700" connect1name="A46" type1="1" connect2name="EB146" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2428-S-0" blockname="Narrow Gauge" connect1name="A49" type1="1" connect2name="A25" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="820.280029296875" y="151.52001953125" />
+        <controlpoint index="1" x="823.7750244140625" y="117.05499267578125" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2540-S-0" blockname="Narrow Gauge" connect1name="A36" type1="1" connect2name="A20" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="447.739990234375" y="252.35498046875" />
+        <controlpoint index="1" x="424.2200012207031" y="252.41497802734375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2927-S-0" blockname="Narrow Gauge" connect1name="A103" type1="1" connect2name="A98" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2443" blockname="Narrow Gauge" connect1name="A30" type1="1" connect2name="A10" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2562-S-0" blockname="Narrow Gauge" connect1name="A14" type1="1" connect2name="A77" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="330.385009765625" y="189.82000732421875" />
+        <controlpoint index="1" x="320.2449951171875" y="182.56500244140625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2952-S-0" blockname="Narrow Gauge" connect1name="A115" type1="1" connect2name="A100" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="104.33499908447266" y="219.030029296875" />
+        <controlpoint index="1" x="100.08999633789062" y="210.5999755859375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2933-S-0" blockname="Narrow Gauge" connect1name="A85" type1="1" connect2name="A62" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="99.42500305175781" y="216.92999267578125" />
+        <controlpoint index="1" x="93.78500366210938" y="210.32000732421875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TS2472" blockname="Narrow Gauge" connect1name="A122" type1="1" connect2name="A121" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="CTS2459-1" blockname="Narrow Gauge" connect1name="CTS2459-IE1" type1="1" connect2name="A33" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="CTS2459-IS" connect1name="CTS2459-IE1" type1="1" connect2name="CTS2459-IE2" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="CTS2459-3" blockname="Narrow Gauge" connect1name="CTS2459-IE2" type1="1" connect2name="A13" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3029-S-0" blockname="Narrow Gauge" connect1name="A104" type1="1" connect2name="A90" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="96.46499633789062" y="117.69000244140625" />
+        <controlpoint index="1" x="96.91999816894531" y="102.010009765625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T-I-TOR2985" blockname="Narrow Gauge" connect1name="TOR2985" type1="2" connect2name="A87" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2985" blockname="Narrow Gauge" connect1name="TOR2985" type1="3" connect2name="A102" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2985" blockname="Narrow Gauge" connect1name="TOR2985" type1="4" connect2name="A82" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2871" blockname="Narrow Gauge" connect1name="A112" type1="1" connect2name="A76" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3004-S-0" blockname="Narrow Gauge" connect1name="A21" type1="1" connect2name="A23" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2517" connect1name="A39" type1="1" connect2name="A17" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2934-S-0" blockname="Narrow Gauge" connect1name="A62" type1="1" connect2name="A101" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2417" connect1name="A31" type1="1" connect2name="A42" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOL2456" blockname="Narrow Gauge" connect1name="TOL2456" type1="2" connect2name="A40" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2456" blockname="Narrow Gauge" connect1name="TOL2456" type1="3" connect2name="A57" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2456" blockname="Narrow Gauge" connect1name="TOL2456" type1="4" connect2name="A13" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2870" blockname="Narrow Gauge" connect1name="A76" type1="1" connect2name="A68" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2416" connect1name="A58" type1="1" connect2name="EB147" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2563" blockname="Narrow Gauge" connect1name="A77" type1="1" connect2name="A83" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3093-S-0" blockname="Narrow Gauge" connect1name="A16" type1="1" connect2name="A74" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="333.67999267578125" y="227.385009765625" />
+        <controlpoint index="1" x="352.2349853515625" y="231.96002197265625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TS2964" blockname="Narrow Gauge" connect1name="A64" type1="1" connect2name="A28" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2968-S-0" blockname="Narrow Gauge" connect1name="A88" type1="1" connect2name="A86" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2837" connect1name="A47" type1="1" connect2name="EB148" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS2418" connect1name="A42" type1="1" connect2name="EB149" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2602-S-0" blockname="Narrow Gauge" connect1name="A18" type1="1" connect2name="A37" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="20.350000381469727" y="150.3800048828125" />
+        <controlpoint index="1" x="18.334999084472656" y="135.07000732421875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TC2925" blockname="Narrow Gauge" connect1name="A107" type1="1" connect2name="A103" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2539-S-0" blockname="Narrow Gauge" connect1name="A34" type1="1" connect2name="A36" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="516.7349853515625" y="253.93499755859375" />
+        <controlpoint index="1" x="494.0050048828125" y="253.0250244140625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F3151-S-0" blockname="Narrow Gauge" connect1name="A119" type1="1" connect2name="A16" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="297.79998779296875" y="233.71502685546875" />
+        <controlpoint index="1" x="306.5899963378906" y="231.6500244140625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2917-S-0" blockname="Narrow Gauge" connect1name="A73" type1="1" connect2name="EB150" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2984-S-0" blockname="Narrow Gauge" connect1name="A23" type1="1" connect2name="A67" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="228.58999633789062" y="181.364990234375" />
+        <controlpoint index="1" x="211.89500427246094" y="180.41497802734375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F3003-S-0" blockname="Narrow Gauge" connect1name="A28" type1="1" connect2name="A21" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOR2465" blockname="Narrow Gauge" connect1name="TOR2465" type1="2" connect2name="A57" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOR2465" blockname="Narrow Gauge" connect1name="TOR2465" type1="3" connect2name="A121" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOR2465" blockname="Narrow Gauge" connect1name="TOR2465" type1="4" connect2name="A5" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2597-S-0" blockname="Narrow Gauge" connect1name="A66" type1="1" connect2name="A15" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="117.11000061035156" y="238.14501953125" />
+        <controlpoint index="1" x="103.13999938964844" y="232.44000244140625" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F3010-S-0" blockname="Narrow Gauge" connect1name="A116" type1="1" connect2name="A114" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="170.33999633789062" y="179.510009765625" />
+        <controlpoint index="1" x="161.38999938964844" y="179.3699951171875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TC2487" blockname="Narrow Gauge" connect1name="A71" type1="1" connect2name="A45" type2="1" dashed="yes" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2914-S-0" blockname="Narrow Gauge" connect1name="A79" type1="1" connect2name="A71" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="18.334999084472656" y="57.029998779296875" />
+        <controlpoint index="1" x="23.809999465942383" y="46.7550048828125" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2894-S-0" blockname="Narrow Gauge" connect1name="A84" type1="1" connect2name="A60" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="227.14999389648438" y="172.95001220703125" />
+        <controlpoint index="1" x="208.5449981689453" y="179.65997314453125" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T-I-TOL2972" blockname="Narrow Gauge" connect1name="TOL2972" type1="2" connect2name="A65" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2972" blockname="Narrow Gauge" connect1name="TOL2972" type1="3" connect2name="A86" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2972" blockname="Narrow Gauge" connect1name="TOL2972" type1="4" connect2name="A106" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2872" blockname="Narrow Gauge" connect1name="A84" type1="1" connect2name="A112" type2="1" dashed="no" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TC2486" blockname="Narrow Gauge" connect1name="A45" type1="1" connect2name="A22" type2="1" dashed="yes" mainline="no" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3096-S-0" blockname="Narrow Gauge" connect1name="A74" type1="1" connect2name="A110" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-I-TOL2425" blockname="Narrow Gauge" connect1name="TOL2425" type1="2" connect2name="A51" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2425" blockname="Narrow Gauge" connect1name="TOL2425" type1="3" connect2name="A49" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2425" blockname="Narrow Gauge" connect1name="TOL2425" type1="4" connect2name="A4" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="SL-A-SL2869" blockname="Narrow Gauge" connect1name="A113" type1="1" connect2name="SL2869" type2="21" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="SL-B-SL2869" blockname="Narrow Gauge" connect1name="A68" type1="1" connect2name="SL2869" type2="22" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="SL-C-SL2869" blockname="Narrow Gauge" connect1name="A91" type1="1" connect2name="SL2869" type2="23" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="SL-D-SL2869" blockname="Narrow Gauge" connect1name="A70" type1="1" connect2name="SL2869" type2="24" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2953-S-0" blockname="Narrow Gauge" connect1name="A100" type1="1" connect2name="A107" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="85.50499725341797" y="193.864990234375" />
+        <controlpoint index="1" x="73.75499725341797" y="184.5" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2962-S-0" blockname="Narrow Gauge" connect1name="A72" type1="1" connect2name="A82" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F3097-S-0" blockname="Narrow Gauge" connect1name="A110" type1="1" connect2name="A118" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="377.1549987792969" y="241.3599853515625" />
+        <controlpoint index="1" x="385.9200134277344" y="246.08001708984375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2879-S-0" blockname="Narrow Gauge" connect1name="A91" type1="1" connect2name="A105" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="185.2550048828125" y="239.9949951171875" />
+        <controlpoint index="1" x="171.44000244140625" y="222.32000732421875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="TS2411" connect1name="A27" type1="1" connect2name="A43" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2932-S-0" blockname="Narrow Gauge" connect1name="A92" type1="1" connect2name="A117" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="67.67500305175781" y="67.28497314453125" />
+        <controlpoint index="1" x="55.66999816894531" y="57.04998779296875" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F3095-S-0" blockname="Narrow Gauge" connect1name="A118" type1="1" connect2name="A109" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="403.68499755859375" y="255.05499267578125" />
+        <controlpoint index="1" x="412.2950134277344" y="258.9749755859375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2525-S-0" blockname="Narrow Gauge" connect1name="A109" type1="1" connect2name="A69" type2="1" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="452.4949951171875" y="262.739990234375" />
+        <controlpoint index="1" x="500.55499267578125" y="261.20001220703125" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T-I-TOL2596" blockname="Narrow Gauge" connect1name="TOL2596" type1="2" connect2name="A56" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-ER-TOL2596" blockname="Narrow Gauge" connect1name="TOL2596" type1="3" connect2name="A37" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T-EL-TOL2596" blockname="Narrow Gauge" connect1name="TOL2596" type1="4" connect2name="A1" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="F2892-S-0" blockname="Narrow Gauge" connect1name="A95" type1="1" connect2name="A75" type2="1" dashed="yes" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="184.22500610351562" y="199.7349853515625" />
+        <controlpoint index="1" x="172.41000366210938" y="219.83001708984375" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="F2910-S-0" blockname="Narrow Gauge" connect1name="A97" type1="1" connect2name="A81" type2="1" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="CTS2600-IE2" type="1" x="18.0" y="94.0" connect1name="CTS2600-1" connect2name="CTS2600-IS" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="CTS2600-IE1" type="1" x="18.0" y="94.0" connect1name="CTS2600-2" connect2name="CTS2600-IS" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="CTS2459-IE1" type="1" x="696.0" y="169.0" connect1name="CTS2459-1" connect2name="CTS2459-IS" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="CTS2459-IE2" type="1" x="696.0" y="169.0" connect1name="CTS2459-3" connect2name="CTS2459-IS" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB150" type="2" x="45.0" y="10.0" connect1name="F2917-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB144" type="2" x="717.0" y="171.0" connect1name="TS2457" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB146" type="2" x="720.0" y="143.0" connect1name="TS2700" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB147" type="2" x="785.0" y="92.0" connect1name="TS2416" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB149" type="2" x="709.0" y="102.0" connect1name="TS2418" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB145" type="2" x="713.0" y="134.0" connect1name="TS2410" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB148" type="2" x="791.0" y="113.0" connect1name="TS2837" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A89" type="1" x="147.0" y="243.0" connect1name="F2866-S-0" connect2name="T-I-TOR2868" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A83" type="1" x="285.0" y="183.0" connect1name="TS2961" connect2name="TS2563" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A96" type="1" x="95.0" y="124.0" connect1name="F2971-S-0" connect2name="T-EL-TOR2973" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A97" type="1" x="65.0" y="124.0" connect1name="TC2922" connect2name="F2910-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A100" type="1" x="95.0" y="205.0" connect1name="F2952-S-0" connect2name="F2953-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A84" type="1" x="240.0" y="181.0" connect1name="F2894-S-0" connect2name="TC2872" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A91" type="1" x="207.0" y="240.0" connect1name="F2879-S-0" connect2name="SL-C-SL2869" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A93" type="1" x="82.0" y="95.0" connect1name="TC2921" connect2name="TC2920" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A87" type="1" x="97.0" y="21.0" connect1name="T-I-TOR2985" connect2name="F2986-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A92" type="1" x="73.0" y="73.0" connect1name="F2932-S-0" connect2name="TC2920" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A94" type="1" x="129.0" y="202.0" connect1name="T-I-TOL2954" connect2name="F2888-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A101" type="1" x="72.0" y="189.0" connect1name="F2934-S-0" connect2name="F2479-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A90" type="1" x="97.0" y="93.0" connect1name="F3029-S-0" connect2name="F3030-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A104" type="1" x="99.0" y="128.0" connect1name="F3029-S-0" connect2name="T-ER-TOR2973" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A99" type="1" x="125.0" y="237.0" connect1name="T-I-TOR2895" connect2name="T-ER-TOR2868" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A105" type="1" x="152.0" y="217.0" connect1name="F2879-S-0" connect2name="T-ER-TOL2954" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A106" type="1" x="91.0" y="103.0" connect1name="F2971-S-0" connect2name="T-EL-TOL2972" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A107" type="1" x="63.0" y="174.0" connect1name="F2953-S-0" connect2name="TC2925" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A108" type="1" x="89.0" y="56.0" connect1name="T-EL-TOR2482" connect2name="TC2485" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A109" type="1" x="422.0" y="260.0" connect1name="F3095-S-0" connect2name="F2525-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A110" type="1" x="366.0" y="237.0" connect1name="F3096-S-0" connect2name="F3097-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A111" type="1" x="261.0" y="234.0" connect1name="F3100-S-0" connect2name="F2382-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A88" type="1" x="89.0" y="131.0" connect1name="F2968-S-0" connect2name="F2554-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A95" type="1" x="188.0" y="194.0" connect1name="F2892-S-0" connect2name="TC2876" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A102" type="1" x="97.0" y="44.0" connect1name="F3030-S-0" connect2name="T-EL-TOR2985" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A98" type="1" x="55.0" y="145.0" connect1name="F2927-S-0" connect2name="TC2922" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A86" type="1" x="89.0" y="103.0" connect1name="F2968-S-0" connect2name="T-ER-TOL2972" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A85" type="1" x="103.0" y="221.0" connect1name="F2933-S-0" connect2name="T-EL-TOR2895" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A103" type="1" x="55.0" y="151.0" connect1name="TC2925" connect2name="F2927-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A122" type="1" x="703.0" y="204.0" connect1name="TC3676" connect2name="TS2472" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB124" type="2" x="789.0" y="102.0" connect1name="TS2420" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB125" type="2" x="709.0" y="124.0" connect1name="TS2412" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A120" type="1" x="109.0" y="146.0" connect1name="F3011-S-0" connect2name="T-I-TOR2973" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB123" type="2" x="676.0" y="223.0" connect1name="TS2476" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A115" type="1" x="108.0" y="224.0" connect1name="F2952-S-0" connect2name="T-ER-TOR2895" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A116" type="1" x="179.0" y="180.0" connect1name="F3010-S-0" connect2name="F2980-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB127" type="2" x="728.0" y="149.0" connect1name="TS2518" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB132" type="2" x="737.0" y="106.0" connect1name="TUR2406-S-4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB133" type="2" x="735.0" y="113.0" connect1name="TUR2406-S-6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB126" type="2" x="701.0" y="236.0" connect1name="TC3676" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB134" type="2" x="746.0" y="127.0" connect1name="TUR2406-S-11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB135" type="2" x="749.0" y="127.0" connect1name="TUR2406-S-12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB137" type="2" x="756.0" y="125.0" connect1name="TUR2406-S-14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A117" type="1" x="54.0" y="56.0" connect1name="F2932-S-0" connect2name="TC2919" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A118" type="1" x="394.0" y="250.0" connect1name="F3097-S-0" connect2name="F3095-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB129" type="2" x="746.0" y="100.0" connect1name="TUR2406-S-1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB136" type="2" x="753.0" y="127.0" connect1name="TUR2406-S-13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB139" type="2" x="763.0" y="117.0" connect1name="TUR2406-S-17" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB140" type="2" x="759.0" y="103.0" connect1name="TUR2406-S-21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB141" type="2" x="756.0" y="101.0" connect1name="TUR2406-S-22" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB142" type="2" x="753.0" y="100.0" connect1name="TUR2406-S-23" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A112" type="1" x="254.0" y="200.0" connect1name="TC2872" connect2name="TC2871" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB138" type="2" x="759.0" y="123.0" connect1name="TUR2406-S-15" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB143" type="2" x="97.0" y="10.0" connect1name="F2960-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB128" type="2" x="749.0" y="99.0" connect1name="TUR2406-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A121" type="1" x="695.0" y="182.0" connect1name="TS2472" connect2name="T-EL-TOR2465" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A113" type="1" x="231.0" y="240.0" connect1name="F3100-S-0" connect2name="SL-A-SL2869" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB130" type="2" x="742.0" y="101.0" connect1name="TUR2406-S-2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB131" type="2" x="739.0" y="103.0" connect1name="TUR2406-S-3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A114" type="1" x="148.0" y="175.0" connect1name="F3010-S-0" connect2name="F3011-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A119" type="1" x="283.0" y="234.0" connect1name="F3151-S-0" connect2name="F2382-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="1" x="727.0" y="238.0" connect1name="TC2443" connect2name="T-EL-TOL2442" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="1" x="686.0" y="103.0" connect1name="TC2431" connect2name="T-EL-TOL2430" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A14" type="1" x="344.0" y="199.0" connect1name="F3563-S-0" connect2name="F2562-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A16" type="1" x="319.0" y="230.0" connect1name="F3093-S-0" connect2name="F3151-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="1" x="21.0" y="129.0" connect1name="F2479-S-0" connect2name="T-EL-TOL2596" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="1" x="807.0" y="189.0" connect1name="F2424-S-0" connect2name="T-EL-TOL2425" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A7" type="1" x="761.0" y="106.0" connect1name="TS2413" connect2name="TUR2406-S-20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="1" x="683.0" y="213.0" connect1name="TS2476" connect2name="TC2467" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="1" x="732.0" y="235.0" connect1name="TC2446" connect2name="T-ER-TOL2442" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="1" x="715.0" y="193.0" connect1name="F2463-S-0" connect2name="F2461-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="1" x="749.0" y="218.0" connect1name="F2454-S-0" connect2name="TC2446" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A15" type="1" x="95.0" y="226.0" connect1name="F2601-S-0" connect2name="F2597-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="1" x="737.0" y="120.0" connect1name="TS2407" connect2name="TUR2406-S-8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A17" type="1" x="740.0" y="129.0" connect1name="TS2518" connect2name="TS2517" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A18" type="1" x="26.0" y="156.0" connect1name="F2601-S-0" connect2name="F2602-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A13" type="1" x="690.0" y="159.0" connect1name="CTS2459-3" connect2name="T-EL-TOL2456" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="1" x="692.0" y="183.0" connect1name="TC2467" connect2name="T-ER-TOR2465" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="1" x="374.0" y="222.0" connect1name="F3563-S-0" connect2name="F2802-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A20" type="1" x="404.0" y="241.0" connect1name="F2802-S-0" connect2name="F2540-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A21" type="1" x="251.0" y="182.0" connect1name="F3003-S-0" connect2name="F3004-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A22" type="1" x="80.0" y="35.0" connect1name="TC2486" connect2name="TC2485" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A19" type="1" x="610.0" y="261.0" connect1name="F2772-S-0" connect2name="F2773-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A31" type="1" x="736.0" y="110.0" connect1name="TS2417" connect2name="TUR2406-S-5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A28" type="1" x="262.0" y="183.0" connect1name="F3003-S-0" connect2name="TS2964" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A23" type="1" x="235.0" y="182.0" connect1name="F3004-S-0" connect2name="F2984-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A24" type="1" x="714.0" y="254.0" connect1name="F2426-S-0" connect2name="T-I-TOL2442" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A34" type="1" x="537.0" y="259.0" connect1name="F2539-S-0" connect2name="T-ER-TOR2527" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A35" type="1" x="761.0" y="120.0" connect1name="TUR2406-S-16" connect2name="TS2423" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A26" type="1" x="734.0" y="122.0" connect1name="TS2410" connect2name="TS2407" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A27" type="1" x="736.0" y="117.0" connect1name="TS2411" connect2name="TUR2406-S-7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A29" type="1" x="681.0" y="106.0" connect1name="TC2441" connect2name="T-ER-TOL2430" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A30" type="1" x="728.0" y="214.0" connect1name="F2461-S-0" connect2name="TC2443" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A32" type="1" x="765.0" y="122.0" connect1name="F2424-S-0" connect2name="TS2423" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A25" type="1" x="795.0" y="92.0" connect1name="F2429-S-0" connect2name="F2428-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A33" type="1" x="702.0" y="179.0" connect1name="F2463-S-0" connect2name="CTS2459-1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A36" type="1" x="472.0" y="253.0" connect1name="F2539-S-0" connect2name="F2540-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A41" type="1" x="700.0" y="87.0" connect1name="T-I-TOL2430" connect2name="F2429-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A56" type="1" x="18.0" y="105.0" connect1name="CTS2600-2" connect2name="T-I-TOL2596" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A50" type="1" x="763.0" y="110.0" connect1name="TS2419" connect2name="TUR2406-S-19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A37" type="1" x="18.0" y="129.0" connect1name="F2602-S-0" connect2name="T-ER-TOL2596" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A57" type="1" x="687.0" y="160.0" connect1name="T-I-TOR2465" connect2name="T-ER-TOL2456" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A47" type="1" x="767.0" y="113.0" connect1name="TS2837" connect2name="TS2836" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A51" type="1" x="796.0" y="207.0" connect1name="TC2450" connect2name="T-I-TOL2425" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A53" type="1" x="774.0" y="216.0" connect1name="F2454-S-0" connect2name="TC2450" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A52" type="1" x="763.0" y="113.0" connect1name="TS2836" connect2name="TUR2406-S-18" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A58" type="1" x="765.0" y="104.0" connect1name="TS2416" connect2name="TS2413" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A38" type="1" x="739.0" y="123.0" connect1name="TS2519" connect2name="TUR2406-S-9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A54" type="1" x="560.0" y="261.0" connect1name="F2772-S-0" connect2name="T-I-TOR2527" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A42" type="1" x="732.0" y="109.0" connect1name="TS2418" connect2name="TS2417" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A48" type="1" x="684.0" y="127.0" connect1name="F2703-S-0" connect2name="TC2431" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A55" type="1" x="672.0" y="261.0" connect1name="F2434-S-0" connect2name="F2426-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A44" type="1" x="767.0" y="109.0" connect1name="TS2420" connect2name="TS2419" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A46" type="1" x="736.0" y="126.0" connect1name="TS2700" connect2name="TS2519" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A40" type="1" x="680.0" y="138.0" connect1name="T-I-TOL2456" connect2name="TC2441" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A43" type="1" x="732.0" y="118.0" connect1name="TS2412" connect2name="TS2411" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A45" type="1" x="58.0" y="26.0" connect1name="TC2487" connect2name="TC2486" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A49" type="1" x="811.0" y="185.0" connect1name="F2428-S-0" connect2name="T-ER-TOL2425" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A39" type="1" x="742.0" y="125.0" connect1name="TS2517" connect2name="TUR2406-S-10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A66" type="1" x="124.0" y="239.0" connect1name="F2597-S-0" connect2name="T-EL-TOR2868" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A71" type="1" x="36.0" y="35.0" connect1name="F2914-S-0" connect2name="TC2487" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A61" type="1" x="90.0" y="146.0" connect1name="F2888-S-0" connect2name="F2554-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A62" type="1" x="90.0" y="207.0" connect1name="F2933-S-0" connect2name="F2934-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A73" type="1" x="45.0" y="17.0" connect1name="F2917-S-0" connect2name="F2904-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A60" type="1" x="207.0" y="180.0" connect1name="F2894-S-0" connect2name="TC2876" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A65" type="1" x="89.0" y="80.0" connect1name="T-I-TOL2972" connect2name="T-I-TOR2482" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A72" type="1" x="91.0" y="56.0" connect1name="F2962-S-0" connect2name="T-ER-TOR2482" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A64" type="1" x="274.0" y="183.0" connect1name="TS2964" connect2name="TS2961" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A69" type="1" x="537.0" y="261.0" connect1name="F2525-S-0" connect2name="T-EL-TOR2527" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A63" type="1" x="45.0" y="34.0" connect1name="TC2919" connect2name="F2904-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A80" type="1" x="633.0" y="261.0" connect1name="F2773-S-0" connect2name="F2434-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A78" type="1" x="97.0" y="17.0" connect1name="F2986-S-0" connect2name="F2960-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A81" type="1" x="72.0" y="117.0" connect1name="F2910-S-0" connect2name="TC2921" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A76" type="1" x="250.0" y="224.0" connect1name="TC2871" connect2name="TC2870" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A82" type="1" x="94.0" y="44.0" connect1name="F2962-S-0" connect2name="T-ER-TOR2985" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A67" type="1" x="204.0" y="180.0" connect1name="F2984-S-0" connect2name="F2980-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A74" type="1" x="359.0" y="234.0" connect1name="F3096-S-0" connect2name="F3093-S-0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A68" type="1" x="231.0" y="237.0" connect1name="SL-B-SL2869" connect2name="TC2870" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A70" type="1" x="207.0" y="243.0" connect1name="F2866-S-0" connect2name="SL-D-SL2869" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A59" type="1" x="701.0" y="154.0" connect1name="F2703-S-0" connect2name="TS2457" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A75" type="1" x="148.0" y="213.0" connect1name="F2892-S-0" connect2name="T-EL-TOL2954" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A77" type="1" x="297.0" y="183.0" connect1name="F2562-S-0" connect2name="TS2563" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A79" type="1" x="18.0" y="82.0" connect1name="F2914-S-0" connect2name="CTS2600-1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <layoutSlip ident="SL2869" slipType="8" hidden="no" disabled="no" disableWhenOccupied="no" xcen="219.0" ycen="240.0" xa="225.0" ya="240.0" xb="225.0" yb="239.0" blockname="Narrow Gauge" connectaname="SL-A-SL2869" connectbname="SL-B-SL2869" connectcname="SL-C-SL2869" connectdname="SL-D-SL2869" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutSlipXml">
+      <states>
+        <A-C>
+          <turnout>2</turnout>
+          <turnoutB>2</turnoutB>
+        </A-C>
+        <A-D>
+          <turnout>2</turnout>
+          <turnoutB>4</turnoutB>
+        </A-D>
+        <B-D>
+          <turnout>4</turnout>
+          <turnoutB>4</turnoutB>
+        </B-D>
+        <B-C>
+          <turnout>4</turnout>
+          <turnoutB>2</turnoutB>
+        </B-C>
+      </states>
+    </layoutSlip>
+    <layoutturntable ident="TUR2406" radius="21.586978912353516" xcen="749.0" ycen="113.0" turnoutControlled="no" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurntableXml">
+      <raytrack angle="-360.0" connectname="TUR2406-S-0" index="0" />
+      <raytrack angle="345.0" connectname="TUR2406-S-1" index="1" />
+      <raytrack angle="330.0" connectname="TUR2406-S-2" index="2" />
+      <raytrack angle="315.0" connectname="TUR2406-S-3" index="3" />
+      <raytrack angle="300.0" connectname="TUR2406-S-4" index="4" />
+      <raytrack angle="285.0" connectname="TUR2406-S-5" index="5" />
+      <raytrack angle="270.0" connectname="TUR2406-S-6" index="6" />
+      <raytrack angle="255.0" connectname="TUR2406-S-7" index="7" />
+      <raytrack angle="240.0" connectname="TUR2406-S-8" index="8" />
+      <raytrack angle="225.0" connectname="TUR2406-S-9" index="9" />
+      <raytrack angle="210.0" connectname="TUR2406-S-10" index="10" />
+      <raytrack angle="195.0" connectname="TUR2406-S-11" index="11" />
+      <raytrack angle="180.0" connectname="TUR2406-S-12" index="12" />
+      <raytrack angle="165.0" connectname="TUR2406-S-13" index="13" />
+      <raytrack angle="150.0" connectname="TUR2406-S-14" index="14" />
+      <raytrack angle="135.0" connectname="TUR2406-S-15" index="15" />
+      <raytrack angle="120.0" connectname="TUR2406-S-16" index="16" />
+      <raytrack angle="105.0" connectname="TUR2406-S-17" index="17" />
+      <raytrack angle="90.0" connectname="TUR2406-S-18" index="18" />
+      <raytrack angle="75.0" connectname="TUR2406-S-19" index="19" />
+      <raytrack angle="60.0" connectname="TUR2406-S-20" index="20" />
+      <raytrack angle="45.0" connectname="TUR2406-S-21" index="21" />
+      <raytrack angle="30.0" connectname="TUR2406-S-22" index="22" />
+      <raytrack angle="15.0" connectname="TUR2406-S-23" index="23" />
+    </layoutturntable>
+  </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Fri Jul 17 16:53:11 PDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load with errors</type>
+      <date>Fri Jul 17 18:34:03 PDT 2020</date>
+      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Fri Jul 17 18:54:32 PDT 2020</date>
+      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+    </operation>
+    <operation>
+      <type>Load with errors</type>
+      <date>Fri Jul 17 18:54:48 PDT 2020</date>
+      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Fri Jul 17 18:55:04 PDT 2020</date>
+      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Fri Jul 17 19:14:21 PDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Fri Jul 17 19:14:21 PDT 2020-->
+</layout-config>

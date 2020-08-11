@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 13 07:55:02 BST 2020-->
+  <roads>
+    <road name="AA" />
+    <road name="ACL" />
+    <road name="ADCX" />
+    <road name="ADMX" />
+    <road name="AESX" />
+    <road name="ALTON" />
+    <road name="ATM" />
+    <road name="ATR" />
+    <road name="ATSF" />
+    <road name="ATW" />
+    <road name="B&amp;O" />
+    <road name="BAR" />
+    <road name="BCK" />
+    <road name="BM" />
+    <road name="BN" />
+    <road name="BR" />
+    <road name="BR&amp;S" />
+    <road name="BREX" />
+    <road name="BWCX" />
+    <road name="C&amp;EI" />
+    <road name="C&amp;IM" />
+    <road name="C&amp;O" />
+    <road name="CACX" />
+    <road name="CB&amp;Q" />
+    <road name="CCBX" />
+    <road name="CDLX" />
+    <road name="CG" />
+    <road name="CG&amp;W" />
+    <road name="CM" />
+    <road name="CMSF" />
+    <road name="CMWX" />
+    <road name="CN" />
+    <road name="CNJ" />
+    <road name="CNW" />
+    <road name="CONX" />
+    <road name="COPR" />
+    <road name="CP" />
+    <road name="CRR" />
+    <road name="CTSE" />
+    <road name="CTT" />
+    <road name="CTTX" />
+    <road name="CV" />
+    <road name="D&amp;H" />
+    <road name="D&amp;M" />
+    <road name="D&amp;RGW" />
+    <road name="EJ&amp;E" />
+    <road name="ERIE" />
+    <road name="FCX" />
+    <road name="FDD&amp;S" />
+    <road name="FEC" />
+    <road name="FW&amp;D" />
+    <road name="G&amp;F" />
+    <road name="GAT" />
+    <road name="GATX" />
+    <road name="GCR" />
+    <road name="GM&amp;O" />
+    <road name="GN" />
+    <road name="GPEX" />
+    <road name="GRC" />
+    <road name="GRCX" />
+    <road name="GTW" />
+    <road name="IC" />
+    <road name="IGN" />
+    <road name="IN" />
+    <road name="KCS" />
+    <road name="KOT" />
+    <road name="KOTX" />
+    <road name="LN" />
+    <road name="LNE" />
+    <road name="LS&amp;I" />
+    <road name="LV" />
+    <road name="MEC" />
+    <road name="MILW" />
+    <road name="MKT" />
+    <road name="MNS" />
+    <road name="MP" />
+    <road name="MPA" />
+    <road name="MRL" />
+    <road name="MSL" />
+    <road name="N&amp;W" />
+    <road name="NC&amp;SL" />
+    <road name="NH" />
+    <road name="NKP" />
+    <road name="NP" />
+    <road name="NYC" />
+    <road name="OTT" />
+    <road name="OTTX" />
+    <road name="PC" />
+    <road name="PFE" />
+    <road name="PM" />
+    <road name="PRR" />
+    <road name="PS&amp;N" />
+    <road name="RDG" />
+    <road name="RE" />
+    <road name="REX" />
+    <road name="RF&amp;P" />
+    <road name="RI" />
+    <road name="RP" />
+    <road name="RPX" />
+    <road name="RTC" />
+    <road name="RTCX" />
+    <road name="RUT" />
+    <road name="SAL" />
+    <road name="SDW" />
+    <road name="SDWX" />
+    <road name="SHP" />
+    <road name="SHPX" />
+    <road name="SLSF" />
+    <road name="SOO" />
+    <road name="SOU" />
+    <road name="SP" />
+    <road name="SSW" />
+    <road name="SUNX" />
+    <road name="T&amp;P" />
+    <road name="TC" />
+    <road name="TP&amp;W" />
+    <road name="UOCX" />
+    <road name="UP" />
+    <road name="UTL" />
+    <road name="UTLX" />
+    <road name="VGN" />
+    <road name="VN" />
+    <road name="VTR" />
+    <road name="W&amp;LE" />
+    <road name="W&amp;LG" />
+    <road name="WA" />
+    <road name="WAB" />
+    <road name="WDL" />
+    <road name="WDLX" />
+    <road name="WFEX" />
+    <road name="WM" />
+    <road name="WP" />
+    <road name="WRNX" />
+  </roads>
+  <types>
+    <type name="Baggage" />
+    <type name="Boxcar" />
+    <type name="Caboose" />
+    <type name="Coal" />
+    <type name="Coilcar" />
+    <type name="FlatBulkHead" />
+    <type name="FlatBHPaper" />
+    <type name="FlatBHWood" />
+    <type name="FlatTimber" />
+    <type name="FlatTrailer" />
+    <type name="FlatWood" />
+    <type name="Flatcar" />
+    <type name="Gon-scrap" />
+    <type name="Gondola" />
+    <type name="HopChem" />
+    <type name="HopCmnt" />
+    <type name="HopCoal" />
+    <type name="HopCoal-Ety" />
+    <type name="HopGrain" />
+    <type name="HopSand" />
+    <type name="Hopper" />
+    <type name="MOW" />
+    <type name="MOWBox" />
+    <type name="Passenger" />
+    <type name="ReefMech" />
+    <type name="Reefer" />
+    <type name="ReeferIce" />
+    <type name="Stock" />
+    <type name="Tank Food" />
+    <type name="Tank Gas" />
+    <type name="Tank Kero" />
+    <type name="Tank Oil" />
+    <type name="Tank Veg" />
+  </types>
+  <colors>
+    <color name="Black" />
+    <color name="Blue" />
+    <color name="Brown" />
+    <color name="Gray" />
+    <color name="Yellow" />
+    <color name="Green" />
+    <color name="Orange" />
+    <color name="Purple" />
+    <color name="Red" />
+    <color name="Silver" />
+    <color name="Tuscan" />
+    <color name="White" />
+  </colors>
+  <lengths>
+    <length value="32" />
+    <length value="34" />
+    <length value="36" />
+    <length value="38" />
+    <length value="40" />
+    <length value="42" />
+    <length value="50" />
+    <length value="51" />
+    <length value="52" />
+    <length value="54" />
+    <length value="60" />
+    <length value="70" />
+  </lengths>
+  <owners>
+    <owner name="" />
+  </owners>
+  <loads>
+    <defaults empty="E" load="L" />
+  </loads>
+  <options />
+  <newKernels />
+  <cars>
+    <car id="ATSF201" roadName="ATSF" roadNumber="201" type="Gondola" length="52" color="Red" weight="4.6" weightTons="46" built="1955" moves="0" date="" selected="false" passenger="true" load="E" />
+    <car id="ATSF202" roadName="ATSF" roadNumber="202" type="Stock" length="52" color="Red" weight="4.6" weightTons="46" built="1955" moves="0" date="" selected="false" passenger="true" load="E" />
+  </cars>
+</operations-config>
