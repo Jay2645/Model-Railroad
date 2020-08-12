@@ -8,7 +8,7 @@
 bool doesPinHaveData(uint8_t readPin);
 
 // Pins to read
-static const uint8_t PINS_TO_CHECK[] =  { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+static const uint8_t PINS_TO_CHECK[] =  { 2, 3, 4, 5, 6, 7, 8, 9, A0, A1};
 
 // Ethernet and MQTT related objects
 static byte MAC_ADDRESS[] = { 0xA8, 0x61, 0x0A, 0xAE, 0x7D, 0xB1 };
@@ -45,7 +45,7 @@ void setup()
     // Check for Ethernet hardware present
     if (Ethernet.hardwareStatus() == EthernetNoHardware)
     {
-      Serial.println("Ethernet shield was not found.  Sorry, can't run without hardware. :(");
+      Serial.println("Ethernet shield was not found.");
       while (true) 
       {
         delay(1); // do nothing, no point running without Ethernet hardware
@@ -113,11 +113,12 @@ void loop()
     String payloadString = "{";
     for (int i = 0; i < sizeof(PINS_TO_CHECK); i++)
     {
-      payloadString += "\"block_" + String(PINS_TO_CHECK[i]) + "\":";
+      const int blockID = i + 1;
+      payloadString += "\"block_" + blockID + "\":";
       payloadString += activePins[i] ? "\"ON\"" : "\"OFF\"";
       if (i < sizeof(PINS_TO_CHECK) - 1)
       {
-        payloadString += ",";
+        payloadString += ",\n";
       }
     }
     payloadString += "}";
