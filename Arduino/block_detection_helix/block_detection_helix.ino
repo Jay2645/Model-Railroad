@@ -33,6 +33,8 @@ void setup()
   // put your setup code here, to run once:
   Serial.begin(9600);
 
+  bool initializationSuccessful = true;
+
   for(int i = 0; i < sizeof(PINS_TO_CHECK); i++)
   {
     pinMode(PINS_TO_CHECK[i], INPUT);
@@ -42,21 +44,23 @@ void setup()
   if (Ethernet.begin(MAC_ADDRESS) == 0)
   {
     Serial.println("Failed to configure Ethernet using DHCP");
+
     // Check for Ethernet hardware present
     if (Ethernet.hardwareStatus() == EthernetNoHardware)
     {
       Serial.println("Ethernet shield was not found.");
-      while (true) 
-      {
-        delay(1); // do nothing, no point running without Ethernet hardware
-      }
+      initializationSuccessful = false;
     }
-    if (Ethernet.linkStatus() == LinkOFF) 
+    else if (Ethernet.linkStatus() == LinkOFF) 
     {
       Serial.println("Ethernet cable is not connected.");
+      initializationSuccessful = false;
     }
-    // try to congifure using IP address instead of DHCP:
-    Ethernet.begin(MAC_ADDRESS, IP_ADDRESS);
+    else
+    {
+      // try to congifure using IP address instead of DHCP:
+      Ethernet.begin(MAC_ADDRESS, IP_ADDRESS);
+    }
   } 
   else 
   {
@@ -64,36 +68,74 @@ void setup()
     Serial.println(Ethernet.localIP());
   }
 
-  // Ethernet takes some time to boot!
-  delay(4000);                          
- 
-  Serial.println("Connecting...");
+  if (initializationSuccessful)
+  {
+    // Ethernet takes some time to boot!
+    delay(4000);                          
   
-  // Set the MQTT server to the server stated above
-  mqttClient.setServer(SERVER_ADDRESS, 1883);   
-  // Attempt to connect
-  if (mqttClient.connect(MQTT_ID, MQTT_USERNAME, MQTT_PASSWORD)) 
-  {
-    Serial.println("Connection has been established");
+    Serial.println("Connecting...");
+    
+    // Set the MQTT server to the server stated above
+    mqttClient.setServer(SERVER_ADDRESS, 1883);   
+    // Attempt to connect
+    if (mqttClient.connect(MQTT_ID, MQTT_USERNAME, MQTT_PASSWORD)) 
+    {
+      Serial.println("Connection has been established");
 
-    // Upload the current status when we connect for the first time
-    hasChanged = true;
-  } 
-  else 
+      // Upload the current status when we connect for the first time
+      hasChanged = true;
+    } 
+    else 
+    {
+      Serial.println("Server connection failed!");
+
+      switch (mqttClient.state())
+      {
+        case MQTT_CONNECTION_TIMEOUT:
+          Serial.println("Connection timed out.");
+          break;
+        case MQTT_CONNECTION_LOST:
+          Serial.println("Connection lost.");
+          break;
+        case MQTT_CONNECT_FAILED:
+          Serial.println("Connection failed.");
+          break;
+        case MQTT_DISCONNECTED:
+          Serial.println("Disconnected.");
+          break;
+        case MQTT_CONNECT_BAD_PROTOCOL:
+          Serial.println("Bad protocol.");
+          break;
+        case MQTT_CONNECT_BAD_CLIENT_ID:
+          Serial.println("Bad client ID.");
+          break;
+        case MQTT_CONNECT_UNAVAILABLE:
+          Serial.println("Connection unavailable.");
+          break;
+        case MQTT_CONNECT_BAD_CREDENTIALS:
+          Serial.println("Bad credentials.");
+          break;
+        case MQTT_CONNECT_UNAUTHORIZED:
+          Serial.println("Unauthorized.");
+          break;
+        default:
+          Serial.println("Unknown disconnection reason.");
+          break;
+      }
+
+      initializationSuccessful = false;
+    }
+  }
+
+  while (!initializationSuccessful) 
   {
-    Serial.println("Server connection failed!");
+    delay(1); // do nothing, no point running if not initialized
   }
 }
 
 bool doesPinHaveData(uint8_t readPin)
 {
-  const int readValue = digitalRead(readPin);
-  Serial.print("Pin #");
-  Serial.print(readPin);
-  Serial.print(" has value of ");
-  Serial.println(readValue);
-
-  return readValue < 1;
+    return digitalRead(readPin) < 1;
 }
 
 void loop()
@@ -114,7 +156,7 @@ void loop()
     for (int i = 0; i < sizeof(PINS_TO_CHECK); i++)
     {
       const int blockID = i + 1;
-      payloadString += "\"block_" + blockID + "\":";
+      payloadString += "\"block_" + String(blockID) + "\":";
       payloadString += activePins[i] ? "\"ON\"" : "\"OFF\"";
       if (i < sizeof(PINS_TO_CHECK) - 1)
       {
