@@ -1,5 +1,3 @@
-#include "arduino_secrets.h"
-
 #include <SPI.h>
 #include <Ethernet.h>
 #include <PubSubClient.h>
@@ -13,11 +11,9 @@ static const uint8_t PINS_TO_CHECK[] =  { 2, 3, 4, 5, 6, 7, 8, 9, A0, A1};
 // Ethernet and MQTT related objects
 static byte MAC_ADDRESS[] = { 0xA8, 0x61, 0x0A, 0xAE, 0x7D, 0xB1 };
 static const IPAddress IP_ADDRESS(192, 168, 86, 44);
-static const char* MQTT_TOPIC = "trains/helix";
+static const String MQTT_TOPIC = "trains/track/sensor/helix";
 
 static const char* MQTT_ID = "helix";
-static const char* MQTT_USERNAME = "mqtt";
-static const char* MQTT_PASSWORD = SECRET_MQTT_PASSWORD;
  
 static const char* SERVER_ADDRESS = "192.168.86.223";
  
@@ -78,7 +74,7 @@ void setup()
     // Set the MQTT server to the server stated above
     mqttClient.setServer(SERVER_ADDRESS, 1883);   
     // Attempt to connect
-    if (mqttClient.connect(MQTT_ID, MQTT_USERNAME, MQTT_PASSWORD)) 
+    if (mqttClient.connect(MQTT_ID)) 
     {
       Serial.println("Connection has been established");
 
@@ -152,23 +148,14 @@ void loop()
   if (hasChanged)
   {
     // Change detected, tell the server    
-    String payloadString = "{";
     for (int i = 0; i < sizeof(PINS_TO_CHECK); i++)
     {
       const int blockID = i + 1;
-      payloadString += "\"block_" + String(blockID) + "\":";
-      payloadString += activePins[i] ? "\"ON\"" : "\"OFF\"";
-      if (i < sizeof(PINS_TO_CHECK) - 1)
-      {
-        payloadString += ",\n";
-      }
+      const String topic = MQTT_TOPIC + "_block_" + String(blockID);
+      const String payloadString = activePins[i] ? "ACTIVE" : "INACTIVE";
+
+      mqttClient.publish(topic.c_str(), payloadString.c_str(), true);
     }
-    payloadString += "}";
-
-    
-    Serial.println("Detection changed, payload: " + payloadString);
-
-    mqttClient.publish(MQTT_TOPIC, payloadString.c_str(), true);
     
     hasChanged = false;
   }

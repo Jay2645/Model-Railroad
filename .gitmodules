@@ -7,3 +7,6 @@
 [submodule "DCC/Documentation"]
 	path = DCC/Documentation
 	url = git@github.com:DccPlusPlus/Documentation.git
+[submodule "jmri/JMRI"]
+	path = jmri/JMRI
+	url = git@github.com:JMRI/JMRI.git

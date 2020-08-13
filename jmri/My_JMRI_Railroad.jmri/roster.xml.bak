@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Tue Jun 16 10:51:14 PDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Thu Jul 23 21:20:22 PDT 2020-->
   <roster>
     <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-06-16T02:30:04.216+0000</dateUpdated>
