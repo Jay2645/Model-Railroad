@@ -1,6 +1,3 @@
-[submodule "DCC/BaseStation"]
-	path = DCC/BaseStation
-	url = git@github.com:DccPlusPlus/BaseStation.git
 [submodule "DCC/Controller"]
 	path = DCC/Controller
 	url = git@github.com:DccPlusPlus/Controller.git
@@ -10,3 +7,9 @@
 [submodule "jmri/JMRI"]
 	path = jmri/JMRI
 	url = git@github.com:JMRI/JMRI.git
+[submodule "DCC/BaseStation-EX"]
+	path = DCC/BaseStation-EX
+	url = git@github.com:DCC-EX/BaseStation-EX.git
+[submodule "DCC/BaseStation-Classic"]
+	path = DCC/BaseStation-Classic
+	url = git@github.com:DCC-EX/BaseStation-Classic.git
