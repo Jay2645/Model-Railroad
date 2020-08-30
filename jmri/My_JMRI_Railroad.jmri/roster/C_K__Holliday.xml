@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Mon Jun 15 19:27:18 PDT 2020-->
-  <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-06-16T02:27:18.126+0000</dateUpdated>
+  <!--Written by JMRI version 4.21.1ish+jenkins+20200813T1615Z+Re1a7d3af80 on Wed Aug 26 15:59:52 PDT 2020-->
+  <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="preference:roster/ck_holliday.gif" URL="" IsShuntingOn="">
+    <dateUpdated>2020-08-26T22:59:52.875+0000</dateUpdated>
     <decoder model="Z2" family="Jan 2012" comment="" />
     <locoaddress>
       <dcclocoaddress number="1" longaddress="no" />
@@ -28,9 +28,6 @@
         <varValue item="Consist Address Active For Yellow" value="0" />
         <varValue item="Consist Acceleration Adjustment" value="0" />
         <varValue item="Consist Deceleration Adjustment" value="0" />
-        <varValue item="RailCom Channel 1 Address" value="1" />
-        <varValue item="RailCom Channel 2" value="1" />
-        <varValue item="RailCom Programming Address 253" value="1" />
         <varValue item="FL(f) controls output 1" value="1" />
         <varValue item="FL(r) controls output 1" value="0" />
         <varValue item="F1 controls output 1" value="0" />
@@ -94,7 +91,7 @@
         <varValue item="Mars/Gyra Total Cycle Time" value="1" />
         <varValue item="Mars/Gyra Mid Brightness" value="6" />
         <varValue item="Mars/Gyra Max Brightness" value="22" />
-        <varValue item="Ditch Light Blink Rate" value="2" />
+        <varValue item="Ditch Light Blink Rate" value="3" />
         <varValue item="Beacon Min Brightness" value="1" />
         <varValue item="Beacon Max Bright Time" value="5" />
         <varValue item="Beacon Total Cycle Time" value="1" />
@@ -171,11 +168,6 @@
         <varValue item="Reverse Light Dim Brightness" value="0" />
         <varValue item="Special BEMF for 3-Pole Motor" value="0" />
         <varValue item="Enable Keep-Alive" value="1" />
-        <varValue item="Motor Power Stroke" value="3" />
-        <varValue item="BEMF Sample Rate High" value="19" />
-        <varValue item="BEMF Sample Rate Low" value="15" />
-        <varValue item="Critical Speed Step" value="4" />
-        <varValue item="Allows forced delays" value="0" />
       </decoderDef>
       <CVvalue name="249" value="0" />
       <CVvalue name="250" value="0" />
@@ -190,7 +182,6 @@
       <CVvalue name="22" value="0" />
       <CVvalue name="23" value="0" />
       <CVvalue name="24" value="0" />
-      <CVvalue name="28" value="19" />
       <CVvalue name="33" value="1" />
       <CVvalue name="34" value="2" />
       <CVvalue name="49" value="0" />
@@ -291,6 +282,7 @@
       <CVvalue name="156" value="0" />
       <CVvalue name="157" value="0" />
       <CVvalue name="182" value="2" />
+      <CVvalue name="28" value="19" />
       <CVvalue name="177" value="3" />
       <CVvalue name="178" value="19" />
       <CVvalue name="179" value="15" />

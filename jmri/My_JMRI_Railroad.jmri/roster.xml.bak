@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Thu Jul 23 21:20:22 PDT 2020-->
+  <!--Written by JMRI version 4.21.1ish+jenkins+20200813T1615Z+Re1a7d3af80 on Wed Aug 26 16:11:07 PDT 2020-->
   <roster>
-    <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2020-06-16T02:30:04.216+0000</dateUpdated>
+    <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="preference:roster/ck_holliday.gif" URL="" IsShuntingOn="">
+      <dateUpdated>2020-08-26T22:59:52.875+0000</dateUpdated>
       <decoder model="Z2" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="1" longaddress="no" />
@@ -14,8 +14,78 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Santa Fe 879" fileName="Santa_Fe_8790.xml" roadNumber="879" roadName="Santa Fe" mfg="Bachmann" owner="Jay Stevens" model="Dash 8-40CW" dccAddress="879" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2020-06-16T03:34:57.509+0000</dateUpdated>
+    <locomotive id="Santa Fe 31" fileName="Santa_Fe_31.xml" roadNumber="31" roadName="Santa Fe" mfg="Broadway Limited Import" owner="Jay Stevens" model="F3" dccAddress="31" comment="" maxSpeed="100" imageFilePath="" iconFilePath="preference:roster/sf_f3.gif" URL="" IsShuntingOn="">
+      <dateUpdated>2020-08-26T22:50:26.283+0000</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="31" longaddress="no" />
+        <number>31</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2020-08-25T00:59:53.414+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>43</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="Santa Fe 5320" fileName="Santa_Fe_5320.xml" roadNumber="5320" roadName="Santa Fe" mfg="Bachmann" owner="Jay Stevens" model="SD45" dccAddress="5320" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-08-26T20:53:21.184+0000</dateUpdated>
+      <decoder model="EMD SD45" family="Tsunami Diesel Bachmann Sound Value" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="5320" longaddress="yes" />
+        <number>5320</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Air Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Santa Fe 879" fileName="Santa_Fe_8790.xml" roadNumber="879" roadName="Santa Fe" mfg="Bachmann" owner="Jay Stevens" model="Dash 8-40CW" dccAddress="879" comment="" maxSpeed="100" imageFilePath="" iconFilePath="preference:roster/sf_dash8.gif" URL="" IsShuntingOn="">
+      <dateUpdated>2020-08-26T23:11:06.746+0000</dateUpdated>
       <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" />
       <locoaddress>
         <dcclocoaddress number="879" longaddress="yes" />
@@ -45,4 +115,7 @@
       <soundlabels />
     </locomotive>
   </roster>
+  <rosterGroup>
+    <group>Super Chief</group>
+  </rosterGroup>
 </roster-config>

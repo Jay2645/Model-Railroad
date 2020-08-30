@@ -1,33 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.dccpp.serial.configurexml.ConnectionConfigXml" disabled="no" manufacturer="DCC++" port="ttyACM0" speed="115200" systemPrefix="D" userName="DCC++">
+        <connection xmlns="" class="jmri.jmrix.dccpp.serial.configurexml.ConnectionConfigXml" disabled="no" manufacturer="DCC++" port="ttyACM0" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="115200" systemPrefix="D" userName="DCC++">
             <options/>
         </connection>
-        <connection xmlns="" address="192.168.86.223" class="jmri.jmrix.mqtt.configurexml.MqttConnectionConfigXml" disabled="yes" manufacturer="MQTT" mdnsConfigure="false" port="1883" systemPrefix="M" userName="MQTT">
+        <connection xmlns="" address="192.168.86.223" class="jmri.jmrix.mqtt.configurexml.MqttConnectionConfigXml" disabled="no" manufacturer="MQTT" mdnsConfigure="false" port="1883" reconnectMaxAttempts="100" reconnectMaxInterval="120" systemPrefix="M" userName="MQTT">
             <options>
                 <option>
-                    <name>MQTTchannel</name>
+                    <name>0 MQTTchannel</name>
                     <value>/trains/</value>
+                </option>
+                <option>
+                    <name>10.3</name>
+                    <value>track/turnout/</value>
+                </option>
+                <option>
+                    <name>10.5</name>
+                    <value>track/turnout/</value>
+                </option>
+                <option>
+                    <name>11.3</name>
+                    <value>track/sensor/</value>
+                </option>
+                <option>
+                    <name>11.5</name>
+                    <value>track/sensor/</value>
+                </option>
+                <option>
+                    <name>12.3</name>
+                    <value>track/light/</value>
+                </option>
+                <option>
+                    <name>12.5</name>
+                    <value>track/light/</value>
+                </option>
+                <option>
+                    <name>13</name>
+                    <value>track/reporter/</value>
+                </option>
+                <option>
+                    <name>14</name>
+                    <value>track/signalhead/</value>
+                </option>
+                <option>
+                    <name>15</name>
+                    <value>track/signalmast/</value>
                 </option>
             </options>
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmris.simpleserver.SimpleServerAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/set_up_environment.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmris.simpleserver.SimpleServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmris.json.JsonServerAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.server.json.JsonServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.powerpanel.PowerButtonAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.powerpanel.PowerButtonAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:configuration.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/mqtt_helper.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/mqtt_globals.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/shutdown_mqtt.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/print_roster.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/listen_to_throttles.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="preference:jython/print_fastclock.py" type="ScriptFile"/>
     </startup>
 </auxiliary-configuration>

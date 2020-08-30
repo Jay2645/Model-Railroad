@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>21</minor>
+    <test>1</test>
+    <modifier>ish</modifier>
+  </jmriversion>
+  <sensors class="jmri.jmrix.mqtt.configurexml.MqttSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_1</systemName>
+      <userName>West Helix Block 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_2</systemName>
+      <userName>West Helix Block 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_3</systemName>
+      <userName>West Helix Block 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_4</systemName>
+      <userName>West Helix Block 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_5</systemName>
+      <userName>West Helix Block 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_6</systemName>
+      <userName>West Helix Block 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_7</systemName>
+      <userName>West Helix Block 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_8</systemName>
+      <userName>West Helix Block 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_9</systemName>
+      <userName>West Helix Block 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MSwest_helix_block_10</systemName>
+      <userName>West Helix Block 10</userName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1</systemName>
+      <userName>TOL3637</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT2</systemName>
+      <userName>TOL2609</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT3</systemName>
+      <userName>TOL3652</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT4</systemName>
+      <userName>TOR1666</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT5</systemName>
+      <userName>TOR3109</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT6</systemName>
+      <userName>TOR3102</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT7</systemName>
+      <userName>TOL1765</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT8</systemName>
+      <userName>TOR3103</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT9</systemName>
+      <userName>TOR1627</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT10</systemName>
+      <userName>TOL1764</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT11</systemName>
+      <userName>TOL3662</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT12</systemName>
+      <userName>SL3656</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT13</systemName>
+      <userName>TOL3655</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT14</systemName>
+      <userName>TOL2758</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT15</systemName>
+      <userName>TOL2754</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT16</systemName>
+      <userName>TOR2755</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT17</systemName>
+      <userName>TOR2756</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT18</systemName>
+      <userName>TOL2753</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT19</systemName>
+      <userName>TOL2757</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT20</systemName>
+      <userName>TOR2751</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT21</systemName>
+      <userName>TOR2750</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT22</systemName>
+      <userName>CO1803</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT23</systemName>
+      <userName>TOR285</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT24</systemName>
+      <userName>TOR258</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT25</systemName>
+      <userName>TOL3545</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT26</systemName>
+      <userName>TOR3551</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT27</systemName>
+      <userName>TOR1502</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT28</systemName>
+      <userName>TOR396</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT29</systemName>
+      <userName>TOR3171</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT30</systemName>
+      <userName>TOR1495</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT31</systemName>
+      <userName>TOR2219</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT32</systemName>
+      <userName>TOR278</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT33</systemName>
+      <userName>TOR1496</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT34</systemName>
+      <userName>T3W2026-1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT35</systemName>
+      <userName>T3W2026-2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT36</systemName>
+      <userName>TOL3695</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT37</systemName>
+      <userName>TOL3687</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT38</systemName>
+      <userName>TOL554</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT39</systemName>
+      <userName>TOW1439</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT40</systemName>
+      <userName>TOR3456</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT41</systemName>
+      <userName>TOL1458</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT42</systemName>
+      <userName>To Inner Helix</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT43</systemName>
+      <userName>TOR1464</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT44</systemName>
+      <userName>TOR2830</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT45</systemName>
+      <userName>TOR2831</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT46</systemName>
+      <userName>TOL3483</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT47</systemName>
+      <userName>TOR3481</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT48</systemName>
+      <userName>TOL1602</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT49</systemName>
+      <userName>TOL1622</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT50</systemName>
+      <userName>TOL2938</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT51</systemName>
+      <userName>TOL3026</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT52</systemName>
+      <userName>TOL2430</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT53</systemName>
+      <userName>TOL2972</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT54</systemName>
+      <userName>TOR2985</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT55</systemName>
+      <userName>TOR2465</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT56</systemName>
+      <userName>SL2869</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT57</systemName>
+      <userName>TOL2456</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT58</systemName>
+      <userName>TOR2973</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT59</systemName>
+      <userName>TOL2596</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT60</systemName>
+      <userName>TOR2868</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT61</systemName>
+      <userName>TOR2527</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT62</systemName>
+      <userName>TOL2954</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT63</systemName>
+      <userName>TOL2442</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT64</systemName>
+      <userName>TOR2482</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT65</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT66</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT67</systemName>
+      <userName>TOL1349</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT68</systemName>
+      <userName>TOL3334</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT69</systemName>
+      <userName>TOR3333</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT70</systemName>
+      <userName>TOL3329</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT71</systemName>
+      <userName>TOR3289</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT72</systemName>
+      <userName>TOL796</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT73</systemName>
+      <userName>TOL1347</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT74</systemName>
+      <userName>TOR2340</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT75</systemName>
+      <userName>TOR3279</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT76</systemName>
+      <userName>TOW3285</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT77</systemName>
+      <userName>TOL1351</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT78</systemName>
+      <userName>Engine storage</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT79</systemName>
+      <userName>TOL3766</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT80</systemName>
+      <userName>TO_FIC3762-1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT81</systemName>
+      <userName>TO_FIC3762-2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT82</systemName>
+      <userName>TO_FIC3762-3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT83</systemName>
+      <userName>TO_FIC3762-4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT84</systemName>
+      <userName>TOL3287</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT85</systemName>
+      <userName>TOR3728</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT86</systemName>
+      <userName>TOR3741</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT87</systemName>
+      <userName>TOL3807</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT88</systemName>
+      <userName>TOR3742</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT89</systemName>
+      <userName>TOL3839</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT90</systemName>
+      <userName>TOL3825</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT91</systemName>
+      <userName>TOL3826</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT92</systemName>
+      <userName>TOL3746</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT93</systemName>
+      <userName>TOL3834</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT94</systemName>
+      <userName>TOR3818</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT95</systemName>
+      <userName>TOL3827</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT96</systemName>
+      <userName>TOR3899</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT97</systemName>
+      <userName>TOL4171</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT98</systemName>
+      <userName>TOL1350</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT99</systemName>
+      <userName>TOL1348</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT100</systemName>
+      <userName>TOR3712</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT101</systemName>
+      <userName>TOR3711</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT102</systemName>
+      <userName>TOR4134</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT103</systemName>
+      <userName>TO_FIDC4140-1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT104</systemName>
+      <userName>TO_FIDC4140-2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT105</systemName>
+      <userName>TO_FIDC4140-3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT106</systemName>
+      <userName>TO_FIDC4140-4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT107</systemName>
+      <userName>TOL4135</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT108</systemName>
+      <userName>TOR4075</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT109</systemName>
+      <userName>TOL4170</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT110</systemName>
+      <userName>TOR4282</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT111</systemName>
+      <userName>TOR4283</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="10:27 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB1">
+      <systemName>IB1</systemName>
+      <userName>B_1_West Helix Outer Block 2_Main Line</userName>
+    </block>
+    <block systemName="IB2">
+      <systemName>IB2</systemName>
+      <userName>B_2_West Helix Inner Block 2_Main Line</userName>
+    </block>
+    <block systemName="IB3">
+      <systemName>IB3</systemName>
+      <userName>B_3_West Helix Inner Block 1_Main Line</userName>
+    </block>
+    <block systemName="IB4">
+      <systemName>IB4</systemName>
+      <userName>B_4_West Helix Outer Block 1_Main Line</userName>
+    </block>
+    <block systemName="IB5">
+      <systemName>IB5</systemName>
+      <userName>B_5_West Helix Outer Block 3_Main Line</userName>
+    </block>
+    <block systemName="IB6">
+      <systemName>IB6</systemName>
+      <userName>B_6_West Helix Inner Block 3_Main Line</userName>
+    </block>
+    <block systemName="IB7">
+      <systemName>IB7</systemName>
+      <userName>B_7_West Helix Outer Block 5_Main Line</userName>
+    </block>
+    <block systemName="IB8">
+      <systemName>IB8</systemName>
+      <userName>B_8_West Helix Inner Block 5_Main Line</userName>
+    </block>
+    <block systemName="IB9">
+      <systemName>IB9</systemName>
+      <userName>B_9_West Helix Outer Block 4_Main Line</userName>
+    </block>
+    <block systemName="IB10">
+      <systemName>IB10</systemName>
+      <userName>B_10_West Helix Inner Block 4_Main Line</userName>
+    </block>
+    <block systemName="IB11">
+      <systemName>IB11</systemName>
+      <userName>B_1_Mountain Division_Branch Line</userName>
+    </block>
+    <block systemName="IB12">
+      <systemName>IB12</systemName>
+      <userName>B_2_Inner Main_Main Line</userName>
+    </block>
+    <block systemName="IB13">
+      <systemName>IB13</systemName>
+      <userName>B_3_Outer Main_Main Line</userName>
+    </block>
+    <block systemName="IB14">
+      <systemName>IB14</systemName>
+      <userName>B_4_Branch Line_Branch Line</userName>
+    </block>
+    <block systemName="IB15">
+      <systemName>IB15</systemName>
+      <userName>B_5_Goods Arrival/Departure_Arrival/Departure</userName>
+    </block>
+    <block systemName="IB16">
+      <systemName>IB16</systemName>
+      <userName>B_6_Goods Storage_Industry</userName>
+    </block>
+    <block systemName="IB17">
+      <systemName>IB17</systemName>
+      <userName>B_7_Coal Industry_Industry</userName>
+    </block>
+    <block systemName="IB18">
+      <systemName>IB18</systemName>
+      <userName>B_8_Roundhouse_Yard</userName>
+    </block>
+    <block systemName="IB19">
+      <systemName>IB19</systemName>
+      <userName>B_9_Programming_Powerless</userName>
+    </block>
+    <block systemName="IB20">
+      <systemName>IB20</systemName>
+      <userName>B_10_East Industry 2_Industry</userName>
+    </block>
+    <block systemName="IB21">
+      <systemName>IB21</systemName>
+      <userName>B_11_East Industry_Industry</userName>
+    </block>
+    <block systemName="IB22">
+      <systemName>IB22</systemName>
+      <userName>B_12_Outer Helix (West)_Main Line</userName>
+    </block>
+    <block systemName="IB23">
+      <systemName>IB23</systemName>
+      <userName>B_13_Inner Helix (West)_Main Line</userName>
+    </block>
+    <block systemName="IB24">
+      <systemName>IB24</systemName>
+      <userName>B_14_Narrow Gauge_Branch Line</userName>
+    </block>
+    <block systemName="IB25">
+      <systemName>IB25</systemName>
+      <userName>B_15_Reverse Loop (East)_Main Line</userName>
+    </block>
+    <block systemName="IB26">
+      <systemName>IB26</systemName>
+      <userName>B_16_Storage Track D_Storage</userName>
+    </block>
+    <block systemName="IB27">
+      <systemName>IB27</systemName>
+      <userName>B_17_Yard_Yard</userName>
+    </block>
+    <block systemName="IB28">
+      <systemName>IB28</systemName>
+      <userName>B_18_Storage Track C_Storage</userName>
+    </block>
+    <block systemName="IB29">
+      <systemName>IB29</systemName>
+      <userName>B_19_Arrival/Departure Track_Storage</userName>
+    </block>
+    <block systemName="IB30">
+      <systemName>IB30</systemName>
+      <userName>B_20_Yard Lead_Yard</userName>
+    </block>
+    <block systemName="IB31">
+      <systemName>IB31</systemName>
+      <userName>B_21_Runaround_Pass through</userName>
+    </block>
+    <block systemName="IB32">
+      <systemName>IB32</systemName>
+      <userName>B_22_Inner Storage_Main Line</userName>
+    </block>
+    <block systemName="IB33">
+      <systemName>IB33</systemName>
+      <userName>B_23_East Outer Storage_Main Line</userName>
+    </block>
+    <block systemName="IB34">
+      <systemName>IB34</systemName>
+      <userName>B_24_Storage Lead_Storage</userName>
+    </block>
+    <block systemName="IB35">
+      <systemName>IB35</systemName>
+      <userName>B_25_Storage Track E_Storage</userName>
+    </block>
+    <block systemName="IB36">
+      <systemName>IB36</systemName>
+      <userName>Yard Lead</userName>
+    </block>
+    <block systemName="IB37">
+      <systemName>IB37</systemName>
+      <userName>Yard</userName>
+    </block>
+    <block systemName="IB38">
+      <systemName>IB38</systemName>
+      <userName>Inner Storage</userName>
+    </block>
+    <block systemName="IB39">
+      <systemName>IB39</systemName>
+      <userName>Storage Lead</userName>
+    </block>
+    <block systemName="IB40">
+      <systemName>IB40</systemName>
+      <userName>Reverse Loop (East)</userName>
+    </block>
+    <block systemName="IB41">
+      <systemName>IB41</systemName>
+      <userName>East Outer Storage</userName>
+    </block>
+    <block systemName="IB42">
+      <systemName>IB42</systemName>
+      <userName>Runaround</userName>
+    </block>
+    <block systemName="IB43">
+      <systemName>IB43</systemName>
+      <userName>Arrival/Departure Track</userName>
+    </block>
+    <block systemName="IB44">
+      <systemName>IB44</systemName>
+      <userName>Outer Helix (West)</userName>
+    </block>
+    <block systemName="IB45">
+      <systemName>IB45</systemName>
+      <userName>Inner Helix (West)</userName>
+    </block>
+    <block systemName="IB46">
+      <systemName>IB46</systemName>
+      <userName>Storage Track C</userName>
+    </block>
+    <block systemName="IB47">
+      <systemName>IB47</systemName>
+      <userName>Storage Track E</userName>
+    </block>
+    <block systemName="IB48">
+      <systemName>IB48</systemName>
+      <userName>Mountain Division</userName>
+    </block>
+    <block systemName="IB49">
+      <systemName>IB49</systemName>
+      <userName>Inner Main</userName>
+    </block>
+    <block systemName="IB50">
+      <systemName>IB50</systemName>
+      <userName>Goods Storage</userName>
+    </block>
+    <block systemName="IB51">
+      <systemName>IB51</systemName>
+      <userName>Branch Line</userName>
+    </block>
+    <block systemName="IB52">
+      <systemName>IB52</systemName>
+      <userName>Outer Main</userName>
+    </block>
+    <block systemName="IB53">
+      <systemName>IB53</systemName>
+      <userName>Goods Arrival/Departure</userName>
+    </block>
+    <block systemName="IB54">
+      <systemName>IB54</systemName>
+      <userName>Roundhouse</userName>
+    </block>
+    <block systemName="IB55">
+      <systemName>IB55</systemName>
+      <userName>Programming</userName>
+    </block>
+    <block systemName="IB56">
+      <systemName>IB56</systemName>
+      <userName>East Industry</userName>
+    </block>
+    <block systemName="IB57">
+      <systemName>IB57</systemName>
+      <userName>Coal Industry</userName>
+    </block>
+    <block systemName="IB58">
+      <systemName>IB58</systemName>
+      <userName>East Industry 2</userName>
+    </block>
+    <block systemName="IB:AUTO:0001">
+      <systemName>IB:AUTO:0001</systemName>
+    </block>
+    <block systemName="IB:AUTO:0002">
+      <systemName>IB:AUTO:0002</systemName>
+    </block>
+    <block systemName="IB:AUTO:0003">
+      <systemName>IB:AUTO:0003</systemName>
+    </block>
+    <block systemName="IB:AUTO:0004">
+      <systemName>IB:AUTO:0004</systemName>
+    </block>
+    <block systemName="IB:AUTO:0005">
+      <systemName>IB:AUTO:0005</systemName>
+    </block>
+    <block systemName="IB:AUTO:0006">
+      <systemName>IB:AUTO:0006</systemName>
+    </block>
+    <block systemName="IB:AUTO:0007">
+      <systemName>IB:AUTO:0007</systemName>
+    </block>
+    <block systemName="IB:AUTO:0008">
+      <systemName>IB:AUTO:0008</systemName>
+    </block>
+    <block systemName="IB:AUTO:0009">
+      <systemName>IB:AUTO:0009</systemName>
+    </block>
+    <block systemName="IB:AUTO:0010">
+      <systemName>IB:AUTO:0010</systemName>
+    </block>
+    <block systemName="IB:AUTO:0011">
+      <systemName>IB:AUTO:0011</systemName>
+      <userName>West Helix Outer Block 2</userName>
+    </block>
+    <block systemName="IB:AUTO:0012">
+      <systemName>IB:AUTO:0012</systemName>
+      <userName>West Helix Inner Block 2</userName>
+    </block>
+    <block systemName="IB:AUTO:0013">
+      <systemName>IB:AUTO:0013</systemName>
+      <userName>West Helix Inner Block 1</userName>
+    </block>
+    <block systemName="IB:AUTO:0014">
+      <systemName>IB:AUTO:0014</systemName>
+      <userName>West Helix Outer Block 1</userName>
+    </block>
+    <block systemName="IB:AUTO:0015">
+      <systemName>IB:AUTO:0015</systemName>
+      <userName>West Helix Outer Block 3</userName>
+    </block>
+    <block systemName="IB:AUTO:0016">
+      <systemName>IB:AUTO:0016</systemName>
+      <userName>West Helix Inner Block 3</userName>
+    </block>
+    <block systemName="IB:AUTO:0017">
+      <systemName>IB:AUTO:0017</systemName>
+      <userName>West Helix Outer Block 5</userName>
+    </block>
+    <block systemName="IB:AUTO:0018">
+      <systemName>IB:AUTO:0018</systemName>
+      <userName>West Helix Inner Block 5</userName>
+    </block>
+    <block systemName="IB:AUTO:0019">
+      <systemName>IB:AUTO:0019</systemName>
+      <userName>West Helix Outer Block 4</userName>
+    </block>
+    <block systemName="IB:AUTO:0020">
+      <systemName>IB:AUTO:0020</systemName>
+      <userName>West Helix Inner Block 4</userName>
+    </block>
+    <block systemName="IB1" length="3015.93" curve="1">
+      <systemName>IB1</systemName>
+      <userName>B_1_West Helix Outer Block 2_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 4</occupancysensor>
+      <path todir="80" fromdir="160" block="IB4" />
+      <path todir="128" fromdir="64" block="IB5" />
+    </block>
+    <block systemName="IB2" length="2808.58" curve="2">
+      <systemName>IB2</systemName>
+      <userName>B_2_West Helix Inner Block 2_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 3</occupancysensor>
+      <path todir="80" fromdir="160" block="IB3" />
+      <path todir="128" fromdir="64" block="IB6" />
+    </block>
+    <block systemName="IB3" length="2633.05" curve="1">
+      <systemName>IB3</systemName>
+      <userName>B_3_West Helix Inner Block 1_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 1</occupancysensor>
+      <path todir="160" fromdir="80" block="IB2" />
+    </block>
+    <block systemName="IB4" length="2827.43" curve="2">
+      <systemName>IB4</systemName>
+      <userName>B_4_West Helix Outer Block 1_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 2</occupancysensor>
+      <path todir="160" fromdir="80" block="IB1" />
+    </block>
+    <block systemName="IB5" length="3015.93" curve="1">
+      <systemName>IB5</systemName>
+      <userName>B_5_West Helix Outer Block 3_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 6</occupancysensor>
+      <path todir="64" fromdir="128" block="IB1" />
+      <path todir="128" fromdir="64" block="IB9" />
+    </block>
+    <block systemName="IB6" length="2808.58" curve="2">
+      <systemName>IB6</systemName>
+      <userName>B_6_West Helix Inner Block 3_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 5</occupancysensor>
+      <path todir="64" fromdir="128" block="IB2" />
+      <path todir="128" fromdir="64" block="IB10" />
+    </block>
+    <block systemName="IB7" length="2149.6" curve="1">
+      <systemName>IB7</systemName>
+      <userName>B_7_West Helix Outer Block 5_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 10</occupancysensor>
+      <path todir="96" fromdir="144" block="IB9" />
+    </block>
+    <block systemName="IB8" length="2095.4" curve="2">
+      <systemName>IB8</systemName>
+      <userName>B_8_West Helix Inner Block 5_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 9</occupancysensor>
+      <path todir="96" fromdir="144" block="IB10" />
+    </block>
+    <block systemName="IB9" length="3015.93" curve="1">
+      <systemName>IB9</systemName>
+      <userName>B_9_West Helix Outer Block 4_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 8</occupancysensor>
+      <path todir="64" fromdir="128" block="IB5" />
+      <path todir="144" fromdir="96" block="IB7" />
+    </block>
+    <block systemName="IB10" length="2808.58" curve="2">
+      <systemName>IB10</systemName>
+      <userName>B_10_West Helix Inner Block 4_Main Line</userName>
+      <permissive>no</permissive>
+      <occupancysensor>West Helix Block 7</occupancysensor>
+      <path todir="64" fromdir="128" block="IB6" />
+      <path todir="144" fromdir="96" block="IB8" />
+    </block>
+    <block systemName="IB11" length="0.0" curve="0">
+      <systemName>IB11</systemName>
+      <userName>B_1_Mountain Division_Branch Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB12" length="0.0" curve="0">
+      <systemName>IB12</systemName>
+      <userName>B_2_Inner Main_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB13" length="0.0" curve="0">
+      <systemName>IB13</systemName>
+      <userName>B_3_Outer Main_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB14" length="0.0" curve="0">
+      <systemName>IB14</systemName>
+      <userName>B_4_Branch Line_Branch Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB15" length="0.0" curve="0">
+      <systemName>IB15</systemName>
+      <userName>B_5_Goods Arrival/Departure_Arrival/Departure</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB16" length="0.0" curve="0">
+      <systemName>IB16</systemName>
+      <userName>B_6_Goods Storage_Industry</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB17" length="0.0" curve="0">
+      <systemName>IB17</systemName>
+      <userName>B_7_Coal Industry_Industry</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB18" length="0.0" curve="0">
+      <systemName>IB18</systemName>
+      <userName>B_8_Roundhouse_Yard</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB19" length="0.0" curve="0">
+      <systemName>IB19</systemName>
+      <userName>B_9_Programming_Powerless</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB20" length="0.0" curve="0">
+      <systemName>IB20</systemName>
+      <userName>B_10_East Industry 2_Industry</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB21" length="0.0" curve="0">
+      <systemName>IB21</systemName>
+      <userName>B_11_East Industry_Industry</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB22" length="0.0" curve="0">
+      <systemName>IB22</systemName>
+      <userName>B_12_Outer Helix (West)_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB23" length="0.0" curve="0">
+      <systemName>IB23</systemName>
+      <userName>B_13_Inner Helix (West)_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB24" length="0.0" curve="0">
+      <systemName>IB24</systemName>
+      <userName>B_14_Narrow Gauge_Branch Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB25" length="0.0" curve="0">
+      <systemName>IB25</systemName>
+      <userName>B_15_Reverse Loop (East)_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB26" length="0.0" curve="0">
+      <systemName>IB26</systemName>
+      <userName>B_16_Storage Track D_Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB27" length="0.0" curve="0">
+      <systemName>IB27</systemName>
+      <userName>B_17_Yard_Yard</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB28" length="0.0" curve="0">
+      <systemName>IB28</systemName>
+      <userName>B_18_Storage Track C_Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB29" length="0.0" curve="0">
+      <systemName>IB29</systemName>
+      <userName>B_19_Arrival/Departure Track_Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB30" length="0.0" curve="0">
+      <systemName>IB30</systemName>
+      <userName>B_20_Yard Lead_Yard</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB31" length="0.0" curve="0">
+      <systemName>IB31</systemName>
+      <userName>B_21_Runaround_Pass through</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB32" length="0.0" curve="0">
+      <systemName>IB32</systemName>
+      <userName>B_22_Inner Storage_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB33" length="0.0" curve="0">
+      <systemName>IB33</systemName>
+      <userName>B_23_East Outer Storage_Main Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB34" length="0.0" curve="0">
+      <systemName>IB34</systemName>
+      <userName>B_24_Storage Lead_Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB35" length="0.0" curve="0">
+      <systemName>IB35</systemName>
+      <userName>B_25_Storage Track E_Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB36" length="0.0" curve="0">
+      <systemName>IB36</systemName>
+      <userName>Yard Lead</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB37" length="0.0" curve="0">
+      <systemName>IB37</systemName>
+      <userName>Yard</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB38" length="0.0" curve="0">
+      <systemName>IB38</systemName>
+      <userName>Inner Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB39" length="0.0" curve="0">
+      <systemName>IB39</systemName>
+      <userName>Storage Lead</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB40" length="0.0" curve="0">
+      <systemName>IB40</systemName>
+      <userName>Reverse Loop (East)</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB41" length="0.0" curve="0">
+      <systemName>IB41</systemName>
+      <userName>East Outer Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB42" length="0.0" curve="0">
+      <systemName>IB42</systemName>
+      <userName>Runaround</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB43" length="0.0" curve="0">
+      <systemName>IB43</systemName>
+      <userName>Arrival/Departure Track</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB44" length="0.0" curve="0">
+      <systemName>IB44</systemName>
+      <userName>Outer Helix (West)</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB45" length="0.0" curve="0">
+      <systemName>IB45</systemName>
+      <userName>Inner Helix (West)</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB46" length="0.0" curve="0">
+      <systemName>IB46</systemName>
+      <userName>Storage Track C</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB47" length="0.0" curve="0">
+      <systemName>IB47</systemName>
+      <userName>Storage Track E</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB48" length="0.0" curve="0">
+      <systemName>IB48</systemName>
+      <userName>Mountain Division</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB49" length="0.0" curve="0">
+      <systemName>IB49</systemName>
+      <userName>Inner Main</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB50" length="0.0" curve="0">
+      <systemName>IB50</systemName>
+      <userName>Goods Storage</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB51" length="0.0" curve="0">
+      <systemName>IB51</systemName>
+      <userName>Branch Line</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB52" length="0.0" curve="0">
+      <systemName>IB52</systemName>
+      <userName>Outer Main</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB53" length="0.0" curve="0">
+      <systemName>IB53</systemName>
+      <userName>Goods Arrival/Departure</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB54" length="0.0" curve="0">
+      <systemName>IB54</systemName>
+      <userName>Roundhouse</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB55" length="0.0" curve="0">
+      <systemName>IB55</systemName>
+      <userName>Programming</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB56" length="0.0" curve="0">
+      <systemName>IB56</systemName>
+      <userName>East Industry</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB57" length="0.0" curve="0">
+      <systemName>IB57</systemName>
+      <userName>Coal Industry</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB58" length="0.0" curve="0">
+      <systemName>IB58</systemName>
+      <userName>East Industry 2</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0001" length="0.0" curve="0">
+      <systemName>IB:AUTO:0001</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0002" length="0.0" curve="0">
+      <systemName>IB:AUTO:0002</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0003" length="0.0" curve="0">
+      <systemName>IB:AUTO:0003</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0004" length="0.0" curve="0">
+      <systemName>IB:AUTO:0004</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0005" length="0.0" curve="0">
+      <systemName>IB:AUTO:0005</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0006" length="0.0" curve="0">
+      <systemName>IB:AUTO:0006</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0007" length="0.0" curve="0">
+      <systemName>IB:AUTO:0007</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0008" length="0.0" curve="0">
+      <systemName>IB:AUTO:0008</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0009" length="0.0" curve="0">
+      <systemName>IB:AUTO:0009</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0010" length="0.0" curve="0">
+      <systemName>IB:AUTO:0010</systemName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0011" length="0.0" curve="0">
+      <systemName>IB:AUTO:0011</systemName>
+      <userName>West Helix Outer Block 2</userName>
+      <permissive>no</permissive>
+      <path todir="80" fromdir="160" block="IB:AUTO:0014" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0015" />
+    </block>
+    <block systemName="IB:AUTO:0012" length="0.0" curve="0">
+      <systemName>IB:AUTO:0012</systemName>
+      <userName>West Helix Inner Block 2</userName>
+      <permissive>no</permissive>
+      <path todir="80" fromdir="160" block="IB:AUTO:0013" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0016" />
+    </block>
+    <block systemName="IB:AUTO:0013" length="0.0" curve="0">
+      <systemName>IB:AUTO:0013</systemName>
+      <userName>West Helix Inner Block 1</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB:AUTO:0012" />
+    </block>
+    <block systemName="IB:AUTO:0014" length="0.0" curve="0">
+      <systemName>IB:AUTO:0014</systemName>
+      <userName>West Helix Outer Block 1</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB:AUTO:0011" />
+    </block>
+    <block systemName="IB:AUTO:0015" length="0.0" curve="0">
+      <systemName>IB:AUTO:0015</systemName>
+      <userName>West Helix Outer Block 3</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB:AUTO:0011" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0019" />
+    </block>
+    <block systemName="IB:AUTO:0016" length="0.0" curve="0">
+      <systemName>IB:AUTO:0016</systemName>
+      <userName>West Helix Inner Block 3</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB:AUTO:0012" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0020" />
+    </block>
+    <block systemName="IB:AUTO:0017" length="0.0" curve="0">
+      <systemName>IB:AUTO:0017</systemName>
+      <userName>West Helix Outer Block 5</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB:AUTO:0019" />
+    </block>
+    <block systemName="IB:AUTO:0018" length="0.0" curve="0">
+      <systemName>IB:AUTO:0018</systemName>
+      <userName>West Helix Inner Block 5</userName>
+      <permissive>no</permissive>
+      <path todir="96" fromdir="144" block="IB:AUTO:0020" />
+    </block>
+    <block systemName="IB:AUTO:0019" length="0.0" curve="0">
+      <systemName>IB:AUTO:0019</systemName>
+      <userName>West Helix Outer Block 4</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB:AUTO:0015" />
+      <path todir="144" fromdir="96" block="IB:AUTO:0017" />
+    </block>
+    <block systemName="IB:AUTO:0020" length="0.0" curve="0">
+      <systemName>IB:AUTO:0020</systemName>
+      <userName>West Helix Inner Block 4</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB:AUTO:0016" />
+      <path todir="144" fromdir="96" block="IB:AUTO:0018" />
+    </block>
+  </blocks>
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
+    <layoutblock systemName="ILB24" occupancysensor="West Helix Block 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB24</systemName>
+      <userName>B_1_West Helix Outer Block 2_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB25" occupancysensor="West Helix Block 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB25</systemName>
+      <userName>B_2_West Helix Inner Block 2_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB26" occupancysensor="West Helix Block 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB26</systemName>
+      <userName>B_3_West Helix Inner Block 1_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB27" occupancysensor="West Helix Block 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB27</systemName>
+      <userName>B_4_West Helix Outer Block 1_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB28" occupancysensor="West Helix Block 6" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB28</systemName>
+      <userName>B_5_West Helix Outer Block 3_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB29" occupancysensor="West Helix Block 5" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB29</systemName>
+      <userName>B_6_West Helix Inner Block 3_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB30" occupancysensor="West Helix Block 10" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB30</systemName>
+      <userName>B_7_West Helix Outer Block 5_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB31" occupancysensor="West Helix Block 9" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB31</systemName>
+      <userName>B_8_West Helix Inner Block 5_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB32" occupancysensor="West Helix Block 8" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB32</systemName>
+      <userName>B_9_West Helix Outer Block 4_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB33" occupancysensor="West Helix Block 7" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="orange">
+      <systemName>ILB33</systemName>
+      <userName>B_10_West Helix Inner Block 4_Main Line</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB34" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB34</systemName>
+      <userName>West Helix Inner Block 4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB35" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB35</systemName>
+      <userName>West Helix Inner Block 5</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB36" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB36</systemName>
+      <userName>West Helix Inner Block 3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB37" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB37</systemName>
+      <userName>West Helix Inner Block 2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB38" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB38</systemName>
+      <userName>West Helix Inner Block 1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB39" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB39</systemName>
+      <userName>West Helix Outer Block 1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB40" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB40</systemName>
+      <userName>West Helix Outer Block 2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB41" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB41</systemName>
+      <userName>West Helix Outer Block 3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB42" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB42</systemName>
+      <userName>West Helix Outer Block 4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB43" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB43</systemName>
+      <userName>West Helix Outer Block 5</userName>
+    </layoutblock>
+  </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="West Helix (Inner)" creationtype="userdefined">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>West Helix (Inner)</userName>
+      <blockentry sName="IB3" order="0" />
+      <blockentry sName="IB2" order="1" />
+      <blockentry sName="IB6" order="2" />
+      <blockentry sName="IB10" order="3" />
+      <blockentry sName="IB8" order="4" />
+      <entrypoint fromblock="IB5" toblock="IB10" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB7" toblock="IB10" direction="8" fixed="no" fromblockdirection="Southeast" />
+    </section>
+    <section systemName="IY:AUTO:0002" userName="West Helix (Outer)" creationtype="userdefined">
+      <systemName>IY:AUTO:0002</systemName>
+      <userName>West Helix (Outer)</userName>
+      <blockentry sName="IB4" order="0" />
+      <blockentry sName="IB1" order="1" />
+      <blockentry sName="IB5" order="2" />
+      <blockentry sName="IB9" order="3" />
+      <blockentry sName="IB7" order="4" />
+    </section>
+  </sections>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Fri Jul 17 17:36:56 PDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="0" y="36" windowheight="1901" windowwidth="2974" panelheight="423" panelwidth="500" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="My Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>2</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="450.0" ycen="276.0" xa="450.0" ya="256.0" xb="450.0" yb="296.0" xc="440.0" yc="296.0" xd="450.0" yd="256.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
+    <tracksegment ident="T1" blockname="West Helix Outer Block 1" connect1name="TO1" type1="TURNOUT_C" connect2name="A1" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="West Helix Outer Block 2" connect1name="A1" type1="POS_POINT" connect2name="A2" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="West Helix Outer Block 3" connect1name="A2" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" blockname="West Helix Outer Block 4" connect1name="A3" type1="POS_POINT" connect2name="A4" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" blockname="West Helix Outer Block 5" connect1name="A4" type1="POS_POINT" connect2name="A5" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" blockname="West Helix Inner Block 1" connect1name="A6" type1="POS_POINT" connect2name="A12" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" blockname="West Helix Inner Block 2" connect1name="A12" type1="POS_POINT" connect2name="A8" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T8" blockname="West Helix Inner Block 3" connect1name="A8" type1="POS_POINT" connect2name="A9" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" blockname="West Helix Inner Block 4" connect1name="A9" type1="POS_POINT" connect2name="A10" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="West Helix Inner Block 5" connect1name="A10" type1="POS_POINT" connect2name="A11" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A1" type="ANCHOR" x="375.0" y="357.0" connect1name="T1" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="ANCHOR" x="298.0" y="371.0" connect1name="T2" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="ANCHOR" x="231.0" y="373.0" connect1name="T3" connect2name="T4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="135.0" y="335.0" connect1name="T4" connect2name="T5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="ANCHOR" x="100.0" y="240.0" connect1name="T5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="ANCHOR" x="425.0" y="262.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="ANCHOR" x="300.0" y="347.0" connect1name="T7" connect2name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="ANCHOR" x="234.0" y="347.0" connect1name="T8" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="ANCHOR" x="150.0" y="318.0" connect1name="T9" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="ANCHOR" x="120.0" y="239.0" connect1name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="ANCHOR" x="369.0" y="336.0" connect1name="T6" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sun Aug 16 22:01:54 PDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 16 22:02:24 PDT 2020</date>
+      <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 16 17:23:05 PDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 16 17:23:42 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Thu Aug 13 23:49:46 EDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Thu Aug 13 23:50:23 EDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Thu Aug 13 02:14:29 EDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Thu Aug 13 02:22:22 EDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Thu Aug 13 23:50:56 EDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 17:53:45 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 17:59:02 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 18:07:18 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 18:11:40 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 18:26:26 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Fri Jul 17 16:53:11 PDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Fri Jul 17 18:34:03 PDT 2020</date>
+              <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Fri Jul 17 18:54:32 PDT 2020</date>
+              <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Fri Jul 17 18:54:48 PDT 2020</date>
+              <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Fri Jul 17 18:55:04 PDT 2020</date>
+              <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Fri Jul 17 19:15:13 PDT 2020</date>
+              <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Fri Jul 17 19:21:36 PDT 2020</date>
+              <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Fri Jul 17 19:24:55 PDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 18:54:14 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 16 19:03:59 PDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load with errors</type>
+      <date>Sun Aug 16 22:15:04 PDT 2020</date>
+      <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/hand-built.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 16 22:01:54 PDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 16 22:02:24 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 16 17:23:05 PDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 16 17:23:42 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Thu Aug 13 23:49:46 EDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Thu Aug 13 23:50:23 EDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Thu Aug 13 02:14:29 EDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Thu Aug 13 02:22:22 EDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Thu Aug 13 23:50:56 EDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 17:53:45 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 17:59:02 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:07:18 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:11:40 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:26:26 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Fri Jul 17 16:53:11 PDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 18:34:03 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri Jul 17 18:54:32 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 18:54:48 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri Jul 17 18:55:04 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 19:15:13 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 19:21:36 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Jul 17 19:24:55 PDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:54:14 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 16 19:03:59 PDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 16 22:11:33 PDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 16 22:25:01 PDT 2020</date>
+      <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/hand-built.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 16 22:01:54 PDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 16 22:02:24 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 16 17:23:05 PDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 16 17:23:42 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Thu Aug 13 23:49:46 EDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Thu Aug 13 23:50:23 EDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Thu Aug 13 02:14:29 EDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Thu Aug 13 02:22:22 EDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Thu Aug 13 23:50:56 EDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 17:53:45 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 17:59:02 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:07:18 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:11:40 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:26:26 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Fri Jul 17 16:53:11 PDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 18:34:03 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri Jul 17 18:54:32 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 18:54:48 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri Jul 17 18:55:04 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 19:15:13 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Fri Jul 17 19:21:36 PDT 2020</date>
+                  <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Jul 17 19:24:55 PDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Load with errors</type>
+              <date>Sun Aug 16 18:54:14 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 16 19:03:59 PDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Sun Aug 16 22:15:04 PDT 2020</date>
+          <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/hand-built.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 16 22:01:54 PDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 16 22:02:24 PDT 2020</date>
+              <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 16 17:23:05 PDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 16 17:23:42 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Thu Aug 13 23:49:46 EDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Thu Aug 13 23:50:23 EDT 2020</date>
+                      <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/configuration.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Thu Aug 13 02:14:29 EDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Thu Aug 13 02:22:22 EDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Thu Aug 13 23:50:56 EDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Sun Aug 16 17:53:45 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Sun Aug 16 17:59:02 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Sun Aug 16 18:07:18 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Sun Aug 16 18:11:40 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Sun Aug 16 18:26:26 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Fri Jul 17 16:53:11 PDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load with errors</type>
+                      <date>Fri Jul 17 18:34:03 PDT 2020</date>
+                      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Fri Jul 17 18:54:32 PDT 2020</date>
+                      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                    </operation>
+                    <operation>
+                      <type>Load with errors</type>
+                      <date>Fri Jul 17 18:54:48 PDT 2020</date>
+                      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Fri Jul 17 18:55:04 PDT 2020</date>
+                      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/N30%20Plans.xml</filename>
+                    </operation>
+                    <operation>
+                      <type>Load with errors</type>
+                      <date>Fri Jul 17 19:15:13 PDT 2020</date>
+                      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Lower%20Level%20Plans.xml</filename>
+                    </operation>
+                    <operation>
+                      <type>Load with errors</type>
+                      <date>Fri Jul 17 19:21:36 PDT 2020</date>
+                      <filename>/home/pi/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/Upper%20Level%20Plans.xml</filename>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Fri Jul 17 19:24:55 PDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Load with errors</type>
+                  <date>Sun Aug 16 18:54:14 PDT 2020</date>
+                  <filename>/mnt/server/House/Trains/jmri/My_JMRI_Railroad.jmri/plans/All%20Plans.xml</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 16 19:03:59 PDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 16 22:11:33 PDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 16 22:15:41 PDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sun Aug 16 22:27:32 PDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.21.1ish+jenkins+20200813T1615Z+Re1a7d3af80 on Sun Aug 16 22:27:32 PDT 2020-->
+</layout-config>

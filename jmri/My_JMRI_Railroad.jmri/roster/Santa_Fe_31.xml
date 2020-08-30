@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.21.1ish+jenkins+20200813T1615Z+Re1a7d3af80 on Wed Aug 26 16:12:19 PDT 2020-->
+  <locomotive id="Santa Fe 31" fileName="Santa_Fe_31.xml" roadNumber="31" roadName="Santa Fe" mfg="Broadway Limited Imports" owner="Jay Stevens" model="F3" dccAddress="31" comment="" maxSpeed="100" imageFilePath="" iconFilePath="preference:roster/sf_f3.gif" URL="" IsShuntingOn="">
+    <dateUpdated>2020-08-26T23:12:18.996+0000</dateUpdated>
+    <decoder model="Diesel" family="Paragon 3" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="31" longaddress="no" />
+      <number>31</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+      <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+      <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+      <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+      <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+      <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+      <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+      <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+      <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+      <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+      <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+      <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+      <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+      <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+      <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+      <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+      <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+    </functionlabels>
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>LastOperated</key>
+        <value>2020-08-25T00:59:53.414+0000</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>OperatingDuration</key>
+        <value>43</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="F0 Output Function" value="1" />
+        <varValue item="F1 Output Function" value="2" />
+        <varValue item="F2 Output Function" value="3" />
+        <varValue item="F3 Output Function" value="17" />
+        <varValue item="F4 Output Function" value="5" />
+        <varValue item="F5 Output Function" value="6" />
+        <varValue item="F6 Output Function" value="7" />
+        <varValue item="F7 Output Function" value="8" />
+        <varValue item="F8 Output Function" value="9" />
+        <varValue item="F9 Output Function" value="10" />
+        <varValue item="F10 Output Function" value="11" />
+        <varValue item="F11 Output Function" value="12" />
+        <varValue item="F12 Output Function" value="13" />
+        <varValue item="F13 Output Function" value="30" />
+        <varValue item="F14 Output Function" value="50" />
+        <varValue item="F15 Output Function" value="51" />
+        <varValue item="F16 Output Function" value="52" />
+        <varValue item="F17 Output Function" value="53" />
+        <varValue item="F18 Output Function" value="54" />
+        <varValue item="F19 Output Function" value="55" />
+        <varValue item="F20 Output Function" value="56" />
+        <varValue item="F21 Output Function" value="57" />
+        <varValue item="F22 Output Function" value="19" />
+        <varValue item="F23 Output Function" value="31" />
+        <varValue item="F24 Output Function" value="60" />
+        <varValue item="F25 Output Function" value="20" />
+        <varValue item="F26 Output Function" value="40" />
+        <varValue item="F27 Output Function" value="41" />
+        <varValue item="F28 Output Function" value="18" />
+        <varValue item="L1/Headlight Power Up State" value="0" />
+        <varValue item="Load Motor Last Step" value="12" />
+        <varValue item="HO Gauge Rev Level Motor Power Scalar" value="43" />
+        <varValue item="Initial RevUp" value="0" />
+        <varValue item="Aux Select for DCMaster" value="5" />
+        <varValue item="Smoke Unit Power On Delay" value="15" />
+        <varValue item="Smoke Unit Fan Minimal Speed" value="15" />
+        <varValue item="Smoke Unit Fan Maximum Speed" value="38" />
+        <varValue item="Smoke Unit Minimal Heater Power" value="60" />
+        <varValue item="Smoke Unit Maximum Heater Power" value="81" />
+        <varValue item="Grid Blower Brake Motor Decrease" value="0" />
+        <varValue item="Grid Blower Brake Motor Decrease Time" value="0" />
+        <varValue item="EMF Feedback Cutout" value="1" />
+        <varValue item="Packet Time-out Value" value="2" />
+        <varValue item="BEMF Kd" value="0" />
+        <varValue item="Speed Step Smoothing" value="10" />
+        <varValue item="Consist Address Active For F13" value="1" />
+        <varValue item="Consist Address Active For F14" value="1" />
+        <varValue item="Consist Address Active For F15" value="1" />
+        <varValue item="Consist Address Active For F16" value="1" />
+        <varValue item="Consist Address Active For F17" value="1" />
+        <varValue item="Consist Address Active For F18" value="1" />
+        <varValue item="Consist Address Active For F19" value="1" />
+        <varValue item="Consist Address Active For F20" value="1" />
+        <varValue item="Consist Address Active For F21" value="1" />
+        <varValue item="Consist Address Active For F22" value="1" />
+        <varValue item="Consist Address Active For F23" value="1" />
+        <varValue item="Consist Address Active For F24" value="1" />
+        <varValue item="Consist Address Active For F25" value="1" />
+        <varValue item="Consist Address Active For F26" value="1" />
+        <varValue item="Consist Address Active For F27" value="1" />
+        <varValue item="Consist Address Active For F28" value="1" />
+        <varValue item="Master Volume Sound Increment" value="16" />
+        <varValue item="Master Volume" value="120" />
+        <varValue item="Sound Unit Maximum Volume" value="128" />
+        <varValue item="Bell Volume" value="128" />
+        <varValue item="Coupler Slack Volume" value="128" />
+        <varValue item="Couple Volume" value="128" />
+        <varValue item="Uncouple Volume" value="128" />
+        <varValue item="Wheel Flange Volume" value="128" />
+        <varValue item="Brake Set Volume" value="128" />
+        <varValue item="Brake Release Volume" value="128" />
+        <varValue item="Brake Squeal Volume" value="128" />
+        <varValue item="Rule 17 Lighting" value="0" />
+        <varValue item="L1 Inactive State" value="1" />
+        <varValue item="L1 Light Directional" value="1" />
+        <varValue item="L1 Light Active" value="0" />
+        <varValue item="L1 Light Type" value="3" />
+        <varValue item="L1 parameter 1" value="0" />
+        <varValue item="L1 parameter 2" value="30" />
+        <varValue item="L1 parameter 3" value="180" />
+        <varValue item="L1 parameter 4" value="30" />
+        <varValue item="Coupler Slack Repeats" value="1" />
+        <varValue item="Coupler Slack Interval" value="100" />
+        <varValue item="Bell Ring Interval" value="128" />
+        <varValue item="DC (Analog) Brake Control" value="20" />
+        <varValue item="DCC Brake Control" value="20" />
+        <varValue item="Brake Timer" value="3" />
+        <varValue item="DCC Uncouple Throttle Stop" value="3" />
+        <varValue item="Analog Sound Setup" value="0" />
+        <varValue item="DCC Cab Light Throttle Stop" value="3" />
+        <varValue item="DCC Brake Set Throttle Stop" value="0" />
+        <varValue item="DCC Brake Release Throttle Stop" value="1" />
+        <varValue item="Service Mode PWM Duty" value="20" />
+        <varValue item="Rev Level Power Threshold" value="1" />
+        <varValue item="Front/Rear Lights" value="1" />
+        <varValue item="L1 Light" value="1" />
+        <varValue item="L1 Activate on Bell or Horn" value="0" />
+        <varValue item="Activates L1" value="0" />
+        <varValue item="Brake Set/Release" value="1" />
+        <varValue item="Brake Squeal" value="1" />
+        <varValue item="Forward/Reverse Startup Toots" value="0" />
+        <varValue item="DCC Startup Timer" value="1" />
+        <varValue item="Consist Rear Light" value="0" />
+        <varValue item="Consist Front Light" value="1" />
+        <varValue item="Consist L1 Light" value="1" />
+        <varValue item="Consist Aux" value="1" />
+        <varValue item="Consist Bell" value="1" />
+        <varValue item="Consist Horn" value="1" />
+        <varValue item="Consist Cab" value="1" />
+        <varValue item="Easy Consist" value="1" />
+        <varValue item="Light Dimmer" value="96" />
+        <varValue item="Macro Recorder Speed Steps" value="1" />
+        <varValue item="Recorder Playback Loop Adjust" value="0" />
+        <varValue item="Random Sound Occurrence" value="5124" />
+        <varValue item="Motor changes direction" value="0" />
+        <varValue item="CV write sound feedback" value="0" />
+        <varValue item="Motor speed smoothing" value="0" />
+        <varValue item="Macro recorder autosave" value="1" />
+        <varValue item="Analog horn frequency shifted" value="0" />
+        <varValue item="Startup sound" value="0" />
+        <varValue item="Motor starts" value="0" />
+        <varValue item="Horn alternative ending" value="1" />
+        <varValue item="Smoke unit power up" value="1" />
+        <varValue item="Motor loading" value="0" />
+        <varValue item="Direction change sound" value="0" />
+        <varValue item="Over Current Delay" value="10" />
+        <varValue item="DC Motor Control Off Voltage" value="90" />
+        <varValue item="DC Track Voltage Read Delay" value="0" />
+        <varValue item="DC Motor Control Vmax" value="150" />
+        <varValue item="DC Motor Control Vmin" value="95" />
+        <varValue item="Primary Address" value="31" />
+        <varValue item="Extended Address" value="794" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Vstart" value="2" />
+        <varValue item="Vhigh" value="120" />
+        <varValue item="Vmid" value="50" />
+        <varValue item="Acceleration Rate" value="5" />
+        <varValue item="Deceleration Rate" value="5" />
+        <varValue item="Manufacturer Version No: " value="6" />
+        <varValue item="Manufacturer ID: " value="38" />
+        <varValue item="Decoder Lock ID number" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Consist Address Active For F1" value="1" />
+        <varValue item="Consist Address Active For F2" value="1" />
+        <varValue item="Consist Address Active For F3" value="1" />
+        <varValue item="Consist Address Active For F4" value="1" />
+        <varValue item="Consist Address Active For F5" value="1" />
+        <varValue item="Consist Address Active For F6" value="1" />
+        <varValue item="Consist Address Active For F7" value="1" />
+        <varValue item="Consist Address Active For F8" value="1" />
+        <varValue item="Consist Address Active For FL in Forward" value="1" />
+        <varValue item="Consist Address Active For FL in Reverse" value="1" />
+        <varValue item="Consist Address Activation for F9" value="1" />
+        <varValue item="Consist Address Activation for F10" value="1" />
+        <varValue item="Consist Address Activation for F11" value="1" />
+        <varValue item="Consist Address Activation for F12" value="1" />
+        <varValue item="Consist Acceleration Adjustment" value="0" />
+        <varValue item="Consist Acceleration Adjustment Sign" value="0" />
+        <varValue item="Consist Deceleration Adjustment" value="0" />
+        <varValue item="Consist Deceleration Adjustment Sign" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="1" />
+        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Kick Start" value="40" />
+        <varValue item="Forward Trim" value="0" />
+        <varValue item="Speed Table" value="6,16,24,34,42,52,56,70,78,89,97,107,115,125,133,143,151,161,169,180,188,198,206,216,225,235,245,255" />
+        <varValue item="Reverse Trim" value="0" />
+        <varValue item="L4/L5 Power Up State" value="0" />
+        <varValue item="L4 Logic" value="0" />
+        <varValue item="L5 Logic" value="0" />
+        <varValue item="Fatal OverCurrent Config" value="114" />
+        <varValue item="Fatal OverCurrent Sensitivity" value="90" />
+        <varValue item="Rolling Thunder Channel" value="1" />
+        <varValue item="Rolling Thunder Frequency" value="1" />
+        <varValue item="Rolling Thunder Power Level" value="0" />
+        <varValue item="Rolling Thunder Track Voltage" value="0" />
+        <varValue item="Rolling Thunder Volume" value="165" />
+        <varValue item="Bell Select" value="0" />
+        <varValue item="Horn Select" value="0" />
+        <varValue item="L4 Light" value="1" />
+        <varValue item="L5 Light" value="1" />
+        <varValue item="L4 follows front/rear on/off" value="1" />
+        <varValue item="L5 follows front/rear on/off" value="1" />
+        <varValue item="Consist L4 Light" value="1" />
+        <varValue item="Track Sounds Maximum Speed Step" value="15" />
+        <varValue item="Broadcast Stop Packet Count" value="6" />
+        <varValue item="BEMF Kp" value="8192" />
+        <varValue item="BEMF Ki" value="306" />
+        <varValue item="KpSlow" value="20" />
+        <varValue item="DC Sound Unit Startup Voltage" value="85" />
+        <varValue item="DC Sound Unit Shutdown" value="75" />
+        <varValue item="Horn Volume" value="110" />
+        <varValue item="Diesel Volume" value="128" />
+        <varValue item="Horn2 Volume" value="128" />
+        <varValue item="Compressor Volume" value="128" />
+        <varValue item="Manual Air Release Volume" value="128" />
+        <varValue item="Air Filling Volume" value="128" />
+        <varValue item="Spit Valve Volume" value="128" />
+        <varValue item="Radiator Cooling Volume" value="128" />
+        <varValue item="Grid Blower Volume" value="128" />
+        <varValue item="Fuel Fill Volume" value="128" />
+        <varValue item="Station/Yard Volume" value="128" />
+        <varValue item="Maintenance/Radio Chatter Volume" value="128" />
+        <varValue item="City/Farm/Industrial/Lumber Volume" value="128" />
+        <varValue item="Analog Brake Set Voltage" value="100" />
+        <varValue item="Analog Brake Release Voltage" value="105" />
+        <varValue item="Analog Rev Level 1 Voltage" value="105" />
+        <varValue item="Analog Rev Level 2 Voltage" value="120" />
+        <varValue item="Analog Rev Level 3 Voltage" value="130" />
+        <varValue item="Analog Rev Level 4 Voltage" value="160" />
+        <varValue item="Analog Rev Level 5 Voltage" value="180" />
+        <varValue item="Analog Rev Level 6 Voltage" value="200" />
+        <varValue item="Analog Rev Level 7 Voltage" value="220" />
+        <varValue item="Motor Load Power Filter" value="10" />
+        <varValue item="Smoke Unit" value="0" />
+        <varValue item="Recorder Repeats" value="15" />
+        <varValue item="Quantum Engineer Bell/Horn Detect" value="0" />
+        <varValue item="Motor Startup Delay" value="60" />
+      </decoderDef>
+      <CVvalue name="33" value="1" />
+      <CVvalue name="34" value="2" />
+      <CVvalue name="35" value="3" />
+      <CVvalue name="36" value="17" />
+      <CVvalue name="37" value="5" />
+      <CVvalue name="38" value="6" />
+      <CVvalue name="39" value="7" />
+      <CVvalue name="40" value="8" />
+      <CVvalue name="41" value="9" />
+      <CVvalue name="42" value="10" />
+      <CVvalue name="43" value="11" />
+      <CVvalue name="44" value="12" />
+      <CVvalue name="45" value="13" />
+      <CVvalue name="46" value="30" />
+      <CVvalue name="47" value="50" />
+      <CVvalue name="48" value="51" />
+      <CVvalue name="49" value="52" />
+      <CVvalue name="50" value="53" />
+      <CVvalue name="51" value="54" />
+      <CVvalue name="52" value="55" />
+      <CVvalue name="53" value="56" />
+      <CVvalue name="54" value="57" />
+      <CVvalue name="55" value="19" />
+      <CVvalue name="56" value="31" />
+      <CVvalue name="57" value="60" />
+      <CVvalue name="58" value="20" />
+      <CVvalue name="59" value="40" />
+      <CVvalue name="60" value="41" />
+      <CVvalue name="61" value="18" />
+      <CVvalue name="159" value="2" />
+      <CVvalue name="201" value="12" />
+      <CVvalue name="203" value="43" />
+      <CVvalue name="204" value="0" />
+      <CVvalue name="222" value="5" />
+      <CVvalue name="233" value="15" />
+      <CVvalue name="234" value="15" />
+      <CVvalue name="235" value="38" />
+      <CVvalue name="236" value="60" />
+      <CVvalue name="237" value="81" />
+      <CVvalue name="244" value="22" />
+      <CVvalue name="10" value="1" />
+      <CVvalue name="11" value="2" />
+      <CVvalue name="116" value="0" />
+      <CVvalue name="117" value="0" />
+      <CVvalue name="120" value="10" />
+      <CVvalue name="121" value="255" />
+      <CVvalue name="122" value="255" />
+      <CVvalue name="130" value="16" />
+      <CVvalue name="133" value="120" />
+      <CVvalue name="134" value="128" />
+      <CVvalue name="136" value="128" />
+      <CVvalue name="139" value="128" />
+      <CVvalue name="140" value="128" />
+      <CVvalue name="141" value="128" />
+      <CVvalue name="142" value="128" />
+      <CVvalue name="146" value="128" />
+      <CVvalue name="147" value="128" />
+      <CVvalue name="151" value="128" />
+      <CVvalue name="160" value="131" />
+      <CVvalue name="161" value="0" />
+      <CVvalue name="162" value="30" />
+      <CVvalue name="163" value="180" />
+      <CVvalue name="164" value="30" />
+      <CVvalue name="178" value="1" />
+      <CVvalue name="179" value="100" />
+      <CVvalue name="180" value="128" />
+      <CVvalue name="184" value="20" />
+      <CVvalue name="185" value="20" />
+      <CVvalue name="186" value="3" />
+      <CVvalue name="187" value="3" />
+      <CVvalue name="190" value="0" />
+      <CVvalue name="208" value="3" />
+      <CVvalue name="209" value="0" />
+      <CVvalue name="210" value="1" />
+      <CVvalue name="217" value="20" />
+      <CVvalue name="221" value="1" />
+      <CVvalue name="225" value="111" />
+      <CVvalue name="226" value="0" />
+      <CVvalue name="227" value="3" />
+      <CVvalue name="228" value="1" />
+      <CVvalue name="229" value="254" />
+      <CVvalue name="230" value="1" />
+      <CVvalue name="231" value="96" />
+      <CVvalue name="238" value="79" />
+      <CVvalue name="239" value="0" />
+      <CVvalue name="240" value="4" />
+      <CVvalue name="241" value="20" />
+      <CVvalue name="245" value="17" />
+      <CVvalue name="246" value="128" />
+      <CVvalue name="247" value="10" />
+      <CVvalue name="249" value="90" />
+      <CVvalue name="250" value="0" />
+      <CVvalue name="251" value="150" />
+      <CVvalue name="252" value="95" />
+      <CVvalue name="1" value="31" />
+      <CVvalue name="17" value="195" />
+      <CVvalue name="18" value="26" />
+      <CVvalue name="29" value="6" />
+      <CVvalue name="2" value="2" />
+      <CVvalue name="5" value="120" />
+      <CVvalue name="6" value="50" />
+      <CVvalue name="3" value="5" />
+      <CVvalue name="4" value="5" />
+      <CVvalue name="7" value="6" />
+      <CVvalue name="8" value="38" />
+      <CVvalue name="16" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="255" />
+      <CVvalue name="22" value="255" />
+      <CVvalue name="23" value="0" />
+      <CVvalue name="24" value="0" />
+      <CVvalue name="65" value="40" />
+      <CVvalue name="66" value="0" />
+      <CVvalue name="67" value="6" />
+      <CVvalue name="68" value="16" />
+      <CVvalue name="69" value="24" />
+      <CVvalue name="70" value="34" />
+      <CVvalue name="71" value="42" />
+      <CVvalue name="72" value="52" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="70" />
+      <CVvalue name="75" value="78" />
+      <CVvalue name="76" value="89" />
+      <CVvalue name="77" value="97" />
+      <CVvalue name="78" value="107" />
+      <CVvalue name="79" value="115" />
+      <CVvalue name="80" value="125" />
+      <CVvalue name="81" value="133" />
+      <CVvalue name="82" value="143" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="161" />
+      <CVvalue name="85" value="169" />
+      <CVvalue name="86" value="180" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="206" />
+      <CVvalue name="90" value="216" />
+      <CVvalue name="91" value="225" />
+      <CVvalue name="92" value="235" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+      <CVvalue name="95" value="0" />
+      <CVvalue name="176" value="114" />
+      <CVvalue name="177" value="90" />
+      <CVvalue name="212" value="1" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="214" value="165" />
+      <CVvalue name="223" value="0" />
+      <CVvalue name="224" value="0" />
+      <CVvalue name="242" value="15" />
+      <CVvalue name="112" value="0" />
+      <CVvalue name="113" value="32" />
+      <CVvalue name="114" value="50" />
+      <CVvalue name="115" value="1" />
+      <CVvalue name="118" value="20" />
+      <CVvalue name="131" value="85" />
+      <CVvalue name="132" value="75" />
+      <CVvalue name="135" value="110" />
+      <CVvalue name="137" value="128" />
+      <CVvalue name="138" value="128" />
+      <CVvalue name="143" value="128" />
+      <CVvalue name="144" value="128" />
+      <CVvalue name="145" value="128" />
+      <CVvalue name="148" value="128" />
+      <CVvalue name="149" value="128" />
+      <CVvalue name="150" value="128" />
+      <CVvalue name="152" value="128" />
+      <CVvalue name="153" value="128" />
+      <CVvalue name="155" value="128" />
+      <CVvalue name="156" value="128" />
+      <CVvalue name="191" value="100" />
+      <CVvalue name="192" value="105" />
+      <CVvalue name="193" value="105" />
+      <CVvalue name="194" value="120" />
+      <CVvalue name="195" value="130" />
+      <CVvalue name="196" value="160" />
+      <CVvalue name="197" value="180" />
+      <CVvalue name="198" value="200" />
+      <CVvalue name="199" value="220" />
+      <CVvalue name="202" value="10" />
+      <CVvalue name="248" value="60" />
+    </values>
+  </locomotive>
+</locomotive-config>

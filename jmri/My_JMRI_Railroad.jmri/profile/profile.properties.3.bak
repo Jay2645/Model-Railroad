@@ -1,5 +1,5 @@
-#JMRI Preferences version 4.18+R37ad3d0
-#Sat Jun 13 01:05:34 PDT 2020
+#JMRI Preferences version 4.21.1ish+jenkins+20200816T2216Z+R3cdf4e3071
+#Sun Aug 16 20:31:31 PDT 2020
 apps-gui.editorUseOldLocSize=false
 apps-gui.fontSize=0
 apps-gui.graphicTableState=false
@@ -35,6 +35,17 @@ jmri-managers.defaults.jmri-ConsistManager=DCC++
 jmri-managers.defaults.jmri-GlobalProgrammerManager=DCC++
 jmri-managers.defaults.jmri-PowerManager=DCC++
 jmri-managers.defaults.jmri-ThrottleManager=DCC++
+jmri-server-json.heartbeatInterval=15000
+jmri-server-json.port=2056
+jmri-server-json.validateClientMessages=false
+jmri-server-json.validateServerMessages=false
+jmri-util-gui.editorUseOldLocSize=false
+jmri-util-gui.fontSize=0
+jmri-util-gui.graphicTableState=false
+jmri-util-gui.locale=en
+jmri-util-gui.lookAndFeel=javax.swing.plaf.metal.MetalLookAndFeel
+jmri-util-gui.nonstandardMouseEvent=false
+jmri-util-gui.showToolTipDismissDelay=4000
 jmri-web-server.allowRemoteConfig=false
 jmri-web-server.clickDelay=1
 jmri-web-server.disableFrames=false

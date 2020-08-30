@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Mon Jun 15 19:26:39 PDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Mon Jun 15 19:27:18 PDT 2020-->
   <locomotive id="C.K. Holliday" fileName="C_K__Holliday.xml" roadNumber="1" roadName="Santa Fe" mfg="Atlas" owner="Jay Stevens" model="4-4-0" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-06-16T02:26:39.461+0000</dateUpdated>
+    <dateUpdated>2020-06-16T02:27:18.126+0000</dateUpdated>
     <decoder model="Z2" family="Jan 2012" comment="" />
     <locoaddress>
       <dcclocoaddress number="1" longaddress="no" />
@@ -18,7 +18,7 @@
         <varValue item="Month of Decoder Manufacture" value="0" />
         <varValue item="Day of Decoder Manufacture" value="0" />
         <varValue item="Year of Decoder Manufacture" value="0" />
-        <varValue item="Version ID" value="0" />
+        <varValue item="Version ID" value="92" />
         <varValue item="Manufacturer ID" value="153" />
         <varValue item="BEMF Cut Out" value="0" />
         <varValue item="Analog Mode White/Yellow" value="1" />
@@ -69,8 +69,8 @@
         <varValue item="Ditch Light Blink Holdover Time" value="10" />
         <varValue item="Constant Dim 1 Brightness" value="16" />
         <varValue item="Primary Address" value="1" />
-        <varValue item="Extended Address" value="1" />
-        <varValue item="Address Format" value="1" />
+        <varValue item="Extended Address" value="0" />
+        <varValue item="Address Format" value="0" />
         <varValue item="Start voltage" value="0" />
         <varValue item="Accel 1 Rate" value="1" />
         <varValue item="Decel 1 Rate" value="1" />
@@ -181,7 +181,7 @@
       <CVvalue name="250" value="0" />
       <CVvalue name="251" value="0" />
       <CVvalue name="252" value="0" />
-      <CVvalue name="7" value="0" />
+      <CVvalue name="7" value="92" />
       <CVvalue name="8" value="153" />
       <CVvalue name="10" value="0" />
       <CVvalue name="13" value="1" />
@@ -203,8 +203,8 @@
       <CVvalue name="64" value="16" />
       <CVvalue name="1" value="1" />
       <CVvalue name="17" value="192" />
-      <CVvalue name="18" value="1" />
-      <CVvalue name="29" value="39" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="29" value="7" />
       <CVvalue name="2" value="0" />
       <CVvalue name="3" value="1" />
       <CVvalue name="4" value="1" />

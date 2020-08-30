@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Mon Jun 15 20:25:28 PDT 2020-->
-  <locomotive id="Santa Fe 879" fileName="Santa_Fe_8790.xml" roadNumber="879" roadName="Santa Fe" mfg="Bachmann" owner="Jay Stevens" model="Dash 8-40CW" dccAddress="879" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-06-16T03:25:28.207+0000</dateUpdated>
+  <!--Written by JMRI version 4.21.1ish+jenkins+20200813T1615Z+Re1a7d3af80 on Thu Aug 27 14:55:41 PDT 2020-->
+  <locomotive id="Santa Fe 879" fileName="Santa_Fe_8790.xml" roadNumber="879" roadName="Santa Fe" mfg="Bachmann" owner="Jay Stevens" model="Dash 8-40CW" dccAddress="879" comment="" maxSpeed="100" imageFilePath="" iconFilePath="preference:roster/sf_dash8.gif" URL="" IsShuntingOn="">
+    <dateUpdated>2020-08-27T21:55:41.651+0000</dateUpdated>
     <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" />
     <locoaddress>
       <dcclocoaddress number="879" longaddress="yes" />
@@ -139,8 +139,8 @@
         <varValue item="Brake" value="11" />
         <varValue item="RPM+" value="5" />
         <varValue item="RPM-" value="6" />
-        <varValue item="Two Shorts Signal" value="29" />
-        <varValue item="One Long Signal" value="29" />
+        <varValue item="Two Shorts Signal" value="255" />
+        <varValue item="One Long Signal" value="255" />
         <varValue item="Airhorn" value="2" />
         <varValue item="Dynamic Brake" value="4" />
         <varValue item="Short Airhorn" value="3" />
@@ -299,8 +299,8 @@
         <varValue item="Analog Mode Function Status - F10" value="0" />
         <varValue item="Analog Mode Function Status - F11" value="0" />
         <varValue item="Analog Mode Function Status - F12" value="0" />
-        <varValue item="Locomotive Direction In Consist" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="1" />
+        <varValue item="Advanced Consist Address" value="2" />
         <varValue item="Consist Address Active For F1" value="0" />
         <varValue item="Consist Address Active For F2" value="0" />
         <varValue item="Consist Address Active For F3" value="0" />
@@ -353,14 +353,14 @@
         <varValue item="Half Speed" value="14" />
         <varValue item="Momentum Override" value="14" />
         <varValue item="Grade Crossing Signal" value="9" />
-        <varValue item="Forward Whistle Signal" value="29" />
-        <varValue item="Reverse Whistle Signal" value="29" />
-        <varValue item="Stop Whistle Signal" value="29" />
+        <varValue item="Forward Whistle Signal" value="255" />
+        <varValue item="Reverse Whistle Signal" value="255" />
+        <varValue item="Stop Whistle Signal" value="255" />
         <varValue item="Bell" value="1" />
         <varValue item="Coupler" value="13" />
         <varValue item="Coupler Release" value="13" />
         <varValue item="All Aboard/Coach Doors" value="23" />
-        <varValue item="E-Brake App." value="29" />
+        <varValue item="E-Brake App." value="255" />
         <varValue item="Headlight Automatic Effects - FWDD" value="0" />
         <varValue item="Headlight Automatic Effects - REVD" value="0" />
         <varValue item="Headlight Automatic Effects - FWDS" value="0" />
@@ -568,7 +568,7 @@
       <CVvalue name="8" value="0" />
       <CVvalue name="13" value="0" />
       <CVvalue name="14" value="3" />
-      <CVvalue name="19" value="0" />
+      <CVvalue name="19" value="130" />
       <CVvalue name="21" value="0" />
       <CVvalue name="22" value="0" />
       <CVvalue name="23" value="0" />

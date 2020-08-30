@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.21.1ish+jenkins+20200813T1615Z+Re1a7d3af80 on Fri Aug 21 13:54:13 PDT 2020-->
+  <locomotive id="Santa Fe Super Chief 31A" fileName="Santa_Fe_Super_Chief_31A.xml" roadNumber="31 A" roadName="Santa Fe" mfg="Broadway Limited Import" owner="Jay Stevens" model="EMD F3" dccAddress="31" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2020-08-21T20:54:13.417+0000</dateUpdated>
+    <decoder model="Rolling Thunder Receiver" family="Paragon 3" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="31" longaddress="no" />
+      <number>31</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>LastOperated</key>
+        <value>2020-08-21T20:44:22.424+0000</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>OperatingDuration</key>
+        <value>334</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="2" />
+        <varValue item="Receivers Volume Rate of Change" value="16" />
+        <varValue item="Receivers Maximum Volume" value="85" />
+        <varValue item="Receivers Minimum Volume" value="75" />
+        <varValue item="RSS Digital Filter Coefficient" value="16" />
+        <varValue item="Signal Strength Volume Increase" value="110" />
+        <varValue item="Signal Strength Volume Decrease" value="128" />
+        <varValue item="Signal Search Dwell Time" value="128" />
+        <varValue item="Lock Signal Strength" value="128" />
+        <varValue item="Start Scan Channel" value="29" />
+        <varValue item="End Scan Channel" value="29" />
+        <varValue item="Frequency" value="1" />
+        <varValue item="Sensitivity." value="0" />
+        <varValue item="Primary Address" value="31" />
+        <varValue item="Extended Address" value="31" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Manufacturer Version No: " value="6" />
+        <varValue item="Manufacturer ID: " value="38" />
+      </decoderDef>
+      <CVvalue name="11" value="2" />
+      <CVvalue name="130" value="16" />
+      <CVvalue name="131" value="85" />
+      <CVvalue name="132" value="75" />
+      <CVvalue name="133" value="80" />
+      <CVvalue name="135" value="110" />
+      <CVvalue name="136" value="128" />
+      <CVvalue name="140" value="128" />
+      <CVvalue name="141" value="128" />
+      <CVvalue name="142" value="128" />
+      <CVvalue name="143" value="128" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="1" value="31" />
+      <CVvalue name="17" value="192" />
+      <CVvalue name="18" value="31" />
+      <CVvalue name="29" value="6" />
+      <CVvalue name="7" value="6" />
+      <CVvalue name="8" value="38" />
+    </values>
+  </locomotive>
+</locomotive-config>
